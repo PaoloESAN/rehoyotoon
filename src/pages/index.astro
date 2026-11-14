@@ -75,7 +75,10 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   const pillTotal = document.getElementById('pill-total')!;
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+  const assetGrid = document.getElementById('asset-grid')!;
   const ssrGiCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-gi-card'));
+  const ssrHsrCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-hsr-card'));
+  const ASSETS_BY_ID = new Map(ASSETS.map((a) => [a.id, a]));
   const dynamicGridSlot = document.getElementById('dynamic-grid-slot')!;
   const gridEmptyState = document.getElementById('grid-empty-state')!;
   const emptyStateTitle = document.getElementById('empty-state-title')!;
@@ -349,12 +352,19 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     pillTotal.textContent = `${totalItems} total`;
 
     const isSsrGiCharacters = state.game === 'gi' && state.category === 'characters';
+    const isSsrHsrCharacters = state.game === 'hsr' && state.category === 'characters';
 
-    if (isSsrGiCharacters) {
+    if (isSsrGiCharacters || isSsrHsrCharacters) {
       dynamicGridSlot.innerHTML = '';
       const orderMap = new Map(items.map((item, index) => [String(item.id), index]));
+      const activeCards = isSsrGiCharacters ? ssrGiCards : ssrHsrCards;
+      const inactiveCards = isSsrGiCharacters ? ssrHsrCards : ssrGiCards;
 
-      for (const card of ssrGiCards) {
+      for (const card of inactiveCards) {
+        card.style.display = 'none';
+      }
+
+      for (const card of activeCards) {
         const id = card.dataset.entityId ?? '';
         const orderIndex = orderMap.get(id);
         if (orderIndex !== undefined) {
@@ -375,8 +385,11 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
       return;
     }
 
-    // Hide SSR GI cards when viewing other games/categories
+    // Hide SSR cards when viewing other games/categories
     for (const card of ssrGiCards) {
+      card.style.display = 'none';
+    }
+    for (const card of ssrHsrCards) {
       card.style.display = 'none';
     }
 
@@ -389,32 +402,12 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     }
 
     gridEmptyState.style.display = 'none';
-    const showCardBadges = state.game === 'gi' || state.game === 'hsr';
 
     dynamicGridSlot.innerHTML = items
       .map((item) => {
         const mediaHtml = item.image
           ? `<img src="${item.image}" alt="${item.name}" class="card-img" loading="lazy" decoding="async" width="360" height="480" />`
-          : generatePortraitSvg(
-              item.name,
-              item.palette,
-              item.element,
-              item.category,
-              item.hairStyle
-            );
-
-        const badgesHtml = showCardBadges
-          ? `
-            <div class="card-badges">
-              <span class="card-badge-circle" title="${item.element}">
-                ${getElementIconSvg(item.element, 14)}
-              </span>
-              <span class="card-badge-circle" title="${item.weaponOrPath}">
-                ${getWeaponOrPathIconSvg(item.weaponOrPath, 13)}
-              </span>
-            </div>
-          `
-          : '';
+          : `<div class="card-wip" aria-hidden="true">WIP</div>`;
 
         return `
           <button
@@ -424,7 +417,6 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
             aria-label="${item.name}"
           >
             ${mediaHtml}
-            ${badgesHtml}
             <div class="card-overlay">
               <p class="card-name">${item.name}</p>
             </div>
@@ -432,19 +424,11 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
         `;
       })
       .join('');
-
-    dynamicGridSlot.querySelectorAll<HTMLButtonElement>('.asset-card').forEach((card) => {
-      card.addEventListener('click', () => {
-        const id = Number(card.dataset.entityId);
-        const found = ASSETS.find((a) => a.id === id);
-        if (found) openDetailModal(found);
-      });
-    });
   }
 
   function getCardLoadedImageSrc(entityId: number): string | null {
     const cardImg = document.querySelector<HTMLImageElement>(
-      `.ssr-gi-card[data-entity-id="${entityId}"] img.card-img`
+      `.asset-card[data-entity-id="${entityId}"] img.card-img`
     );
     if (!cardImg) return null;
     return cardImg.currentSrc || cardImg.getAttribute('src');
@@ -507,13 +491,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
             : variant.image;
         const mediaHtml = resolvedSrc
           ? `<img src="${resolvedSrc}" alt="${variant.name}" class="card-img" loading="eager" decoding="async" width="176" height="235" />`
-          : generatePortraitSvg(
-              `${item.name}_${variant.name}`,
-              variant.palette,
-              item.element,
-              item.category,
-              item.hairStyle
-            );
+          : `<div class="card-wip" aria-hidden="true">WIP</div>`;
         return `
           <button
             type="button"
@@ -707,14 +685,14 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     syncUrl();
   }
 
-  // Attach click handlers once to SSR GI cards
-  for (const card of ssrGiCards) {
-    card.addEventListener('click', () => {
-      const id = Number(card.dataset.entityId);
-      const found = ASSETS.find((a) => a.id === id);
-      if (found) openDetailModal(found);
-    });
-  }
+  // Single delegated click handler for all asset cards (GI SSR, HSR SSR, and dynamic cards)
+  assetGrid.addEventListener('click', (e) => {
+    const card = (e.target as HTMLElement).closest<HTMLButtonElement>('.asset-card');
+    if (!card) return;
+    const id = Number(card.dataset.entityId);
+    const found = ASSETS_BY_ID.get(id);
+    if (found) openDetailModal(found);
+  });
 
   // Event Listeners
   document.querySelectorAll<HTMLButtonElement>('#game-rail .game-btn').forEach((btn) => {

@@ -495,6 +495,7 @@ select {
   text-align: left;
   content-visibility: auto;
   contain-intrinsic-size: auto 240px;
+  contain: layout style paint;
 }
 
 .asset-card.rarity-4 {
@@ -520,6 +521,21 @@ select {
   transition: transform 0.28s ease;
 }
 
+.card-wip {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 24px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.24);
+  background: linear-gradient(160deg, #1b182c 0%, #110f1d 100%);
+  user-select: none;
+}
+
 .asset-card:hover .portrait-svg,
 .asset-card:hover .card-img {
   transform: scale(1.04);
@@ -539,9 +555,8 @@ select {
   width: 26px;
   height: 26px;
   border-radius: 999px;
-  background: rgba(12, 10, 20, 0.78);
+  background: rgba(12, 10, 20, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.16);
-  backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
   justify-content: center;

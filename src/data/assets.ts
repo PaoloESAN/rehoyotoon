@@ -1,4 +1,6 @@
 import { GI_CHARACTERS } from './giCharacters';
+import { HSR_CHARACTERS } from './hsrCharacters';
+import { DRIVE_ASSETS } from './driveAssets';
 
 export type GameId = 'gi' | 'hsr' | 'zzz' | 'hi3';
 
@@ -77,7 +79,7 @@ export const GAMES: GameDef[] = [
     accentColor: '#e5b84b',
     categories: [
       { id: 'characters', label: 'Characters', searchPlaceholder: 'Search characters' },
-      { id: 'lightcones', label: 'Light Cones', searchPlaceholder: 'Search light cones' },
+      { id: 'monsters', label: 'Monsters', searchPlaceholder: 'Search monsters' },
     ],
   },
   {
@@ -87,6 +89,8 @@ export const GAMES: GameDef[] = [
     accentColor: '#e5b84b',
     categories: [
       { id: 'characters', label: 'Agents', searchPlaceholder: 'Search agents' },
+      { id: 'bangboos', label: 'Bangboos', searchPlaceholder: 'Search bangboos' },
+      { id: 'monsters', label: 'Monsters', searchPlaceholder: 'Search monsters' },
       { id: 'wengines', label: 'W-Engines', searchPlaceholder: 'Search W-Engines' },
     ],
   },
@@ -96,7 +100,10 @@ export const GAMES: GameDef[] = [
     name: 'HONKAI IMPACT 3RD',
     accentColor: '#e5b84b',
     categories: [
-      { id: 'characters', label: 'Valkyries', searchPlaceholder: 'Search valkyries' },
+      { id: 'companions', label: 'Companions', searchPlaceholder: 'Search companions' },
+      { id: 'chibis', label: 'Chibis', searchPlaceholder: 'Search chibis' },
+      { id: 'monsters', label: 'Monsters', searchPlaceholder: 'Search monsters' },
+      { id: 'weapons', label: 'Weapons', searchPlaceholder: 'Search weapons' },
     ],
   },
 ];
@@ -199,4 +206,61 @@ const GI_CHARACTER_ITEMS: AssetItem[] = GI_CHARACTERS.map((char) => {
   };
 });
 
-export const ASSETS: AssetItem[] = [...GI_CHARACTER_ITEMS];
+const DEFAULT_PALETTE: [string, string, string] = ['#cbd5e1', '#64748b', '#0f172a'];
+
+const HSR_CHARACTER_ITEMS: AssetItem[] = HSR_CHARACTERS.map((char) => {
+  const image = char.file ? `/assets/hsr/${encodeURI(char.file)}` : null;
+  return {
+    id: char.id,
+    game: 'hsr',
+    category: 'characters',
+    name: char.name,
+    rarity: 5,
+    element: 'Astral',
+    weaponOrPath: 'Path',
+    image,
+    downloadUrl: char.downloadUrl,
+    palette: DEFAULT_PALETTE,
+    hairStyle: 'long',
+    variants: char.variants.map((v, idx) =>
+      createStandardVariant(
+        `${char.name}_${idx}`,
+        v.name,
+        DEFAULT_PALETTE,
+        'VARIANT',
+        v.file ? `/assets/hsr/${encodeURI(v.file)}` : null,
+        v.downloadUrl
+      )
+    ),
+  };
+});
+
+const DRIVE_ASSET_ITEMS: AssetItem[] = DRIVE_ASSETS.map((item) => ({
+  id: item.id,
+  game: item.game,
+  category: item.category,
+  name: item.name,
+  rarity: 4,
+  element: 'Asset',
+  weaponOrPath: item.category,
+  image: null,
+  downloadUrl: item.downloadUrl,
+  palette: DEFAULT_PALETTE,
+  hairStyle: 'long',
+  variants: [
+    createStandardVariant(
+      `${item.name}_0`,
+      item.name,
+      DEFAULT_PALETTE,
+      'ARCHIVE',
+      null,
+      item.downloadUrl
+    ),
+  ],
+}));
+
+export const ASSETS: AssetItem[] = [
+  ...GI_CHARACTER_ITEMS,
+  ...HSR_CHARACTER_ITEMS,
+  ...DRIVE_ASSET_ITEMS,
+];

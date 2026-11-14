@@ -1,10 +1,15 @@
 ---
 import { Image } from 'astro:assets';
 import { GI_CHARACTERS } from '../data/giCharacters';
+import { HSR_CHARACTERS } from '../data/hsrCharacters';
 import { getWeaponOrPathIconSvg, generatePortraitSvg } from '../utils/icons';
 
 const giModules = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/gi/*.{png,webp,jpg}',
+  { eager: true }
+);
+const hsrModules = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/hsr/Honkai Star Rail/Splash Art/*.{png,webp,jpg}',
   { eager: true }
 );
 const elementModules = import.meta.glob<{ default: ImageMetadata }>(
@@ -16,6 +21,11 @@ function findGiImage(imageUrl: string | null): ImageMetadata | null {
   if (!imageUrl) return null;
   const filename = decodeURIComponent(imageUrl.split('/').pop() ?? '');
   return giModules[`/src/assets/gi/${filename}`]?.default ?? null;
+}
+
+function findHsrImage(file: string | null): ImageMetadata | null {
+  if (!file) return null;
+  return hsrModules[`/src/assets/hsr/Honkai Star Rail/Splash Art/${file}`]?.default ?? null;
 }
 
 function findElementImage(element: string): ImageMetadata | null {
@@ -39,7 +49,7 @@ const GI_PALETTES: Record<string, [string, string, string]> = {
     GI_CHARACTERS.map((char, idx) => {
       const imgMeta = findGiImage(char.image);
       const elMeta = findElementImage(char.element);
-      const isAboveFold = idx < 12;
+      const isAboveFold = idx < 4;
       const isLcp = idx === 0;
       const palette = GI_PALETTES[char.element] ?? ['#cbd5e1', '#64748b', '#0f172a'];
 
@@ -94,6 +104,46 @@ const GI_PALETTES: Record<string, [string, string, string]> = {
             </span>
           </div>
 
+          <div class="card-overlay">
+            <p class="card-name">{char.name}</p>
+          </div>
+        </button>
+      );
+    })
+  }
+  {
+    HSR_CHARACTERS.map((char) => {
+      const imgMeta = findHsrImage(char.file);
+      return (
+        <button
+          type="button"
+          class="asset-card rarity-5 ssr-hsr-card"
+          data-entity-id={char.id}
+          data-name={char.name.toLowerCase()}
+          style="display:none;"
+          aria-label={char.name}
+        >
+          {imgMeta ? (
+            <Image
+              src={imgMeta}
+              alt={char.name}
+              width={360}
+              height={480}
+              class="card-img"
+              loading="lazy"
+              decoding="async"
+            />
+          ) : (
+            <Fragment
+              set:html={generatePortraitSvg(
+                char.name,
+                ['#cbd5e1', '#64748b', '#0f172a'],
+                'Astral',
+                'characters',
+                'long'
+              )}
+            />
+          )}
           <div class="card-overlay">
             <p class="card-name">{char.name}</p>
           </div>
