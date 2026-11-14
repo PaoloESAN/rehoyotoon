@@ -80,6 +80,7 @@ import CreditsModal from '../components/CreditsModal.astro';
   const assetGrid = document.getElementById('asset-grid')!;
   const ssrGiCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-gi-card'));
   const ssrHsrCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-hsr-card'));
+  const ssrZzzCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-zzz-card'));
   const ASSETS_BY_ID = new Map(ASSETS.map((a) => [a.id, a]));
   const dynamicGridSlot = document.getElementById('dynamic-grid-slot')!;
   const gridEmptyState = document.getElementById('grid-empty-state')!;
@@ -359,15 +360,23 @@ import CreditsModal from '../components/CreditsModal.astro';
 
     const isSsrGiCharacters = state.game === 'gi' && state.category === 'characters';
     const isSsrHsrCharacters = state.game === 'hsr' && state.category === 'characters';
+    const isSsrZzzCharacters = state.game === 'zzz' && state.category === 'characters';
 
-    if (isSsrGiCharacters || isSsrHsrCharacters) {
+    if (isSsrGiCharacters || isSsrHsrCharacters || isSsrZzzCharacters) {
       dynamicGridSlot.innerHTML = '';
       const orderMap = new Map(items.map((item, index) => [String(item.id), index]));
-      const activeCards = isSsrGiCharacters ? ssrGiCards : ssrHsrCards;
-      const inactiveCards = isSsrGiCharacters ? ssrHsrCards : ssrGiCards;
+      const activeCards = isSsrGiCharacters
+        ? ssrGiCards
+        : isSsrHsrCharacters
+          ? ssrHsrCards
+          : ssrZzzCards;
+      const allSsrSets = [ssrGiCards, ssrHsrCards, ssrZzzCards];
 
-      for (const card of inactiveCards) {
-        card.style.display = 'none';
+      for (const group of allSsrSets) {
+        if (group === activeCards) continue;
+        for (const card of group) {
+          card.style.display = 'none';
+        }
       }
 
       for (const card of activeCards) {
@@ -396,6 +405,9 @@ import CreditsModal from '../components/CreditsModal.astro';
       card.style.display = 'none';
     }
     for (const card of ssrHsrCards) {
+      card.style.display = 'none';
+    }
+    for (const card of ssrZzzCards) {
       card.style.display = 'none';
     }
 

@@ -1,5 +1,6 @@
 import { GI_CHARACTERS } from './giCharacters';
 import { HSR_CHARACTERS } from './hsrCharacters';
+import { ZZZ_CHARACTERS } from './zzzCharacters';
 import { DRIVE_ASSETS } from './driveAssets';
 
 export type GameId = 'gi' | 'hsr' | 'zzz' | 'hi3';
@@ -235,6 +236,33 @@ const HSR_CHARACTER_ITEMS: AssetItem[] = HSR_CHARACTERS.map((char) => {
   };
 });
 
+const ZZZ_CHARACTER_ITEMS: AssetItem[] = ZZZ_CHARACTERS.map((char) => {
+  const image = char.file ? `/assets/zzz/${encodeURI(char.file)}` : null;
+  return {
+    id: char.id,
+    game: 'zzz',
+    category: 'characters',
+    name: char.name,
+    rarity: 5,
+    element: 'Agent',
+    weaponOrPath: 'Agent',
+    image,
+    downloadUrl: char.downloadUrl,
+    palette: DEFAULT_PALETTE,
+    hairStyle: 'long',
+    variants: char.variants.map((v, idx) =>
+      createStandardVariant(
+        `${char.name}_${idx}`,
+        v.name,
+        DEFAULT_PALETTE,
+        'VARIANT',
+        v.file ? `/assets/zzz/${encodeURI(v.file)}` : null,
+        v.downloadUrl
+      )
+    ),
+  };
+});
+
 const DRIVE_ASSET_ITEMS: AssetItem[] = DRIVE_ASSETS.map((item) => ({
   id: item.id,
   game: item.game,
@@ -262,5 +290,6 @@ const DRIVE_ASSET_ITEMS: AssetItem[] = DRIVE_ASSETS.map((item) => ({
 export const ASSETS: AssetItem[] = [
   ...GI_CHARACTER_ITEMS,
   ...HSR_CHARACTER_ITEMS,
+  ...ZZZ_CHARACTER_ITEMS,
   ...DRIVE_ASSET_ITEMS,
 ];

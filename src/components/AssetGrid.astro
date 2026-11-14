@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import { GI_CHARACTERS } from '../data/giCharacters';
 import { HSR_CHARACTERS } from '../data/hsrCharacters';
+import { ZZZ_CHARACTERS } from '../data/zzzCharacters';
 import { getWeaponOrPathIconSvg, generatePortraitSvg } from '../utils/icons';
 
 const giModules = import.meta.glob<{ default: ImageMetadata }>(
@@ -10,6 +11,10 @@ const giModules = import.meta.glob<{ default: ImageMetadata }>(
 );
 const hsrModules = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/hsr/Honkai Star Rail/Splash Art/*.{png,webp,jpg}',
+  { eager: true }
+);
+const zzzModules = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/zzz/zenless-zone-zero/portraits/*.{png,webp,jpg}',
   { eager: true }
 );
 const elementModules = import.meta.glob<{ default: ImageMetadata }>(
@@ -26,6 +31,11 @@ function findGiImage(imageUrl: string | null): ImageMetadata | null {
 function findHsrImage(file: string | null): ImageMetadata | null {
   if (!file) return null;
   return hsrModules[`/src/assets/hsr/Honkai Star Rail/Splash Art/${file}`]?.default ?? null;
+}
+
+function findZzzImage(file: string | null): ImageMetadata | null {
+  if (!file) return null;
+  return zzzModules[`/src/assets/zzz/zenless-zone-zero/portraits/${file}`]?.default ?? null;
 }
 
 function findElementImage(element: string): ImageMetadata | null {
@@ -143,6 +153,38 @@ const GI_PALETTES: Record<string, [string, string, string]> = {
                 'long'
               )}
             />
+          )}
+          <div class="card-overlay">
+            <p class="card-name">{char.name}</p>
+          </div>
+        </button>
+      );
+    })
+  }
+  {
+    ZZZ_CHARACTERS.map((char) => {
+      const imgMeta = findZzzImage(char.file);
+      return (
+        <button
+          type="button"
+          class="asset-card rarity-5 ssr-zzz-card"
+          data-entity-id={char.id}
+          data-name={char.name.toLowerCase()}
+          style="display:none;"
+          aria-label={char.name}
+        >
+          {imgMeta ? (
+            <Image
+              src={imgMeta}
+              alt={char.name}
+              width={360}
+              height={480}
+              class="card-img"
+              loading="lazy"
+              decoding="async"
+            />
+          ) : (
+            <div class="card-wip" aria-hidden="true">WIP</div>
           )}
           <div class="card-overlay">
             <p class="card-name">{char.name}</p>
