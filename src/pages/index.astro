@@ -442,6 +442,14 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     });
   }
 
+  function getCardLoadedImageSrc(entityId: number): string | null {
+    const cardImg = document.querySelector<HTMLImageElement>(
+      `.ssr-gi-card[data-entity-id="${entityId}"] img.card-img`
+    );
+    if (!cardImg) return null;
+    return cardImg.currentSrc || cardImg.getAttribute('src');
+  }
+
   function openDetailModal(item: AssetItem, variantIndex = 0) {
     state.activeItem = item;
     state.activeVariantIndex = Math.min(variantIndex, item.variants.length - 1);
@@ -451,12 +459,21 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     syncUrl();
   }
 
+  function updateSelectedVariantUI(item: AssetItem) {
+    const activeVariant = item.variants[state.activeVariantIndex] ?? item.variants[0];
+    variantsSelectedTitle.textContent = activeVariant.name;
+    variantsGrid.querySelectorAll<HTMLButtonElement>('.variant-card').forEach((btn) => {
+      btn.classList.toggle('active', Number(btn.dataset.variantIdx) === state.activeVariantIndex);
+    });
+  }
+
   function renderDetailModal() {
     const item = state.activeItem;
     if (!item) return;
 
     const game = GAMES.find((g) => g.id === item.game) ?? GAMES[0];
     const activeVariant = item.variants[state.activeVariantIndex] ?? item.variants[0];
+    const cachedCardSrc = getCardLoadedImageSrc(item.id);
 
     detailEyebrow.textContent = game.name;
     detailTitle.textContent = item.name;
@@ -484,8 +501,12 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
 
     variantsGrid.innerHTML = item.variants
       .map((variant, idx) => {
-        const mediaHtml = variant.image
-          ? `<img src="${variant.image}" alt="${variant.name}" class="card-img" loading="lazy" decoding="async" width="176" height="235" />`
+        const resolvedSrc =
+          variant.image && variant.image === item.image && cachedCardSrc
+            ? cachedCardSrc
+            : variant.image;
+        const mediaHtml = resolvedSrc
+          ? `<img src="${resolvedSrc}" alt="${variant.name}" class="card-img" loading="eager" decoding="async" width="176" height="235" />`
           : generatePortraitSvg(
               `${item.name}_${variant.name}`,
               variant.palette,
@@ -512,7 +533,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     variantsGrid.querySelectorAll<HTMLButtonElement>('.variant-card').forEach((btn) => {
       btn.addEventListener('click', () => {
         state.activeVariantIndex = Number(btn.dataset.variantIdx);
-        renderDetailModal();
+        updateSelectedVariantUI(item);
         syncUrl();
       });
     });
