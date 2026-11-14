@@ -5,6 +5,7 @@ import HeaderBar from '../components/HeaderBar.astro';
 import AssetGrid from '../components/AssetGrid.astro';
 import DetailModal from '../components/DetailModal.astro';
 import FileBrowserModal from '../components/FileBrowserModal.astro';
+import CreditsModal from '../components/CreditsModal.astro';
 ---
 
 <Layout title="HoyoToon Assets">
@@ -18,6 +19,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
 
   <DetailModal />
   <FileBrowserModal />
+  <CreditsModal />
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </Layout>
@@ -110,6 +112,10 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   const filesBreadcrumb = document.getElementById('files-breadcrumb')!;
   const filesList = document.getElementById('files-list')!;
   const filesCloseBtn = document.getElementById('files-close-btn')!;
+
+  const creditsBtn = document.getElementById('credits-btn');
+  const creditsDialog = document.getElementById('credits-dialog') as HTMLDialogElement;
+  const creditsCloseBtn = document.getElementById('credits-close-btn');
 
   const toastEl = document.getElementById('toast')!;
   let toastTimer: number | undefined;
@@ -798,6 +804,16 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   filesDialog.addEventListener('cancel', (e) => {
     e.preventDefault();
     closeTopLayer(filesDialog);
+  });
+
+  creditsBtn?.addEventListener('click', () => {
+    creditsDialog.removeAttribute('data-closing');
+    if (!creditsDialog.open) creditsDialog.showModal();
+  });
+  creditsCloseBtn?.addEventListener('click', () => closeTopLayer(creditsDialog));
+  creditsDialog?.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    closeTopLayer(creditsDialog);
   });
 
   // Initialize from URL query parameters (?game=gi&type=characters&entity=10000150)

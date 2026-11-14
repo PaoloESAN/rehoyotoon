@@ -1160,6 +1160,91 @@ dialog:is([open]):where(:not([data-closing]))::backdrop {
   color: var(--gold-primary);
 }
 
+.rail-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.credits-dialog {
+  margin: auto;
+  width: min(460px, calc(100vw - 32px));
+  max-height: calc(100dvh - 48px);
+  overflow-y: auto;
+  background: #100e1b;
+  border: 1px solid var(--border-strong);
+  border-radius: 18px;
+  padding: 22px;
+  color: var(--text-primary);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.78);
+  overscroll-behavior: contain;
+  opacity: 0;
+  transform: scale(0.96);
+  transition:
+    opacity 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    overlay 0.2s allow-discrete,
+    display 0.2s allow-discrete;
+}
+
+.credits-dialog[open] {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@starting-style {
+  .credits-dialog[open] {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+.credits-dialog::backdrop {
+  background: rgba(5, 4, 12, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.credits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.credit-card {
+  background: #161425;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+
+.credit-card.highlight {
+  border-color: var(--gold-border);
+  background: linear-gradient(145deg, rgba(229, 184, 75, 0.08), #161425);
+}
+
+.credit-card.subtle {
+  opacity: 0.85;
+}
+
+.credit-handle {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--gold-primary);
+  margin-bottom: 5px;
+}
+
+.credit-desc {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
 /* Toast */
 .toast {
   position: fixed;
