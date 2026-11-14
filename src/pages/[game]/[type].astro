@@ -1,0 +1,22 @@
+---
+import CatalogPage from '../../components/CatalogPage.astro';
+import { GAMES, type GameId } from '../../data/assets';
+
+export function getStaticPaths() {
+  return GAMES.flatMap((game) =>
+    game.categories.map((cat) => ({
+      params: { game: game.id, type: cat.id },
+      props: { activeGame: game.id, activeCategory: cat.id },
+    }))
+  );
+}
+
+interface Props {
+  activeGame: GameId;
+  activeCategory: string;
+}
+
+const { activeGame, activeCategory } = Astro.props;
+---
+
+<CatalogPage activeGame={activeGame} activeCategory={activeCategory} />

@@ -1,13 +1,24 @@
 ---
+import { GAMES, type GameId } from '../data/assets';
+
+interface Props {
+  activeGame: GameId;
+  activeCategory: string;
+  totalCount: number;
+}
+
+const { activeGame, activeCategory, totalCount } = Astro.props;
+const game = GAMES.find((g) => g.id === activeGame) ?? GAMES[0];
+const cat = game.categories.find((c) => c.id === activeCategory) ?? game.categories[0];
 ---
 
 <section class="header-card" aria-label="Asset Catalog Header">
-  <p class="header-eyebrow" id="header-eyebrow">GENSHIN IMPACT</p>
-  <h1 class="header-title" id="header-title">Characters</h1>
+  <p class="header-eyebrow" id="header-eyebrow">{game.name}</p>
+  <h1 class="header-title" id="header-title">{cat.label}</h1>
 
   <div class="header-pills">
-    <span class="count-pill available" id="pill-available">0 available</span>
-    <span class="count-pill total" id="pill-total">0 total</span>
+    <span class="count-pill available" id="pill-available">{totalCount} available</span>
+    <span class="count-pill total" id="pill-total">{totalCount} total</span>
   </div>
 
   <div class="controls-bar">
@@ -31,7 +42,7 @@
         type="search"
         class="search-input"
         id="search-input"
-        placeholder="Search characters"
+        placeholder={cat.searchPlaceholder}
         autocomplete="off"
       />
     </div>

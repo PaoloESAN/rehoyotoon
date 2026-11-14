@@ -1,11 +1,18 @@
 ---
 import { Image } from 'astro:assets';
-import { GAMES } from '../data/assets';
+import { GAMES, type GameId } from '../data/assets';
 import hoyotoonLogo from '../assets/logos/hoyotoon-logo.png';
 import genshinIcon from '../assets/logos/genshin-icon.webp';
 import hsrIcon from '../assets/logos/hsr-icon.webp';
 import zzzIcon from '../assets/logos/zzz-icon.jpg';
 import hi3Icon from '../assets/logos/hi3-icon.png';
+
+interface Props {
+  activeGame: GameId;
+  activeCategory: string;
+}
+
+const { activeGame, activeCategory } = Astro.props;
 
 const GAME_LOGOS: Record<string, ImageMetadata> = {
   gi: genshinIcon,
@@ -13,33 +20,47 @@ const GAME_LOGOS: Record<string, ImageMetadata> = {
   zzz: zzzIcon,
   hi3: hi3Icon,
 };
+
+const CATEGORY_ICONS: Record<string, string> = {
+  characters: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="14" height="16" rx="2"/><path d="M17 8h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H9"/><circle cx="10" cy="10" r="2.2"/><path d="M6.5 16c.8-1.6 2.1-2.4 3.5-2.4s2.7.8 3.5 2.4"/></svg>`,
+  weapons: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"/><path d="M13 19l6-6M16 16l4 4M19 21l2-2"/></svg>`,
+  lightcones: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-4z"/></svg>`,
+  wengines: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>`,
+  monsters: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a7 7 0 0 0-7 7v4a5 5 0 0 0 10 0v0"/><path d="M5 14v2a7 7 0 0 0 14 0v-2a7 7 0 0 0-7-7"/><circle cx="9.5" cy="11.5" r="1" fill="currentColor"/><circle cx="14.5" cy="11.5" r="1" fill="currentColor"/></svg>`,
+  npcs: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`,
+  gadgets: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M5 10h14a2 2 0 0 1 2 2v3a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6v-3a2 2 0 0 1 2-2z"/></svg>`,
+  objects: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>`,
+};
+
+const currentGame = GAMES.find((g) => g.id === activeGame) ?? GAMES[0];
 ---
 
 <aside class="sidebar-rail" aria-label="Primary Navigation">
-  <button
-    type="button"
+  <a
+    href="/"
     class="brand-badge"
     id="brand-home-btn"
     title="HoyoToon Assets"
     aria-label="HoyoToon Assets Home"
   >
     <Image src={hoyotoonLogo} alt="HoyoToon" width={48} height={48} loading="eager" />
-  </button>
+  </a>
 
   <div class="rail-group" id="game-rail">
     {
       GAMES.map((game) => (
-        <button
-          type="button"
-          class="rail-btn game-btn"
+        <a
+          href={`/${game.id}/${game.categories[0].id}`}
+          class={`rail-btn game-btn ${game.id === activeGame ? 'active' : ''}`}
           data-game-id={game.id}
           aria-label={game.name}
+          aria-current={game.id === activeGame ? 'page' : undefined}
         >
           <span class="game-emblem" data-emblem={game.id}>
             <Image src={GAME_LOGOS[game.id]} alt={game.name} width={48} height={48} loading="eager" />
           </span>
           <span class="rail-tooltip">{game.name}</span>
-        </button>
+        </a>
       ))
     }
   </div>
@@ -47,7 +68,20 @@ const GAME_LOGOS: Record<string, ImageMetadata> = {
   <div class="rail-divider" role="separator"></div>
 
   <div class="rail-group" id="category-rail">
-    <!-- Populated dynamically per active game -->
+    {
+      currentGame.categories.map((cat) => (
+        <a
+          href={`/${activeGame}/${cat.id}`}
+          class={`rail-btn cat-btn ${cat.id === activeCategory ? 'active' : ''}`}
+          data-cat-id={cat.id}
+          aria-label={cat.label}
+          aria-current={cat.id === activeCategory ? 'page' : undefined}
+        >
+          <Fragment set:html={CATEGORY_ICONS[cat.id] ?? CATEGORY_ICONS.characters} />
+          <span class="rail-tooltip">{cat.label.toUpperCase()}</span>
+        </a>
+      ))
+    }
   </div>
 
   <div class="rail-footer">

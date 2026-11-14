@@ -100,6 +100,7 @@ select {
   margin-bottom: 6px;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
 }
 
 .brand-badge img {
@@ -153,6 +154,7 @@ select {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.16s ease;
   padding: 0;
 }
