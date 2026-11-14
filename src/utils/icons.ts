@@ -22,7 +22,22 @@ export const ELEMENT_COLORS: Record<string, string> = {
   Adepti: '#34d399',
 };
 
+const GI_ELEMENT_ICONS: Record<string, string> = {
+  Anemo: '/assets/elements/Genshin%20Impact/Elements/anemo%20%C2%B7%20Genshin%20Impact.png',
+  Cryo: '/assets/elements/Genshin%20Impact/Elements/cryo%20%C2%B7%20Genshin%20Impact.png',
+  Dendro: '/assets/elements/Genshin%20Impact/Elements/dendro%20%C2%B7%20Genshin%20Impact.png',
+  Electro: '/assets/elements/Genshin%20Impact/Elements/electro%20%C2%B7%20Genshin%20Impact.png',
+  Geo: '/assets/elements/Genshin%20Impact/Elements/geo%20%C2%B7%20Genshin%20Impact.png',
+  Hydro: '/assets/elements/Genshin%20Impact/Elements/hydro%20%C2%B7%20Genshin%20Impact.png',
+  Pyro: '/assets/elements/Genshin%20Impact/Elements/pyro%20%C2%B7%20Genshin%20Impact.png',
+};
+
 export function getElementIconSvg(element: string, size = 14): string {
+  const pngUrl = GI_ELEMENT_ICONS[element];
+  if (pngUrl) {
+    return `<img src="${pngUrl}" alt="${element}" style="width:${size + 2}px;height:${size + 2}px;object-fit:contain;display:block;" />`;
+  }
+
   const color = ELEMENT_COLORS[element] ?? '#e2e8f0';
   const s = `width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`;
 

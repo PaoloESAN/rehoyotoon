@@ -75,7 +75,11 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   const pillTotal = document.getElementById('pill-total')!;
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
-  const assetGrid = document.getElementById('asset-grid')!;
+  const ssrGiCards = Array.from(document.querySelectorAll<HTMLButtonElement>('.ssr-gi-card'));
+  const dynamicGridSlot = document.getElementById('dynamic-grid-slot')!;
+  const gridEmptyState = document.getElementById('grid-empty-state')!;
+  const emptyStateTitle = document.getElementById('empty-state-title')!;
+  const emptyStateSub = document.getElementById('empty-state-sub')!;
 
   const filterToggleBtn = document.getElementById('filter-toggle-btn')!;
   const filterPopover = document.getElementById('filter-popover')!;
@@ -85,7 +89,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   const filterWpChips = document.getElementById('filter-wp-chips')!;
   const clearFiltersBtn = document.getElementById('clear-filters-btn')!;
 
-  const detailBackdrop = document.getElementById('detail-backdrop')!;
+  const detailDialog = document.getElementById('detail-dialog') as HTMLDialogElement;
   const detailEyebrow = document.getElementById('detail-eyebrow')!;
   const detailTitle = document.getElementById('detail-title')!;
   const detailMetaPills = document.getElementById('detail-meta-pills')!;
@@ -94,9 +98,8 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
   const variantsGrid = document.getElementById('variants-grid')!;
   const detailCloseBtn = document.getElementById('detail-close-btn')!;
   const detailDownloadBtn = document.getElementById('detail-download-btn')!;
-  const detailFilesBtn = document.getElementById('detail-files-btn')!;
 
-  const filesBackdrop = document.getElementById('files-backdrop')!;
+  const filesDialog = document.getElementById('files-dialog') as HTMLDialogElement;
   const filesEyebrow = document.getElementById('files-eyebrow')!;
   const filesTitle = document.getElementById('files-title')!;
   const fileScopeCount = document.getElementById('file-scope-count')!;
@@ -107,6 +110,61 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
 
   const toastEl = document.getElementById('toast')!;
   let toastTimer: number | undefined;
+
+  // Top-layer exit animation detection (modern-web-guidance: animate-to-from-top-layer)
+  let supportsDisplayTransition: boolean | undefined;
+  function canTransitionDisplay(): boolean {
+    if (supportsDisplayTransition !== undefined) return supportsDisplayTransition;
+    if (!window.CSS?.supports?.('transition-behavior', 'allow-discrete') || !document.body) {
+      return false;
+    }
+    const probe = document.createElement('div');
+    probe.style.cssText = 'transition: display 1s allow-discrete !important; display: block;';
+    document.body.appendChild(probe);
+    getComputedStyle(probe).display;
+    probe.style.display = 'none';
+    supportsDisplayTransition = getComputedStyle(probe).display === 'block';
+    probe.remove();
+    return supportsDisplayTransition;
+  }
+
+  function supportsTopLayerExit(): boolean {
+    return Boolean(window.CSS?.supports?.('overlay', 'auto')) && canTransitionDisplay();
+  }
+
+  async function closeTopLayer(dialog: HTMLDialogElement) {
+    if (!dialog.open) return;
+    if (!supportsTopLayerExit()) {
+      dialog.setAttribute('data-closing', '');
+      const animations = dialog.getAnimations({ subtree: true });
+      if (animations.length > 0) {
+        await Promise.race([
+          Promise.allSettled(animations.map((a) => a.finished)),
+          new Promise((r) => setTimeout(r, 400)),
+        ]);
+      }
+      if (!dialog.hasAttribute('data-closing')) return;
+      dialog.removeAttribute('data-closing');
+    }
+    dialog.close();
+  }
+
+  // Fallback for browsers without <dialog closedby="any"> (modern-web-guidance: dialog)
+  if (!('closedBy' in HTMLDialogElement.prototype)) {
+    const outside = (e: PointerEvent, dialog: HTMLDialogElement) => {
+      const r = dialog.getBoundingClientRect();
+      return e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+    };
+    for (const dialog of document.querySelectorAll<HTMLDialogElement>('dialog[closedby="any"]')) {
+      let pressedOutside = false;
+      dialog.addEventListener('pointerdown', (e) => {
+        pressedOutside = outside(e, dialog);
+      });
+      dialog.addEventListener('pointerup', (e) => {
+        if (pressedOutside && outside(e, dialog)) closeTopLayer(dialog);
+      });
+    }
+  }
 
   function showToast(message: string) {
     toastEl.innerHTML = `
@@ -137,7 +195,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     const params = new URLSearchParams();
     params.set('game', state.game);
     params.set('type', state.category);
-    if (state.activeItem) {
+    if (state.activeItem && detailDialog.open) {
       params.set('entity', String(state.activeItem.id));
       const v = state.activeItem.variants[state.activeVariantIndex];
       if (v) params.set('variant', v.id);
@@ -290,27 +348,60 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     pillAvailable.textContent = `${items.length} available`;
     pillTotal.textContent = `${totalItems} total`;
 
-    if (items.length === 0) {
-      assetGrid.innerHTML = `
-        <div class="empty-state">
-          <p style="margin:0 0 6px;font-weight:700;color:#fff;">No assets match your filters</p>
-          <p style="margin:0;font-size:13px;">Try clearing your search or filter selections.</p>
-        </div>
-      `;
+    const isSsrGiCharacters = state.game === 'gi' && state.category === 'characters';
+
+    if (isSsrGiCharacters) {
+      dynamicGridSlot.innerHTML = '';
+      const orderMap = new Map(items.map((item, index) => [String(item.id), index]));
+
+      for (const card of ssrGiCards) {
+        const id = card.dataset.entityId ?? '';
+        const orderIndex = orderMap.get(id);
+        if (orderIndex !== undefined) {
+          card.style.display = '';
+          card.style.order = String(orderIndex);
+        } else {
+          card.style.display = 'none';
+        }
+      }
+
+      if (items.length === 0) {
+        emptyStateTitle.textContent = 'No assets match your filters';
+        emptyStateSub.textContent = 'Try clearing your search or filter selections.';
+        gridEmptyState.style.display = 'block';
+      } else {
+        gridEmptyState.style.display = 'none';
+      }
       return;
     }
 
+    // Hide SSR GI cards when viewing other games/categories
+    for (const card of ssrGiCards) {
+      card.style.display = 'none';
+    }
+
+    if (items.length === 0) {
+      dynamicGridSlot.innerHTML = '';
+      emptyStateTitle.textContent = 'WORK IN PROGRESS...';
+      emptyStateSub.textContent = 'Assets for this section are coming soon.';
+      gridEmptyState.style.display = 'block';
+      return;
+    }
+
+    gridEmptyState.style.display = 'none';
     const showCardBadges = state.game === 'gi' || state.game === 'hsr';
 
-    assetGrid.innerHTML = items
+    dynamicGridSlot.innerHTML = items
       .map((item) => {
-        const portrait = generatePortraitSvg(
-          item.name,
-          item.palette,
-          item.element,
-          item.category,
-          item.hairStyle
-        );
+        const mediaHtml = item.image
+          ? `<img src="${item.image}" alt="${item.name}" class="card-img" loading="lazy" decoding="async" width="360" height="480" />`
+          : generatePortraitSvg(
+              item.name,
+              item.palette,
+              item.element,
+              item.category,
+              item.hairStyle
+            );
 
         const badgesHtml = showCardBadges
           ? `
@@ -332,7 +423,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
             data-entity-id="${item.id}"
             aria-label="${item.name}"
           >
-            ${portrait}
+            ${mediaHtml}
             ${badgesHtml}
             <div class="card-overlay">
               <p class="card-name">${item.name}</p>
@@ -342,7 +433,7 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
       })
       .join('');
 
-    assetGrid.querySelectorAll<HTMLButtonElement>('.asset-card').forEach((card) => {
+    dynamicGridSlot.querySelectorAll<HTMLButtonElement>('.asset-card').forEach((card) => {
       card.addEventListener('click', () => {
         const id = Number(card.dataset.entityId);
         const found = ASSETS.find((a) => a.id === id);
@@ -355,18 +446,9 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     state.activeItem = item;
     state.activeVariantIndex = Math.min(variantIndex, item.variants.length - 1);
     renderDetailModal();
-    detailBackdrop.classList.add('open');
-    detailBackdrop.setAttribute('aria-hidden', 'false');
+    detailDialog.removeAttribute('data-closing');
+    if (!detailDialog.open) detailDialog.showModal();
     syncUrl();
-  }
-
-  function closeDetailModal() {
-    detailBackdrop.classList.remove('open');
-    detailBackdrop.setAttribute('aria-hidden', 'true');
-    if (!filesBackdrop.classList.contains('open')) {
-      state.activeItem = null;
-      syncUrl();
-    }
   }
 
   function renderDetailModal() {
@@ -402,20 +484,22 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
 
     variantsGrid.innerHTML = item.variants
       .map((variant, idx) => {
-        const portrait = generatePortraitSvg(
-          `${item.name}_${variant.name}`,
-          variant.palette,
-          item.element,
-          item.category,
-          item.hairStyle
-        );
+        const mediaHtml = variant.image
+          ? `<img src="${variant.image}" alt="${variant.name}" class="card-img" loading="lazy" decoding="async" width="176" height="235" />`
+          : generatePortraitSvg(
+              `${item.name}_${variant.name}`,
+              variant.palette,
+              item.element,
+              item.category,
+              item.hairStyle
+            );
         return `
           <button
             type="button"
             class="variant-card ${idx === state.activeVariantIndex ? 'active' : ''}"
             data-variant-idx="${idx}"
           >
-            ${portrait}
+            ${mediaHtml}
             <div class="variant-card-overlay">
               <span class="variant-card-tag">${variant.label ?? 'VARIANT'}</span>
               <span class="variant-card-name">${variant.name}</span>
@@ -438,19 +522,6 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     const v = item.variants[variantIdx] ?? item.variants[0];
     const folderCount = v.folders.reduce((sum, f) => sum + f.items.length, 0);
     return folderCount + v.rootFiles.length;
-  }
-
-  function openFileBrowser() {
-    if (!state.activeItem) return;
-    state.currentFolder = null;
-    renderFileBrowser();
-    filesBackdrop.classList.add('open');
-    filesBackdrop.setAttribute('aria-hidden', 'false');
-  }
-
-  function closeFileBrowser() {
-    filesBackdrop.classList.remove('open');
-    filesBackdrop.setAttribute('aria-hidden', 'true');
   }
 
   function renderFileBrowser() {
@@ -490,7 +561,6 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
       });
     });
 
-    // Breadcrumb
     filesBreadcrumb.innerHTML = `
       <button type="button" class="crumb-btn ${state.currentFolder === null ? 'active' : ''}" id="crumb-root-btn">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -616,6 +686,15 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     syncUrl();
   }
 
+  // Attach click handlers once to SSR GI cards
+  for (const card of ssrGiCards) {
+    card.addEventListener('click', () => {
+      const id = Number(card.dataset.entityId);
+      const found = ASSETS.find((a) => a.id === id);
+      if (found) openDetailModal(found);
+    });
+  }
+
   // Event Listeners
   document.querySelectorAll<HTMLButtonElement>('#game-rail .game-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -634,8 +713,8 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     state.game = 'gi';
     state.category = 'characters';
     resetFilters();
-    closeFileBrowser();
-    closeDetailModal();
+    if (filesDialog.open) closeTopLayer(filesDialog);
+    if (detailDialog.open) closeTopLayer(detailDialog);
     renderAll();
   });
 
@@ -680,14 +759,26 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     }
   });
 
-  detailCloseBtn.addEventListener('click', closeDetailModal);
-  detailBackdrop.addEventListener('click', (e) => {
-    if (e.target === detailBackdrop) closeDetailModal();
+  detailCloseBtn.addEventListener('click', () => closeTopLayer(detailDialog));
+  detailDialog.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    closeTopLayer(detailDialog);
+  });
+  detailDialog.addEventListener('close', () => {
+    state.activeItem = null;
+    syncUrl();
   });
 
   detailDownloadBtn.addEventListener('click', () => {
     if (!state.activeItem) return;
     const variant = state.activeItem.variants[state.activeVariantIndex] ?? state.activeItem.variants[0];
+    const driveUrl = variant?.downloadUrl ?? state.activeItem.downloadUrl;
+    if (driveUrl) {
+      window.open(driveUrl, '_blank', 'noopener');
+      showToast(`Downloading ${state.activeItem.name} (${variant.name}) from Google Drive`);
+      return;
+    }
+
     const bundleManifest = JSON.stringify(
       {
         entity: state.activeItem.name,
@@ -704,23 +795,10 @@ import FileBrowserModal from '../components/FileBrowserModal.astro';
     triggerDownload(`${state.activeItem.name.replace(/\s+/g, '_')}_${variant.id}_bundle.json`, bundleManifest);
   });
 
-  detailFilesBtn.addEventListener('click', openFileBrowser);
-  filesCloseBtn.addEventListener('click', closeFileBrowser);
-  filesBackdrop.addEventListener('click', (e) => {
-    if (e.target === filesBackdrop) closeFileBrowser();
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      if (filesBackdrop.classList.contains('open')) {
-        closeFileBrowser();
-      } else if (detailBackdrop.classList.contains('open')) {
-        closeDetailModal();
-      } else if (filterPopover.classList.contains('open')) {
-        filterPopover.classList.remove('open');
-        filterToggleBtn.classList.remove('active');
-      }
-    }
+  filesCloseBtn.addEventListener('click', () => closeTopLayer(filesDialog));
+  filesDialog.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    closeTopLayer(filesDialog);
   });
 
   // Initialize from URL query parameters (?game=gi&type=characters&entity=10000150)

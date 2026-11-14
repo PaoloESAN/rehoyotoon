@@ -1,6 +1,109 @@
 ---
+import { Image } from 'astro:assets';
+import { GI_CHARACTERS } from '../data/giCharacters';
+import { getWeaponOrPathIconSvg, generatePortraitSvg } from '../utils/icons';
+
+const giModules = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/gi/*.{png,webp,jpg}',
+  { eager: true }
+);
+const elementModules = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/elements/*.png',
+  { eager: true }
+);
+
+function findGiImage(imageUrl: string | null): ImageMetadata | null {
+  if (!imageUrl) return null;
+  const filename = decodeURIComponent(imageUrl.split('/').pop() ?? '');
+  return giModules[`/src/assets/gi/${filename}`]?.default ?? null;
+}
+
+function findElementImage(element: string): ImageMetadata | null {
+  const key = `/src/assets/elements/${element.toLowerCase()} · Genshin Impact.png`;
+  return elementModules[key]?.default ?? null;
+}
+
+const GI_PALETTES: Record<string, [string, string, string]> = {
+  Cryo: ['#7dd3fc', '#38bdf8', '#1e3a5f'],
+  Pyro: ['#fdba74', '#ef4444', '#450a0a'],
+  Hydro: ['#bae6fd', '#2563eb', '#082f49'],
+  Electro: ['#e9d5ff', '#9333ea', '#1e1b4b'],
+  Anemo: ['#6ee7b7', '#10b981', '#064e3b'],
+  Geo: ['#fde68a', '#d97706', '#291506'],
+  Dendro: ['#bbf7d0', '#16a34a', '#052e16'],
+};
 ---
 
 <section class="asset-grid" id="asset-grid" aria-label="Assets Grid">
-  <!-- Rendered dynamically on client -->
+  {
+    GI_CHARACTERS.map((char, idx) => {
+      const imgMeta = findGiImage(char.image);
+      const elMeta = findElementImage(char.element);
+      const isAboveFold = idx < 12;
+      const isLcp = idx === 0;
+      const palette = GI_PALETTES[char.element] ?? ['#cbd5e1', '#64748b', '#0f172a'];
+
+      return (
+        <button
+          type="button"
+          class={`asset-card rarity-${char.rarity} ssr-gi-card`}
+          data-entity-id={char.id}
+          data-name={char.name.toLowerCase()}
+          data-rarity={char.rarity}
+          data-element={char.element}
+          data-wp={char.weapon}
+          aria-label={char.name}
+        >
+          {imgMeta ? (
+            <Image
+              src={imgMeta}
+              alt={char.name}
+              width={360}
+              height={480}
+              class="card-img"
+              loading={isAboveFold ? 'eager' : 'lazy'}
+              fetchpriority={isLcp ? 'high' : undefined}
+              decoding="async"
+            />
+          ) : (
+            <Fragment
+              set:html={generatePortraitSvg(
+                char.name,
+                palette,
+                char.element,
+                'characters',
+                'long'
+              )}
+            />
+          )}
+
+          <div class="card-badges">
+            <span class="card-badge-circle" title={char.element}>
+              {elMeta ? (
+                <Image
+                  src={elMeta}
+                  alt={char.element}
+                  width={16}
+                  height={16}
+                  loading={isAboveFold ? 'eager' : 'lazy'}
+                />
+              ) : null}
+            </span>
+            <span class="card-badge-circle" title={char.weapon}>
+              <Fragment set:html={getWeaponOrPathIconSvg(char.weapon, 13)} />
+            </span>
+          </div>
+
+          <div class="card-overlay">
+            <p class="card-name">{char.name}</p>
+          </div>
+        </button>
+      );
+    })
+  }
+  <div id="dynamic-grid-slot" style="display:contents;"></div>
+  <div class="empty-state" id="grid-empty-state" style="display:none;">
+    <p id="empty-state-title" style="margin:0 0 6px;font-size:18px;font-weight:800;letter-spacing:0.08em;color:#fff;">WORK IN PROGRESS...</p>
+    <p id="empty-state-sub" style="margin:0;font-size:13px;">Assets for this section are coming soon.</p>
+  </div>
 </section>
