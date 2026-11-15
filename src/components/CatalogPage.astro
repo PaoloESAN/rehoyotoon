@@ -63,6 +63,7 @@ const pageTitle = isHome
 
 <script>
   import { ASSETS, GAMES, type AssetItem, type GameId } from '../data/assets';
+  import type { SpriteCrop } from '../data/wipSprites';
   import { getElementIconSvg, getWeaponOrPathIconSvg } from '../utils/icons';
 
   const appShell = document.getElementById('app-shell')!;
@@ -362,11 +363,19 @@ const pageTitle = isHome
 
     gridEmptyState.style.display = 'none';
 
+    function renderSpriteHtml(sprite: SpriteCrop): string {
+      const posX = sprite.cols > 1 ? (sprite.col / (sprite.cols - 1)) * 100 : 0;
+      const posY = sprite.rows > 1 ? (sprite.row / (sprite.rows - 1)) * 100 : 0;
+      return `<div class="card-sprite-wrap"><div class="card-sprite" style="background-image:url('${sprite.src}');background-size:${sprite.cols * 100}% ${sprite.rows * 100}%;background-position:${posX.toFixed(4)}% ${posY.toFixed(4)}%;"></div></div>`;
+    }
+
     dynamicGridSlot.innerHTML = items
       .map((item) => {
         const mediaHtml = item.image
           ? `<img src="${item.image}" alt="${item.name}" class="card-img" loading="lazy" decoding="async" width="360" height="480" />`
-          : `<div class="card-wip" aria-hidden="true">WIP</div>`;
+          : item.sprite
+            ? renderSpriteHtml(item.sprite)
+            : `<div class="card-wip" aria-hidden="true">WIP</div>`;
 
         return `
           <button
@@ -450,7 +459,14 @@ const pageTitle = isHome
             : variant.image;
         const mediaHtml = resolvedSrc
           ? `<img src="${resolvedSrc}" alt="${variant.name}" class="card-img" loading="eager" decoding="async" width="176" height="235" />`
-          : `<div class="card-wip" aria-hidden="true">WIP</div>`;
+          : variant.sprite
+            ? (() => {
+                const s = variant.sprite;
+                const posX = s.cols > 1 ? (s.col / (s.cols - 1)) * 100 : 0;
+                const posY = s.rows > 1 ? (s.row / (s.rows - 1)) * 100 : 0;
+                return `<div class="card-sprite-wrap"><div class="card-sprite" style="background-image:url('${s.src}');background-size:${s.cols * 100}% ${s.rows * 100}%;background-position:${posX.toFixed(4)}% ${posY.toFixed(4)}%;"></div></div>`;
+              })()
+            : `<div class="card-wip" aria-hidden="true">WIP</div>`;
         return `
           <button
             type="button"

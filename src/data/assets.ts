@@ -2,6 +2,7 @@ import { GI_CHARACTERS } from './giCharacters';
 import { HSR_CHARACTERS } from './hsrCharacters';
 import { ZZZ_CHARACTERS } from './zzzCharacters';
 import { DRIVE_ASSETS } from './driveAssets';
+import { WIP_SPRITES, type SpriteCrop } from './wipSprites';
 
 export type GameId = 'gi' | 'hsr' | 'zzz' | 'hi3' | 'miliastra';
 
@@ -37,6 +38,7 @@ export interface AssetVariant {
   name: string;
   label?: string;
   image?: string | null;
+  sprite?: SpriteCrop | null;
   downloadUrl?: string | null;
   palette: [string, string, string];
   folders: AssetFolder[];
@@ -52,6 +54,7 @@ export interface AssetItem {
   element: string;
   weaponOrPath: string;
   image?: string | null;
+  sprite?: SpriteCrop | null;
   downloadUrl?: string | null;
   palette: [string, string, string];
   hairStyle?: 'long' | 'short' | 'twin' | 'spiky' | 'bob';
@@ -69,7 +72,6 @@ export const GAMES: GameDef[] = [
       { id: 'weapons', label: 'Weapons', searchPlaceholder: 'Search weapons' },
       { id: 'monsters', label: 'Monsters', searchPlaceholder: 'Search monsters' },
       { id: 'npcs', label: 'NPCs', searchPlaceholder: 'Search NPCs' },
-      { id: 'gadgets', label: 'Gadgets', searchPlaceholder: 'Search gadgets' },
       { id: 'objects', label: 'Objects', searchPlaceholder: 'Search objects' },
     ],
   },
@@ -124,7 +126,8 @@ function createStandardVariant(
   palette: [string, string, string],
   label = 'VARIANT',
   image: string | null = null,
-  downloadUrl: string | null = null
+  downloadUrl: string | null = null,
+  sprite: SpriteCrop | null = null
 ): AssetVariant {
   const cleanCode = code.replace(/[^a-zA-Z0-9]/g, '');
   return {
@@ -132,6 +135,7 @@ function createStandardVariant(
     name: variantName,
     label,
     image,
+    sprite,
     downloadUrl,
     palette,
     folders: [
@@ -272,29 +276,34 @@ const ZZZ_CHARACTER_ITEMS: AssetItem[] = ZZZ_CHARACTERS.map((char) => {
   };
 });
 
-const DRIVE_ASSET_ITEMS: AssetItem[] = DRIVE_ASSETS.map((item) => ({
-  id: item.id,
-  game: item.game,
-  category: item.category,
-  name: item.name,
-  rarity: 4,
-  element: 'Asset',
-  weaponOrPath: item.category,
-  image: null,
-  downloadUrl: item.downloadUrl,
-  palette: DEFAULT_PALETTE,
-  hairStyle: 'long',
-  variants: [
-    createStandardVariant(
-      `${item.name}_0`,
-      item.name,
-      DEFAULT_PALETTE,
-      'ARCHIVE',
-      null,
-      item.downloadUrl
-    ),
-  ],
-}));
+const DRIVE_ASSET_ITEMS: AssetItem[] = DRIVE_ASSETS.map((item) => {
+  const sprite = WIP_SPRITES[item.id] ?? null;
+  return {
+    id: item.id,
+    game: item.game,
+    category: item.category,
+    name: item.name,
+    rarity: 4,
+    element: 'Asset',
+    weaponOrPath: item.category,
+    image: null,
+    sprite,
+    downloadUrl: item.downloadUrl,
+    palette: DEFAULT_PALETTE,
+    hairStyle: 'long',
+    variants: [
+      createStandardVariant(
+        `${item.name}_0`,
+        item.name,
+        DEFAULT_PALETTE,
+        'ARCHIVE',
+        null,
+        item.downloadUrl,
+        sprite
+      ),
+    ],
+  };
+});
 
 export const ASSETS: AssetItem[] = [
   ...GI_CHARACTER_ITEMS,

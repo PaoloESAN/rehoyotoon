@@ -1599,13 +1599,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1J3nxrsIF6Eu8g-W2fJIev4x_2X9taXH-&export=download&confirm=t"
   },
   {
-    "id": 30000227,
-    "game": "zzz",
-    "category": "bangboos",
-    "name": "_ZZZBangboos",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vIbyECxkSEmCApvlrUU8XAixFQLkFYcy&export=download&confirm=t"
-  },
-  {
     "id": 30000228,
     "game": "zzz",
     "category": "wengines",
@@ -2269,13 +2262,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "category": "wengines",
     "name": "Zanshin Herb Case",
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1-nujaSrVvPyMS-QcyBdKk2hsgqC-74mz&export=download&confirm=t"
-  },
-  {
-    "id": 30000323,
-    "game": "zzz",
-    "category": "wengines",
-    "name": "_ZZZWeapons",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=17Q31NQ4CI9kr7pQWObulDsjPMPVolLK4&export=download&confirm=t"
   },
   {
     "id": 30000324,
@@ -3286,13 +3272,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "downloadUrl": "https://drive.usercontent.google.com/download?id=11HGPso8Pykg7r8GKBE77Dynd5d2XsPme&export=download&confirm=t"
   },
   {
-    "id": 30000468,
-    "game": "hi3",
-    "category": "companions",
-    "name": "_HI3Companions",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vQskVtowpVVIo1waR49UMR5czhCFhSK6&export=download&confirm=t"
-  },
-  {
     "id": 30000469,
     "game": "hi3",
     "category": "chibis",
@@ -3781,13 +3760,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "category": "chibis",
     "name": "Witty Sparrow",
     "downloadUrl": "https://drive.usercontent.google.com/download?id=16yMef1XlSslOmt7UnfBC7RmGRdOrwvrh&export=download&confirm=t"
-  },
-  {
-    "id": 30000539,
-    "game": "hi3",
-    "category": "chibis",
-    "name": "_HI3Chibis",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1wrsTgmsmv53ivtgg1JqrQCKmtQu2Q0RG&export=download&confirm=t"
   },
   {
     "id": 30000540,
@@ -9320,90 +9292,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1klurXe5OZ0BK_JmbaEkc6x4ppNkEZ3oJ&export=download&confirm=t"
   },
   {
-    "id": 30001330,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons01",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Zmlz6CKetVJK0HLZig2HlEqplpvRJguT&export=download&confirm=t"
-  },
-  {
-    "id": 30001331,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons02",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SDTBimhSXv_-MdeseRoBOYxpwSOeXOd8&export=download&confirm=t"
-  },
-  {
-    "id": 30001332,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons03",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1K4mKZ4JTmpwLG9rGG79Z7sHq8N_lnQB6&export=download&confirm=t"
-  },
-  {
-    "id": 30001333,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons04",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ld_BFwEmzRViQIonwMDofOoDFANygYhL&export=download&confirm=t"
-  },
-  {
-    "id": 30001334,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons05",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Wrv81_KKubB-ISUjxBFJNJQMIx07iYWx&export=download&confirm=t"
-  },
-  {
-    "id": 30001335,
-    "game": "hi3",
-    "category": "weapons",
-    "name": "_HI3Weapons06",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kZBG4UTonPXWth-SU1Qzj9DnvVC7yW1B&export=download&confirm=t"
-  },
-  {
-    "id": 30001336,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Bow",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LD5rMgGxpJZGuY8GGbSVIc3k4gwF4I8y&export=download&confirm=t"
-  },
-  {
-    "id": 30001337,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Catalyst",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MUsKW8V9nP8x5mG2KMAF_QsEVDKG1FpJ&export=download&confirm=t"
-  },
-  {
-    "id": 30001338,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Claymore",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1asNz2QsxVt6c4btv-eTdx4GZ0M6zhjCP&export=download&confirm=t"
-  },
-  {
-    "id": 30001339,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Firearms",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=13fIpl5xuMer0-X8hUh7m-5G-pqodkFaG&export=download&confirm=t"
-  },
-  {
-    "id": 30001340,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Pole",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VzkJPh6P3AFf70cSE9OSyGFVQgY-g-fa&export=download&confirm=t"
-  },
-  {
-    "id": 30001341,
-    "game": "gi",
-    "category": "weapons",
-    "name": "Sword",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iUlUa7XLRMyOOUZyECIqpAM1mV89vos1&export=download&confirm=t"
-  },
-  {
     "id": 30001342,
     "game": "gi",
     "category": "weapons",
@@ -9640,34 +9528,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "category": "monsters",
     "name": "Fuzzbadger",
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1SdmSMTjI_cOEDHH1lRqu6YQJ-TpJxo73&export=download&confirm=t"
-  },
-  {
-    "id": 30001376,
-    "game": "gi",
-    "category": "monsters",
-    "name": "GenshinMonsters01",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OfYoI1XigE8Yvhjt7h67bXEi3VmqOg97&export=download&confirm=t"
-  },
-  {
-    "id": 30001377,
-    "game": "gi",
-    "category": "monsters",
-    "name": "GenshinMonsters02",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IS4BwjpSKumHQmqV5JhZExZxaSs97Hxp&export=download&confirm=t"
-  },
-  {
-    "id": 30001378,
-    "game": "gi",
-    "category": "monsters",
-    "name": "GenshinMonsters03",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=15-gNVV8as0wthrlM0YCJGBDwQpHbUZUc&export=download&confirm=t"
-  },
-  {
-    "id": 30001379,
-    "game": "gi",
-    "category": "monsters",
-    "name": "GenshinMonsters04",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xRFuNzz-hYA5zOYgQ4Kg1PUxAwPMFE_e&export=download&confirm=t"
   },
   {
     "id": 30001380,
@@ -10841,22 +10701,1905 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
   {
     "id": 30001547,
     "game": "gi",
-    "category": "gadgets",
-    "name": "Manekin",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hGGEqgJJaNfwHjdiO5q6LNTYT6DdM4Zh&export=download&confirm=t"
+    "category": "weapons",
+    "name": "Hunter's Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CIS9fe2MFgGGUoCOUcc-VorPgzgWu829&export=download&confirm=t"
   },
   {
     "id": 30001548,
     "game": "gi",
-    "category": "gadgets",
-    "name": "Manekina",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1B3sYozGOLpksMpvCrjqdBWGR7GPr7fBz&export=download&confirm=t"
+    "category": "weapons",
+    "name": "Seasoned Hunter's Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ICn6fjcRIW4slvuIIdD4zaWoOj2coR1s&export=download&confirm=t"
   },
   {
     "id": 30001549,
     "game": "gi",
-    "category": "gadgets",
-    "name": "Shared",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VUlnfQvchyGipYH6nZaBIxYLGJgsRB8r&export=download&confirm=t"
+    "category": "weapons",
+    "name": "Messenger",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UtDeaHoy5qoOuv0NY35Pe-1vz3hAHQ5O&export=download&confirm=t"
+  },
+  {
+    "id": 30001550,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Raven Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14tDKpNO4Rqvh8b2GdBBD4cDKKOtEqj5D&export=download&confirm=t"
+  },
+  {
+    "id": 30001551,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Recurve Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hJb1-gnws1s_jlj5Ykio1e9pHuMJn1_6&export=download&confirm=t"
+  },
+  {
+    "id": 30001552,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sharpshooter's Oath",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pMIJKM9BxYXizLQxo1_EtHgTWeT37vlr&export=download&confirm=t"
+  },
+  {
+    "id": 30001553,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Slingshot",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mQoODwhsf1boli4BUk70qFe705OMrTiH&export=download&confirm=t"
+  },
+  {
+    "id": 30001554,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Alley Hunter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kqUYYbfhiFUOmXVvlmJEo_CWDYUSTeVz&export=download&confirm=t"
+  },
+  {
+    "id": 30001555,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackcliff Warbow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1aGfDLBNft_ESWMGskzqHwYIZl_gca6ZI&export=download&confirm=t"
+  },
+  {
+    "id": 30001556,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Chain Breaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1y5r9Ah9QUtikfFIFRQfeDo5YttuPXfgF&export=download&confirm=t"
+  },
+  {
+    "id": 30001557,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Cloudforged",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_PllE0tBAHMQfAiZnmqVUfuJhKgvK0gf&export=download&confirm=t"
+  },
+  {
+    "id": 30001558,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Compound Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Wh11Ct3ztJk1BWl2zKhB3PLwQ9T4z5Fp&export=download&confirm=t"
+  },
+  {
+    "id": 30001559,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Covenant of Frost and Snow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lxvnWweYXgbm81o-4PepkRFu1w25EHXK&export=download&confirm=t"
+  },
+  {
+    "id": 30001560,
+    "game": "gi",
+    "category": "weapons",
+    "name": "End of the Line",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EakNAYgAIycJn3ClyGNB0daTVI5oQZzb&export=download&confirm=t"
+  },
+  {
+    "id": 30001561,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fading Twilight",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NY41nEGinkypLrsOpVqxVY5KZkY-uvJf&export=download&confirm=t"
+  },
+  {
+    "id": 30001562,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Favonius Warbow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12FlMYwpUJu_2KwZnVo02XaeHN7kpsLgz&export=download&confirm=t"
+  },
+  {
+    "id": 30001563,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Flower Wreathed Feathers",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Eo9yBY2igeIAKHFR8n40piTOHq21ffhG&export=download&confirm=t"
+  },
+  {
+    "id": 30001564,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Hamayumi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10g7CXswBAYW74jmaw5oUbcDKqRy8p5Ut&export=download&confirm=t"
+  },
+  {
+    "id": 30001565,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ibis Piercer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yGPjPSgC5HgjfX-VjAzPQzZJly1088on&export=download&confirm=t"
+  },
+  {
+    "id": 30001566,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Jade Vista",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18APCcPa6bn1fR6Rw4TumulEuH8tTmvVH&export=download&confirm=t"
+  },
+  {
+    "id": 30001567,
+    "game": "gi",
+    "category": "weapons",
+    "name": "King's Squire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NJMOFi7f-cmlBAZiHmGEzHwCptNdePX6&export=download&confirm=t"
+  },
+  {
+    "id": 30001568,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mitternachts Waltz",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iMpeca51Fcdsnd4WB-fqycC7t4iL9wKL&export=download&confirm=t"
+  },
+  {
+    "id": 30001569,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mouun's Moon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i1qSY7xwcAfqbJFrdBakctzEo1rVMhpD&export=download&confirm=t"
+  },
+  {
+    "id": 30001570,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Predator",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1u8YvOaI0c2qKGjWsOyP7bEf5fZkv2Cfa&export=download&confirm=t"
+  },
+  {
+    "id": 30001571,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prototype Crescent",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xipyapxGCS9B4qhxry7CJR3KS_U0mPrB&export=download&confirm=t"
+  },
+  {
+    "id": 30001572,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Rainbow Serpent's Rain Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1aH8lExihGrXTvzB3DZG1PYIsZJQ9SMXz&export=download&confirm=t"
+  },
+  {
+    "id": 30001573,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Range Gauge",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-M9KiRWMleQf3xNxtDs5VuPCxJCSjG5N&export=download&confirm=t"
+  },
+  {
+    "id": 30001574,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Royal Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bJyEegoh8LnbIkGu1wxM9Rc1elW5J8L8&export=download&confirm=t"
+  },
+  {
+    "id": 30001575,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Rust",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vhnH3wjXpxBOZcIEx8Dlcrr3bTwPrF3P&export=download&confirm=t"
+  },
+  {
+    "id": 30001576,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificial Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1D_ejLt4flDfmu0kJdXWgrhF-UFQkcj9h&export=download&confirm=t"
+  },
+  {
+    "id": 30001577,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Scion of the Blazing Sun",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19y0qd6biC6EqA0XLJUEe8aKrB4jSBegz&export=download&confirm=t"
+  },
+  {
+    "id": 30001578,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sequence of Solitude",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LryLLoW0wxmA-AkM5iVLDPcq1xbAmn-n&export=download&confirm=t"
+  },
+  {
+    "id": 30001579,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Snare Hook",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1I9i9eY3zXJmLolVr9C2uOSjBax88bv_E&export=download&confirm=t"
+  },
+  {
+    "id": 30001580,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Song of Stillness",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12mKGAyaTk_hDmh-JwP3pLD-VXl7rCnUq&export=download&confirm=t"
+  },
+  {
+    "id": 30001581,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Stringless",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1coGPasO3ANf4US3OwZtKFC6dExBpEnqa&export=download&confirm=t"
+  },
+  {
+    "id": 30001582,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Viridescent Hunt",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pgNN5KHbOUaFJDk_STAB3b73nLOI4llS&export=download&confirm=t"
+  },
+  {
+    "id": 30001583,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Windblume Ode",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-xe66jutK-wEuVw4ujTPWKX_3SkCiFEJ&export=download&confirm=t"
+  },
+  {
+    "id": 30001584,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Amos Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1flcsl-t-3M7qiQApllqgpKXRADPbDNYP&export=download&confirm=t"
+  },
+  {
+    "id": 30001585,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Aqua Simulacra",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uGB82qGnY_BoPXUGoRAT2bH--4qurtHZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001586,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Astral Vulture's Crimson Plumage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mD3irNWa_VlbFWN0lmbpbCTcHuRppeU1&export=download&confirm=t"
+  },
+  {
+    "id": 30001587,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Elegy for the End",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sO-Pn5e9tIsNW-I6dz8BiZJW8ytYMqFf&export=download&confirm=t"
+  },
+  {
+    "id": 30001588,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Golden Frostbound Oath",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1a5OCtQzRje3Li6z2B2q3mddb9stOWqid&export=download&confirm=t"
+  },
+  {
+    "id": 30001589,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Hunter's Path",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LzjbjISwS5P3SQqZa146ZsT7siPtnoKi&export=download&confirm=t"
+  },
+  {
+    "id": 30001590,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Polar Star",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sNARolGpw-ngYPbnT5qq5lOBs4bGhHSI&export=download&confirm=t"
+  },
+  {
+    "id": 30001591,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Silvershower Heartstrings",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15DfnukFn8fBSyWAccWiXfGpHeWXaQdYv&export=download&confirm=t"
+  },
+  {
+    "id": 30001592,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyward Harp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zumZ18oid3KkSle1e7oR_T-HnlAl19N8&export=download&confirm=t"
+  },
+  {
+    "id": 30001593,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Daybreak Chronicles",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HK9NDdKh2sK31Gc6EHFQ7xM9TKzkI10E&export=download&confirm=t"
+  },
+  {
+    "id": 30001594,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The First Great Magic",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IIJiS6P8O_dXy9ltrYnlXhZmqDUNkB0d&export=download&confirm=t"
+  },
+  {
+    "id": 30001595,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Thundering Pulse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1qmph7n_aCAOSnkqFzAn1XGCKw_Uay-0Z&export=download&confirm=t"
+  },
+  {
+    "id": 30001596,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Thundering Pulse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12EUgMFi6au5ByP46y6-ZJXVUq4GbNgm4&export=download&confirm=t"
+  },
+  {
+    "id": 30001597,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Starpiercer Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1L7B4w_LyidrDBy81Kkoq7YU2xp30E3PV&export=download&confirm=t"
+  },
+  {
+    "id": 30001598,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Yayu Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Ezs1cdI87jRinZOFm4N_r3qwPEMemOw9&export=download&confirm=t"
+  },
+  {
+    "id": 30001599,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Apprentice's Notes",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=154pxE31w_nHiKv_40shcDC05uvYT27ym&export=download&confirm=t"
+  },
+  {
+    "id": 30001600,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Pocket Grimoire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DBB9-23dYe5ezsR1sqrYkQEiSdUoQoL8&export=download&confirm=t"
+  },
+  {
+    "id": 30001601,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Emerald Orb",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RPPUAOXQQzDIhhG_V991nglSnuAADy3-&export=download&confirm=t"
+  },
+  {
+    "id": 30001602,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Hunter's Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MxWomCqsuu5T2_S5aDPZsSwhjKIbpSRZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001603,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Magic Guide",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BLI9PmsrgIzSJ-FPrMdOqRatAIIZryFb&export=download&confirm=t"
+  },
+  {
+    "id": 30001604,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Otherworldly Story",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1O9bi50Mv6YgcJo0XTtGaBiKv3lP3tt1W&export=download&confirm=t"
+  },
+  {
+    "id": 30001605,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Raven Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jKD4BEEp9C8CtyQ6zZEJbzA7qcTibcCH&export=download&confirm=t"
+  },
+  {
+    "id": 30001606,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Seasoned Hunter's Bow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IRgp8N2mNZJ3hUiMY-uYX2JpJMQPCS34&export=download&confirm=t"
+  },
+  {
+    "id": 30001607,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sharpshooter's Oath",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LU959zpw0fuzbJK9emEVeIBBwEFE-G26&export=download&confirm=t"
+  },
+  {
+    "id": 30001608,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Thrilling Tales of Dragon Slayers",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Z8eMJ69UYNdRvYAcYCkdfhyHxzJ9h_er&export=download&confirm=t"
+  },
+  {
+    "id": 30001609,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Twin Nephrite",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10rJduauEKoiiDtNt58fjhkeGaOF7qTrA&export=download&confirm=t"
+  },
+  {
+    "id": 30001610,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ash Graven Drinking Horn",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vh0zF5qPzkRbfcojDAUd3zwkitumC_tc&export=download&confirm=t"
+  },
+  {
+    "id": 30001611,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ballad of the Boundless Blue",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1n9bgL9EtKEMEGSrhwUXu35GpGz_l5Nsl&export=download&confirm=t"
+  },
+  {
+    "id": 30001612,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackcliff Agate",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fpMLy9RQVCe0ePPwzyqhT5nbkLPI2Ye4&export=download&confirm=t"
+  },
+  {
+    "id": 30001613,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackmarrow Lantern",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lapuCgeQt_GJ5raNeITaXghjb4J_UumZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001614,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Clash of Kings",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Rz8dYTqQBhpWVMsx6zS9NJDnMbl2ZrZ9&export=download&confirm=t"
+  },
+  {
+    "id": 30001615,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dawning Frost",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1qwTbzm00a7Wokt-xjoIL4bTu_fZGNITA&export=download&confirm=t"
+  },
+  {
+    "id": 30001616,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dodoco Tales",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13AXfQJ2bneKhZruwwO9Snb31TTrJFE2E&export=download&confirm=t"
+  },
+  {
+    "id": 30001617,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Echoes of the Heart",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JB_UC-BqjcX0RLbosoBHcN6SAdpt_Gwa&export=download&confirm=t"
+  },
+  {
+    "id": 30001618,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Etherlight Spindlelute",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xm8Y31Yvr55r23oyDrt3Tdvd9bd8-pED&export=download&confirm=t"
+  },
+  {
+    "id": 30001619,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Eye of Perception",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1P0zx-No70Xs8WX_Y5jOILgElDR2y1aDG&export=download&confirm=t"
+  },
+  {
+    "id": 30001620,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Favonius Codex",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12DGUZhG94FlLu24CKEt3Ch9diGdZY7AU&export=download&confirm=t"
+  },
+  {
+    "id": 30001621,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Flowing Purity",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zaDHUNR8c_MDgkCtvVcq4-8lAlxRSJkQ&export=download&confirm=t"
+  },
+  {
+    "id": 30001622,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frostbearer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10tyRPPnSaOXgEyRqFEnMsCnHin5XHICs&export=download&confirm=t"
+  },
+  {
+    "id": 30001623,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fruit of Fulfillment",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15L1ol3nqtJETBlM2PcqPAxdCn8m2XUi_&export=download&confirm=t"
+  },
+  {
+    "id": 30001624,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Hakushin Ring",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZlhGWKcFQkomWZBjb7EyLRI3FMt8NQDB&export=download&confirm=t"
+  },
+  {
+    "id": 30001625,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mappa Mare",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cHoWMhUY2IaI-gURzMkuso50JhNCZ49u&export=download&confirm=t"
+  },
+  {
+    "id": 30001626,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Oathsworn Eye",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NqV9WBwooyEK_khdGjpPoTPaD2TIEFYL&export=download&confirm=t"
+  },
+  {
+    "id": 30001627,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prototype Amber",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GgiRhbcVsSbxv3C2dRcQ34H7E9V_gFwc&export=download&confirm=t"
+  },
+  {
+    "id": 30001628,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ring of Yaxche",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FAtAfFIm0KKfKTv5yJMcu_GSYeEs3tHb&export=download&confirm=t"
+  },
+  {
+    "id": 30001629,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Royal Grimoire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=139_o0PqdqtqDbnJc8Wj6V-Q36MN9pdXi&export=download&confirm=t"
+  },
+  {
+    "id": 30001630,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificial Fragments",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13H-cr_YJ0E9vhDuTBcZe0Yr3COEnDWHy&export=download&confirm=t"
+  },
+  {
+    "id": 30001631,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificial Jade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=170ju6PFb_qAIX35RpSqw5HpIkLA1G3wy&export=download&confirm=t"
+  },
+  {
+    "id": 30001632,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Solar Pearl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KaUtBGoCgNtAYcpdh8lI1SI8YoNPWMkP&export=download&confirm=t"
+  },
+  {
+    "id": 30001633,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Widsith",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1POUM5tTVjubqhUVKuPSvmVVM5i3fxvN8&export=download&confirm=t"
+  },
+  {
+    "id": 30001634,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Wandering Evenstar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IJbm3hkimAKOy1iclX6Aih2xeA0craXB&export=download&confirm=t"
+  },
+  {
+    "id": 30001635,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Waveriding Whirl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_OxXVKMK2HnaIPUYEUw6ff3u-gUswy7O&export=download&confirm=t"
+  },
+  {
+    "id": 30001636,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Wine and Song",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MGohu8wIJTPVh_DKtzMFDA2dLy7nGv5W&export=download&confirm=t"
+  },
+  {
+    "id": 30001637,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Phantasmal Gift Star Omen",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Ydca2WtTSbhmt2-OWVfd-E8QlpE0ogCL&export=download&confirm=t"
+  },
+  {
+    "id": 30001638,
+    "game": "gi",
+    "category": "weapons",
+    "name": "A Thousand Floating Dreams",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FHaYw-ZiL2I2ZvWL5qQt2kC33E8CRk20&export=download&confirm=t"
+  },
+  {
+    "id": 30001639,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Angelos Heptades",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yZBpq0orOcgUrxLjlHjYUXX7hpLmqveD&export=download&confirm=t"
+  },
+  {
+    "id": 30001640,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Cashflow Supervision",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xEyZE3m9Tl-l_U9wRag3988xQ85ZfKLR&export=download&confirm=t"
+  },
+  {
+    "id": 30001641,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Crane's Echoing Call",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1srwn9qIF4AjjAeMUuBuQBCnumXrbjNwk&export=download&confirm=t"
+  },
+  {
+    "id": 30001642,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Everlasting Moonglow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1179CADw1iUk4A-Tx-eTP-LRYsHtdv69m&export=download&confirm=t"
+  },
+  {
+    "id": 30001643,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Jadefall's Splendor",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1v1aTCTlkAla2lAGvZoRK7uoTXIQhwQ8j&export=download&confirm=t"
+  },
+  {
+    "id": 30001644,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Kagura's Verity",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TFOnXR8OeI5btOqZ3AsGgP9UreVMgia6&export=download&confirm=t"
+  },
+  {
+    "id": 30001645,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lost Prayer to the Sacred Winds",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UCm608CuIxgUOLb2p6U_4RmGqH2ZMOdj&export=download&confirm=t"
+  },
+  {
+    "id": 30001646,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Memory of Dust",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i2MqQxxPXSwR37lx2Q8jztKzVUR69BUp&export=download&confirm=t"
+  },
+  {
+    "id": 30001647,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Nightweaver's Looking Glass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FgrRTtvg7Qkacn9iDhNd6mSsrV-NvDlJ&export=download&confirm=t"
+  },
+  {
+    "id": 30001648,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Nocturne's Curtain Call",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1q6oc_qvA0Ko2z4OfEP9W9Xr_S0kMwFxz&export=download&confirm=t"
+  },
+  {
+    "id": 30001649,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Reliquary of Truth",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13ZZHrvQUWlf-EcC1M9AzfkzZjUPVPD8b&export=download&confirm=t"
+  },
+  {
+    "id": 30001650,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyward Atlas",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tc8tJ2egK2SAFYOtrvVg18j3reTC-qCj&export=download&confirm=t"
+  },
+  {
+    "id": 30001651,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Starcaller's Watch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SKh8JIPXLpXfjAGUstFNaloinYxtRFMA&export=download&confirm=t"
+  },
+  {
+    "id": 30001652,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sunny Morning Sleep in",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bHG3K7UfoFflz6g3IUuN16zFkgjj2dxA&export=download&confirm=t"
+  },
+  {
+    "id": 30001653,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Surf's Up",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LxilpJhFH2ZWIYweqFwxusrxFum0UOP9&export=download&confirm=t"
+  },
+  {
+    "id": 30001654,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Tome of the Eternal Flow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NnNVsP-73jZFqjQaAE-fD6bAErs6ffwX&export=download&confirm=t"
+  },
+  {
+    "id": 30001655,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Tulaytullah's Remembrance",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hLmXPFaH0xjcJ_dpKEwofn6nbJNFBrH0&export=download&confirm=t"
+  },
+  {
+    "id": 30001656,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Vivid Notions",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KuAG3HXDHLvsgQecOfWX3BmH1PqYLat-&export=download&confirm=t"
+  },
+  {
+    "id": 30001657,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dawnstar of Shahar Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CxLo1oIK7II9Z074IWWpBbge9kmwRG9L&export=download&confirm=t"
+  },
+  {
+    "id": 30001658,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Hallowed Fetters Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1d7Eh5Jc5JrhSCW5Ara9FhT6CN-gPd5L0&export=download&confirm=t"
+  },
+  {
+    "id": 30001659,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Waster Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jxyCB6q7ktXOtiGxaIi6vJKH1QwOIR_J&export=download&confirm=t"
+  },
+  {
+    "id": 30001660,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Old Merc's Pal",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YE31qDIvNIGcrdyh2hRsGkLyF_5oQWNb&export=download&confirm=t"
+  },
+  {
+    "id": 30001661,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Bloodtainted Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18e-sjtmxsDQntuPcS7lpX9q6S8bCCmeN&export=download&confirm=t"
+  },
+  {
+    "id": 30001662,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Debate Club",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uKzCPe69fuqpesfFaKSoECrC7gc141yN&export=download&confirm=t"
+  },
+  {
+    "id": 30001663,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ferrous Shadow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iDO_RvB78BiefD5Xs8art31TI2-Gr1le&export=download&confirm=t"
+  },
+  {
+    "id": 30001664,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyrider Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14X0eqZy2wUcc80ix7OywgvJeYAiuTbLE&export=download&confirm=t"
+  },
+  {
+    "id": 30001665,
+    "game": "gi",
+    "category": "weapons",
+    "name": "White Iron Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PQHo9y_hzM7JaWwg1m7OgTx6IlPJn0h5&export=download&confirm=t"
+  },
+  {
+    "id": 30001666,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Akuoumaru",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zPCP0-YJiflSYAfgtkszNDhHQjT6Gg7r&export=download&confirm=t"
+  },
+  {
+    "id": 30001667,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackcliff Slasher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15JB4J7TB80B6Xao4Y71zihNaSOWsqCGU&export=download&confirm=t"
+  },
+  {
+    "id": 30001668,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blade of Atonement",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10XkDQBJOH00PLLPNTaefkEcyE8sD8lkO&export=download&confirm=t"
+  },
+  {
+    "id": 30001669,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Earth Shaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xkZRbrNZExqd2AyqGfskBQ4pC0rll9GW&export=download&confirm=t"
+  },
+  {
+    "id": 30001670,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Favonius Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1M5YzcwMyfKgFksz9xeAzXQv20IhSWKdg&export=download&confirm=t"
+  },
+  {
+    "id": 30001671,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Flame Forged Insight",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jNrb8KQnF9OU5UaF0YAkADwiNm0_kBqn&export=download&confirm=t"
+  },
+  {
+    "id": 30001672,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Forest Regalia",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Sza-ObjJT9j3B7CtqoVsBF5lWNus3UHX&export=download&confirm=t"
+  },
+  {
+    "id": 30001673,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Forged By the Golden Melody",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RMcyBW_ET8ozVR3GYNTpIw7-PRhaG4Q4&export=download&confirm=t"
+  },
+  {
+    "id": 30001674,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fruitful Hook",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DsLU_n2N9Tmt678x3Jtn9tDK5B4C8OX7&export=download&confirm=t"
+  },
+  {
+    "id": 30001675,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Katsuragikiri Nagamasa",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=140l6W43GuPlP5lQ2iuBthCh_hLs91_3l&export=download&confirm=t"
+  },
+  {
+    "id": 30001676,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lithic Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OtlBlVA9g3sGESZAOJYnxGkgPtwaHd-r&export=download&confirm=t"
+  },
+  {
+    "id": 30001677,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Luxurious Sea Lord",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OMjXiomE-LocfKTKI4VTDgKlyHPQ1d5j&export=download&confirm=t"
+  },
+  {
+    "id": 30001678,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mailed Flower",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=185TZDn4BuZyQt1J2Vluy23jA2wwfskDs&export=download&confirm=t"
+  },
+  {
+    "id": 30001679,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Makhaira Aquamarine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16nEyo3ONvP746-G0brkvI42-LxCDqm_e&export=download&confirm=t"
+  },
+  {
+    "id": 30001680,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Master Key",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MV9iTJnqz3nQhClPm5L0-DEOQaROVqtT&export=download&confirm=t"
+  },
+  {
+    "id": 30001681,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Portable Power Saw",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fwQeze2t9eYjc_Nsajqh7v6RXtrhaEtV&export=download&confirm=t"
+  },
+  {
+    "id": 30001682,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prototype Archaic",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15LC4_70Gj3bF56YZPX5kgJTAl_BU5uJG&export=download&confirm=t"
+  },
+  {
+    "id": 30001683,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Rainslasher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pGGE1OivkyzX3UkyrsTvveBkcXpA2UAz&export=download&confirm=t"
+  },
+  {
+    "id": 30001684,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Royal Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OrrTGjj_paATRWze5QdaMynWOkOSZArH&export=download&confirm=t"
+  },
+  {
+    "id": 30001685,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificial Greatsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JucYt4BraGzHypQoElF92kfJzGEqmkiv&export=download&confirm=t"
+  },
+  {
+    "id": 30001686,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Serpent Spine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gAtlT1UpxvkxgWC-AhZG_W3v4lnullRZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001687,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Snow Tombed Starsilver",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mIVKC1rf5Ii5sog-byHBvxIdcGWwkVQC&export=download&confirm=t"
+  },
+  {
+    "id": 30001688,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Talking Stick",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VfSOqSVDTl9dO05i3FhNlPuOwttyRWmy&export=download&confirm=t"
+  },
+  {
+    "id": 30001689,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Bell",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hiCV4rYMe--zS1_EI6fhBShovUgFL_5Q&export=download&confirm=t"
+  },
+  {
+    "id": 30001690,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Tidal Shadow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YRosvkxhTEUfzlppVdLs1qlZrPrn-pdy&export=download&confirm=t"
+  },
+  {
+    "id": 30001691,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ultimate Overlord's Mega Magic Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1whfc23amswfXeMfSWlBT0B1kr1krINKT&export=download&confirm=t"
+  },
+  {
+    "id": 30001692,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Whiteblind",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1t9w2-nVx6oS_3x0VNQxKHn9wbHcQjYjo&export=download&confirm=t"
+  },
+  {
+    "id": 30001693,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Super Awesome Magic Key",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ihxcX5IDwLiZ4gh5q3XodsQkssTXY0Pv&export=download&confirm=t"
+  },
+  {
+    "id": 30001694,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Unbreakable Durandarte",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tTXCkiNSjArhIg6AHsCU1nw3ABP2qCdO&export=download&confirm=t"
+  },
+  {
+    "id": 30001695,
+    "game": "gi",
+    "category": "weapons",
+    "name": "A Teaspoon of Transcendence",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=157IGc47WU0BnAE0shp_toQOmqAPGJTI_&export=download&confirm=t"
+  },
+  {
+    "id": 30001696,
+    "game": "gi",
+    "category": "weapons",
+    "name": "A Thousand Blazing Suns",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Me1lEyqmw1vTuyKVSkcLDDVlPR03Vzes&export=download&confirm=t"
+  },
+  {
+    "id": 30001697,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Beacon of the Reed Sea",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15pNPeHWJamrqaq4TxYTnKHQpYpH3lBSD&export=download&confirm=t"
+  },
+  {
+    "id": 30001698,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fang of the Mountain King",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1U9wFkA_sYEEm0E4IaAB4LkVtKb9JEn5G&export=download&confirm=t"
+  },
+  {
+    "id": 30001699,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Gest of the Mighty Wolf",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13etUXi7-frul-BIaOrGJ4RX6_Id-bHrF&export=download&confirm=t"
+  },
+  {
+    "id": 30001700,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Redhorn Stonethresher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1z4VTjazwlk1AyBKWWnNCyRwZkdJzs5v-&export=download&confirm=t"
+  },
+  {
+    "id": 30001701,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyward Pride",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hqH7tpCr2OJePXOTFdKfPA0snh21fjud&export=download&confirm=t"
+  },
+  {
+    "id": 30001702,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Song of Broken Pines",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XXqtSWSFVoHSnx2kivC2P85Z9dMfKzLw&export=download&confirm=t"
+  },
+  {
+    "id": 30001703,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Unforged",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=142vIYo57K935moh1EbsChzBzFjfbygml&export=download&confirm=t"
+  },
+  {
+    "id": 30001704,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Verdict",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Dfd3qtlQWAAjsTU0IPH3iR5j5I-4eRs8&export=download&confirm=t"
+  },
+  {
+    "id": 30001705,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Wolf's Gravestone",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IJ8qEFmPuDcAI9gWOLmPQ7KSGKBZl1lG&export=download&confirm=t"
+  },
+  {
+    "id": 30001706,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ardent Storm Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15GHwl86fnZOfDJ7P0AaWICL6HNgp8f8b&export=download&confirm=t"
+  },
+  {
+    "id": 30001707,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Silver Radiance of Gradlon Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vDF_azw1d2exSnmq7YOj_eNaTuTkKUxV&export=download&confirm=t"
+  },
+  {
+    "id": 30001708,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frag Crystal Cryo",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GwhFEYfdCGJV5bZ2mvIj5PmZcQkg4PD5&export=download&confirm=t"
+  },
+  {
+    "id": 30001709,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frag Crystal Electro",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Js5WoD5Mygo2iO0KwZ3_z3kjbfx9LyND&export=download&confirm=t"
+  },
+  {
+    "id": 30001710,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frag Crystal Hydro",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Alk5f-cxVwFs7GU123ivgM965GQrnBjW&export=download&confirm=t"
+  },
+  {
+    "id": 30001711,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frag Crystal Pyro",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h2FE4QViv9u0tQv-c86Bf7sy4OhqQ-1X&export=download&confirm=t"
+  },
+  {
+    "id": 30001712,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Specialized Frag Crystals Within the Shadow Realm",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ir1iA9wZPgeOuSWPr86VbXRQSFLJWph2&export=download&confirm=t"
+  },
+  {
+    "id": 30001713,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ashamez's Thunder",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mlhrQ-3hQ1sf0dk507V6tgrg3KyywrkY&export=download&confirm=t"
+  },
+  {
+    "id": 30001714,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Balsag's Sunwheel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PlqNQoz_fwyV8Ygzpd11Cxo47edBDzJs&export=download&confirm=t"
+  },
+  {
+    "id": 30001715,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Shatanaya's Frostsilver",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FXTy03ZUa15fUfLqqbzKpf8O2KwtPbqv&export=download&confirm=t"
+  },
+  {
+    "id": 30001716,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Beginner's Protector",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15p7rGBeU0bEpmsrk_1e70974UbY1EPn5&export=download&confirm=t"
+  },
+  {
+    "id": 30001717,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Iron Point",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18BD5f0sRDjs5ztudUhxg6GFzBIQNeQ0B&export=download&confirm=t"
+  },
+  {
+    "id": 30001718,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Black Tassel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16VwrbqPZEFRt_oA_H8aoFfWx0L7ZM09B&export=download&confirm=t"
+  },
+  {
+    "id": 30001719,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Halberd",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1u0_knUqcawO_vWLN7YBzWY-RfAg5tVxU&export=download&confirm=t"
+  },
+  {
+    "id": 30001720,
+    "game": "gi",
+    "category": "weapons",
+    "name": "White Tassel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1owisbuFB6LYQt_hlPexOq1d8KbfOK9w7&export=download&confirm=t"
+  },
+  {
+    "id": 30001721,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Ballad of the Fjords",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-oq8c1vDsEzFO2yziSEOY4JRJgi1DUa1&export=download&confirm=t"
+  },
+  {
+    "id": 30001722,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackcliff Pole",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ePPk1jNxR2k6NZmASh6WItigiidCTSWZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001723,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Crescent Pike",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uXlxVVeVSeFLlXIPwafPqMnqQwZHRHH5&export=download&confirm=t"
+  },
+  {
+    "id": 30001724,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Deathmatch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kiA5pFoHR0aNEpLPlOD1T8OOIEoqJpIx&export=download&confirm=t"
+  },
+  {
+    "id": 30001725,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dialogues of the Desert Sages",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bk-h4yVNQE0g6JJ70MeSm7N0nnD8LGos&export=download&confirm=t"
+  },
+  {
+    "id": 30001726,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dragon's Bane",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zl66Kf0RcVA8gEPatNRGYw02X7fDHJn5&export=download&confirm=t"
+  },
+  {
+    "id": 30001727,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dragonspine Spear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JoWK-ExZTqT3OXrS2zEikV7_9iACIsIH&export=download&confirm=t"
+  },
+  {
+    "id": 30001728,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Favonius Lance",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1rbj8dAdiRaWjuOHsoHG1dF_rm8Tax-bj&export=download&confirm=t"
+  },
+  {
+    "id": 30001729,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Footprint of the Rainbow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ywBTzzaFUreEYRkKcQptSZ4sdoyy-fEm&export=download&confirm=t"
+  },
+  {
+    "id": 30001730,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Frostbreath",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Vm1jdWrY_Zf2usriPgXBeFAfSJMrC7Cy&export=download&confirm=t"
+  },
+  {
+    "id": 30001731,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Kitain Cross Spear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LXi85Ig9NN8VOJLBTBhcJkZ0WJIYxjGV&export=download&confirm=t"
+  },
+  {
+    "id": 30001732,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lithic Spear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18zLRas5ZI5PtMnQNS5EfJI_I96nm_YMq&export=download&confirm=t"
+  },
+  {
+    "id": 30001733,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Missive Windspear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1wHRiUplpv0zITqwqcEm9XYW7uj_5YNyO&export=download&confirm=t"
+  },
+  {
+    "id": 30001734,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Moonpiercer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QLcNqGZEOyPZX4snLlURuQyQGWEab9TY&export=download&confirm=t"
+  },
+  {
+    "id": 30001735,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mountain Bracing Bolt",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1U5GNv1xF-zH-UIMz-UVPrpEXIV56r-lN&export=download&confirm=t"
+  },
+  {
+    "id": 30001736,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prospector's Drill",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14Juz2ylPS4y-TsvuRizgjoH2wyXYcXYQ&export=download&confirm=t"
+  },
+  {
+    "id": 30001737,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prospector's Shovel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=103M5jX3rSv6fZqbCwMYqYzkvNsoWysr1&export=download&confirm=t"
+  },
+  {
+    "id": 30001738,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prototype Starglitter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12z03mxjf1jRjHW6vw1lrTmzUg1vUQqGb&export=download&confirm=t"
+  },
+  {
+    "id": 30001739,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Rightful Reward",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BpFs3v1EyISmD6V_jSIx6kUrxft-rGBL&export=download&confirm=t"
+  },
+  {
+    "id": 30001740,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Royal Spear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1j1tqXr2SihX6Pvru5Wr0T-kpqrUmRubq&export=download&confirm=t"
+  },
+  {
+    "id": 30001741,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificer's Staff",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1psaumEQ7xysCEqIw6XqHMp5_O6np9voz&export=download&confirm=t"
+  },
+  {
+    "id": 30001742,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Song of the Vigil",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yFTgN-LEtGxNhvDYV6QfzAA3amtO4hW7&export=download&confirm=t"
+  },
+  {
+    "id": 30001743,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Tamayuratei no Ohanashi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UMuelkJE3TmgnJKvmgBC4YAPUYOHGzln&export=download&confirm=t"
+  },
+  {
+    "id": 30001744,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Catch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bszcvZk85DmYT8yrnR1V96lbOqJn8Ghp&export=download&confirm=t"
+  },
+  {
+    "id": 30001745,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Wavebreaker's Fin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1af24Ei40kW-4SSkJ73OFYfkYO6_FGw0e&export=download&confirm=t"
+  },
+  {
+    "id": 30001746,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Bloodsoaked Ruins",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AWos31UedxkCNCFHCKnGJ-Wbx6eeAnyE&export=download&confirm=t"
+  },
+  {
+    "id": 30001747,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Calamity Queller",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XjzCIx0xFJLS11NOe2ALT9M9TYparZ7P&export=download&confirm=t"
+  },
+  {
+    "id": 30001748,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Crimson Moon's Semblance",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZSOHSWxHYKkU4818sWJ61fsMa1gmduT6&export=download&confirm=t"
+  },
+  {
+    "id": 30001749,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Disaster and Remorse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10l0NYmRdvmf_BUII1-Q5GN8K7XGOIV-E&export=download&confirm=t"
+  },
+  {
+    "id": 30001750,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Engulfing Lightning",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1U_pTUd5DjFJqDywaQSFY62p7KULQtrZG&export=download&confirm=t"
+  },
+  {
+    "id": 30001751,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fractured Halo",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h374Qb9_R1f8CY2I7YKrdj_R_xPMchjG&export=download&confirm=t"
+  },
+  {
+    "id": 30001752,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lumidouce Elegy",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YYW4QSb-qj3tWdtCKalKBgpp6NaAK4AW&export=download&confirm=t"
+  },
+  {
+    "id": 30001753,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Primordial Jade Winged Spear",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jNr1oyAgZ_8-oAlpS2G-aNZeds6HPneO&export=download&confirm=t"
+  },
+  {
+    "id": 30001754,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyward Spine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JShHACg3i01PzPPGXO7Rx3Jf6sRKEEWK&export=download&confirm=t"
+  },
+  {
+    "id": 30001755,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Staff of Homa",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yVkjKY5-rxSdCg6qd_oKzrOQk4A79zto&export=download&confirm=t"
+  },
+  {
+    "id": 30001756,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Staff of the Scarlet Sands",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hyZNO0vdutrrVQYi1p2jzi_VBQ1tQ_Zu&export=download&confirm=t"
+  },
+  {
+    "id": 30001757,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Symphonist of Scents",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1u2aiOUZbQx-qXUBWJ1f6Z-iU612hHGa7&export=download&confirm=t"
+  },
+  {
+    "id": 30001758,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Vortex Vanquisher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kui3F3W0_FJouKCtJfXj819tfXVk90OE&export=download&confirm=t"
+  },
+  {
+    "id": 30001759,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Shattered Moon Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LOWAcjHagN7OLXNK_TACjjyOJEojx9iM&export=download&confirm=t"
+  },
+  {
+    "id": 30001760,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Starlight of Fylkir Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zIWkfce-TqbsaQ6bnXaxdsoF9zcC_VW8&export=download&confirm=t"
+  },
+  {
+    "id": 30001761,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dull Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XeCTOrBRWwCK9izTc7nfGOcOIXRr30Ka&export=download&confirm=t"
+  },
+  {
+    "id": 30001762,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Silver Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1p2oUYiOggP-82213UlhF8Kk0fecaBoNG&export=download&confirm=t"
+  },
+  {
+    "id": 30001763,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Cool Steel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BQP1gmd3FKHH9Q3antr1QQdVy27XlPpJ&export=download&confirm=t"
+  },
+  {
+    "id": 30001764,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Dark Iron Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1J7BccQtGMaQAtHDXI_DeGPqVpNHuOvBR&export=download&confirm=t"
+  },
+  {
+    "id": 30001765,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fillet Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=17oQDDQ7ocIVoOQszdXigaO4_W3DuJvxd&export=download&confirm=t"
+  },
+  {
+    "id": 30001766,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Harbinger of Dawn",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RlhXSnUxoq2UUnv522MhKR3oqhc_mqaj&export=download&confirm=t"
+  },
+  {
+    "id": 30001767,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyrider Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1T1XybAisqBci87Pefwja9EhHz45i7e-Q&export=download&confirm=t"
+  },
+  {
+    "id": 30001768,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Traveler's Handy Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RgSg_wdKeMvLc6Jg1FysisMobj-GA_Ws&export=download&confirm=t"
+  },
+  {
+    "id": 30001769,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Amenoma Kageuchi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ooIrljpDTtYKO6AlbxaAqu0ZNgr6im2_&export=download&confirm=t"
+  },
+  {
+    "id": 30001770,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Blackcliff Longsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iGkqK4my3ttLqVWhXv4wwPv9z4SpSprq&export=download&confirm=t"
+  },
+  {
+    "id": 30001771,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Calamity of Eshu",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1387syNu-ofbMKP1r-zdZNxDV5YEeeOsO&export=download&confirm=t"
+  },
+  {
+    "id": 30001772,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Cinnabar Spindle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kVCg-CN4H3xQ8lu7cqEyEgl1HVyqQZjP&export=download&confirm=t"
+  },
+  {
+    "id": 30001773,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Emberwell",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EGm7HcNh0p181_iq6WXAfsAqT0VqgwE-&export=download&confirm=t"
+  },
+  {
+    "id": 30001774,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Favonius Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EtOMwRBsC9eHvAnFU6jMnhHPd27R0iWM&export=download&confirm=t"
+  },
+  {
+    "id": 30001775,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Festering Desire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CfCURqNr28hfoN_XHjrxhiFUxLHi0D8Z&export=download&confirm=t"
+  },
+  {
+    "id": 30001776,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Finale of the Deep",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1n_Zjm4wJXrknRF3czrhJqX6MU8LCu_BB&export=download&confirm=t"
+  },
+  {
+    "id": 30001777,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Fleuve Cendre Ferryman",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1J7ySnI7_evyCnTjZePoTiSBCAweSohAA&export=download&confirm=t"
+  },
+  {
+    "id": 30001778,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Flute of Ezpitzal",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BCeZCl_nFcOd3pyPGU8BACwgI8YCmY6S&export=download&confirm=t"
+  },
+  {
+    "id": 30001779,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Heretic's Molten Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10aslgMBESBt9u98-ajV_BeAbI_RJMa5Y&export=download&confirm=t"
+  },
+  {
+    "id": 30001780,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Iron Sting",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uURn3HEe_OnZeKWc8PE6jEx7fSDBHsNc&export=download&confirm=t"
+  },
+  {
+    "id": 30001781,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Kagotsurube Isshin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12IoMGSU0ty00keJW-wDdgSmjZdnfotjJ&export=download&confirm=t"
+  },
+  {
+    "id": 30001782,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lion's Roar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mrHTfNFxUr3NP6Dsl2PZDmKIKDEnRugs&export=download&confirm=t"
+  },
+  {
+    "id": 30001783,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Moonweaver's Dawn",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18uX4ku2E9x-JHCdGM9rwSnh2H1fKzkCX&export=download&confirm=t"
+  },
+  {
+    "id": 30001784,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Prototype Rancour",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16O896IVtLkbulEaG9Ur3qDkFian-FB4b&export=download&confirm=t"
+  },
+  {
+    "id": 30001785,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Royal Longsword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FkxNoO8HQG7lAxn02F1RgP3QSk-mKhtO&export=download&confirm=t"
+  },
+  {
+    "id": 30001786,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sacrificial Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lpAYbLOnlyIlGTBMC7S92X02MYjgPV_M&export=download&confirm=t"
+  },
+  {
+    "id": 30001787,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sapwood Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zWLMpCsfb57N8XC3VOOt2GrIo8Kei24U&export=download&confirm=t"
+  },
+  {
+    "id": 30001788,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Serenity's Call",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kM2GlVY3z0SJU6tH4brQugCHKPPZ1dcr&export=download&confirm=t"
+  },
+  {
+    "id": 30001789,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sturdy Bone",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OppM77t5jhBIZT65jpw2wmQTN2ssJUcZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001790,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sword of Descension",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QmhpeuiAllmg-2tzLDdUHUEZjZy2fNYj&export=download&confirm=t"
+  },
+  {
+    "id": 30001791,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Sword of Narzissenkreuz",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tBjQeItdI-tueT_quYkKkAUq0Ahtpu0K&export=download&confirm=t"
+  },
+  {
+    "id": 30001792,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Alley Flash",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1oIj2N_tN-gBa20p8Kh3CFg4M7XoVmf6U&export=download&confirm=t"
+  },
+  {
+    "id": 30001793,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Black Sword",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11dSdZtb8mo6H6JYyJqXMVa65vwJNgZLT&export=download&confirm=t"
+  },
+  {
+    "id": 30001794,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Dockhand's Assistant",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UwgmpzE1MrS1cmn4qiWsUS6OgA8A21xs&export=download&confirm=t"
+  },
+  {
+    "id": 30001795,
+    "game": "gi",
+    "category": "weapons",
+    "name": "The Flute",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gh4NXwO6ee-p9FVnehn9DM5rnhKMdJJ9&export=download&confirm=t"
+  },
+  {
+    "id": 30001796,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Toukabou Shigure",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tm4S8TzYwVK0QacPZo9XKBkmbBvMYP0N&export=download&confirm=t"
+  },
+  {
+    "id": 30001797,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Wolf Fang",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bkTdviCFtCZAchAewVH-UVbTiopNow9a&export=download&confirm=t"
+  },
+  {
+    "id": 30001798,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Xiphos Moonlight",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zuVKIm-P9aSE2EL4wT2zinhosCscGQfv&export=download&confirm=t"
+  },
+  {
+    "id": 30001799,
+    "game": "gi",
+    "category": "weapons",
+    "name": "A Touch of Frost in Scorching Summer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C0d__vtvH7AY5p5axZp5GGWmA8nb72f3&export=download&confirm=t"
+  },
+  {
+    "id": 30001800,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Absolution",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tuh8PJYRy2GyMXgCXwBBIMgDsZfBB1rL&export=download&confirm=t"
+  },
+  {
+    "id": 30001801,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Aquila Favonia",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1s96l_NQ3T805hwciyBuY8lGQKxtEmc1S&export=download&confirm=t"
+  },
+  {
+    "id": 30001802,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Athame Artis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fHUQHToP_P7bL5ucpOKzWH3Mf9vcT2J6&export=download&confirm=t"
+  },
+  {
+    "id": 30001803,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Azurelight",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EvSf0GNvpOpr1PxMVqD-iKXoJTKaYGU_&export=download&confirm=t"
+  },
+  {
+    "id": 30001804,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Freedom Sworn",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vEzw_QUjOLF48gYI19e7uZYBxojVscZN&export=download&confirm=t"
+  },
+  {
+    "id": 30001805,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Haran Geppaku Futsu",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11rqW2WdUUtWBpcahWMOhidluW7jF4i0E&export=download&confirm=t"
+  },
+  {
+    "id": 30001806,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Key of Khaj Nisut",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Zra4hNp9TDqDtbuoYWmJnCM3J1bxot89&export=download&confirm=t"
+  },
+  {
+    "id": 30001807,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Light of Foliar Incision",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1a8BKbjWSIwLRb8ceZIsB8FCCHB489fQf&export=download&confirm=t"
+  },
+  {
+    "id": 30001808,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Lightbearing Moonshard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KDl6SSPqkBi-HHF--xzUTi1tQn9Nnts-&export=download&confirm=t"
+  },
+  {
+    "id": 30001809,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Mistsplitter Reforged",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DDEyCGTQLQDXid6BXk3dTZjlcDNC73Ud&export=download&confirm=t"
+  },
+  {
+    "id": 30001810,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Peak Patrol Song",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iNZu6kd4qhNweHwK4bkLnnHNoP95s4hj&export=download&confirm=t"
+  },
+  {
+    "id": 30001811,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Primordial Jade Cutter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1O0uZphFM0krBAJ_9LiZpjhNGOBG6jqLt&export=download&confirm=t"
+  },
+  {
+    "id": 30001812,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Skyward Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1F4qMg-BVK1_k6rBXEFmqCAfeTG2mlc8Q&export=download&confirm=t"
+  },
+  {
+    "id": 30001813,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Splendor of Tranquil Waters",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10ofibJcorPxshHwe_-TzySZzL4Qn3HWv&export=download&confirm=t"
+  },
+  {
+    "id": 30001814,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Summit Shaper",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1F6J6-CO9fcpx_y4KkRU5c53aiQAzVSrw&export=download&confirm=t"
+  },
+  {
+    "id": 30001815,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Uraku Misugiri",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dTFpZfqI0rvW8B0FgrW3crI9orrNh4cD&export=download&confirm=t"
+  },
+  {
+    "id": 30001816,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Whitelake Frostfeather",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tAENmQzmeCwfh806OP9pVouEgLfzJVKW&export=download&confirm=t"
+  },
+  {
+    "id": 30001817,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Golden Bough of Nemorensis Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19zdWu6DxA7Azg9gN1d85z5z7bNiFYGi2&export=download&confirm=t"
+  },
+  {
+    "id": 30001818,
+    "game": "gi",
+    "category": "weapons",
+    "name": "Serpent Devourer Sublimation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DkEbGhAaP5ZLui102jyI3mZ-Gm9KrSm3&export=download&confirm=t"
   }
 ];
