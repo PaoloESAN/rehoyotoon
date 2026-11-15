@@ -1,0 +1,523 @@
+---
+import { MILI_SLOTS } from '../data/miliastraAssets';
+---
+
+<div class="mili-layout" id="mili-builder">
+  <!-- LEFT: Character Loadout (Tabs + 6 Body-Part Squares / Set Preview + Download Button) -->
+  <aside class="mili-left-panel" aria-label="Character Loadout">
+    <div class="mili-panel-head">
+      <div>
+        <p class="header-eyebrow" style="margin:0 0 2px;">MILIASTRA WONDERLAND</p>
+        <h1 class="mili-panel-title">Character Builder</h1>
+      </div>
+      <button type="button" class="mili-clear-btn" id="mili-clear-all-btn">
+        Clear
+      </button>
+    </div>
+
+    <div class="mili-mode-tabs" role="tablist" aria-label="Builder mode">
+      <button type="button" class="mili-mode-tab active" data-mode="oc" role="tab" aria-selected="true">
+        OC Character
+      </button>
+      <button type="button" class="mili-mode-tab" data-mode="sets" role="tab" aria-selected="false">
+        Sets
+      </button>
+    </div>
+
+    <div class="mili-slots-grid" id="mili-slots-grid">
+      {
+        MILI_SLOTS.map((slot) => (
+          <div class="mili-slot-card empty" data-slot-id={slot.id}>
+            <div class="mili-slot-empty-body">
+              <span class="mili-slot-plus">+</span>
+              <span class="mili-slot-label">{slot.label}</span>
+              <span class="mili-slot-sub">{slot.sublabel}</span>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mili-set-preview-wrap" id="mili-set-preview-wrap" style="display:none;">
+      <div class="mili-slot-card empty mili-set-preview-card" id="mili-set-preview-card">
+        <div class="mili-slot-empty-body">
+          <span class="mili-slot-plus">+</span>
+          <span class="mili-slot-label">Full Set</span>
+          <span class="mili-slot-sub">Select a set on the right</span>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="mili-download-btn" id="mili-download-btn" disabled>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+        <polyline points="7 10 12 15 17 10" />
+        <line x1="12" y1="15" x2="12" y2="3" />
+      </svg>
+      <span id="mili-download-label">Download Character</span>
+    </button>
+  </aside>
+
+  <!-- RIGHT: Gender Selector + Category Filters + Cropped Grid -->
+  <section class="mili-right-panel" aria-label="Miliastra Assets Picker">
+    <div class="mili-toolbar">
+      <div class="mili-toolbar-top">
+        <div class="mili-gender-switch" role="group" aria-label="Gender selector">
+          <button
+            type="button"
+            class="mili-gender-btn active"
+            data-gender="manekin"
+            aria-pressed="true"
+          >
+            <span>Male</span>
+            <small>Manekin</small>
+          </button>
+          <button
+            type="button"
+            class="mili-gender-btn"
+            data-gender="manekina"
+            aria-pressed="false"
+          >
+            <span>Female</span>
+            <small>Manekina</small>
+          </button>
+        </div>
+
+        <div class="search-wrap" style="flex:1;min-width:200px;">
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            type="search"
+            class="search-input"
+            id="mili-search-input"
+            placeholder="Search parts, outfits, eyes, hair..."
+            autocomplete="off"
+          />
+        </div>
+
+        <span class="count-pill available" id="mili-count-pill">0 items</span>
+      </div>
+    </div>
+
+    <div class="mili-grid" id="mili-grid"></div>
+  </section>
+</div>
+
+<!-- Download Summary Modal -->
+<dialog class="credits-dialog mili-dl-dialog" id="mili-dl-dialog" closedby="any" aria-labelledby="mili-dl-title">
+  <div class="drawer-top-row" style="margin-bottom:14px;">
+    <div>
+      <p class="drawer-eyebrow" style="margin:0 0 4px;">MILIASTRA WONDERLAND</p>
+      <h2 class="drawer-title" id="mili-dl-title" style="font-size:22px;margin:0;">Download Character</h2>
+    </div>
+    <button type="button" class="icon-close-btn" id="mili-dl-close-btn" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </button>
+  </div>
+  <div class="mili-dl-body">
+    <p class="mili-dl-note">
+      Downloads have started for your selected items. If your browser blocks multiple downloads at once, use the direct links below or click Download All:
+    </p>
+    <div class="mili-dl-list" id="mili-dl-list"></div>
+    <button type="button" class="mili-download-btn" id="mili-dl-all-btn">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+        <polyline points="7 10 12 15 17 10" />
+        <line x1="12" y1="15" x2="12" y2="3" />
+      </svg>
+      <span>Download All</span>
+    </button>
+  </div>
+</dialog>
+
+<script>
+  import {
+    MILI_ITEMS,
+    MILI_SHEETS,
+    MILI_SLOTS,
+    type MiliGender,
+    type MiliItem,
+    type MiliSlotId,
+  } from '../data/miliastraAssets';
+
+  const builderEl = document.getElementById('mili-builder');
+  if (builderEl) {
+    type BuilderMode = 'oc' | 'sets';
+    let activeMode: BuilderMode = 'oc';
+    let activeGender: MiliGender = 'manekin';
+    let activeSlotId: MiliSlotId = 'skin';
+    let searchQuery = '';
+    // Map category -> selected MiliItem (one per category in OC mode)
+    const selectedByCategory = new Map<string, MiliItem>();
+    const downloadedIds = new Set<number>();
+    let selectedSet: MiliItem | null = null;
+
+    const modeTabs = Array.from(document.querySelectorAll<HTMLButtonElement>('.mili-mode-tab'));
+    const slotsGrid = document.getElementById('mili-slots-grid')!;
+    const setPreviewWrap = document.getElementById('mili-set-preview-wrap')!;
+    const setPreviewCard = document.getElementById('mili-set-preview-card')!;
+    const downloadBtn = document.getElementById('mili-download-btn') as HTMLButtonElement;
+    const downloadLabel = document.getElementById('mili-download-label')!;
+    const clearAllBtn = document.getElementById('mili-clear-all-btn')!;
+    const genderBtns = Array.from(document.querySelectorAll<HTMLButtonElement>('.mili-gender-btn'));
+    const searchInput = document.getElementById('mili-search-input') as HTMLInputElement;
+    const gridEl = document.getElementById('mili-grid')!;
+    const countPillEl = document.getElementById('mili-count-pill')!;
+
+    const dlDialog = document.getElementById('mili-dl-dialog') as HTMLDialogElement;
+    const dlTitleEl = document.getElementById('mili-dl-title')!;
+    const dlCloseBtn = document.getElementById('mili-dl-close-btn')!;
+    const dlListEl = document.getElementById('mili-dl-list')!;
+    const dlAllBtn = document.getElementById('mili-dl-all-btn') as HTMLButtonElement;
+    let currentModalItems: MiliItem[] = [];
+
+    function triggerDownloadAll(items: MiliItem[]) {
+      items.forEach((item, idx) => {
+        window.setTimeout(() => {
+          const a = document.createElement('a');
+          a.href = toDirectDriveDownload(item.url);
+          a.target = '_blank';
+          a.rel = 'noopener';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          downloadedIds.add(item.id);
+          dlListEl.querySelector(`[data-dl-row="${item.id}"]`)?.classList.add('is-downloaded');
+        }, idx * 250);
+      });
+    }
+
+    function toDirectDriveDownload(viewUrl: string): string {
+      const m = viewUrl.match(/\/file\/d\/([^/]+)/);
+      if (m) return `https://drive.google.com/uc?export=download&id=${m[1]}`;
+      return viewUrl;
+    }
+
+    function spriteStyle(item: MiliItem): string {
+      const sheet = MILI_SHEETS[item.sheet];
+      const posX = sheet.cols > 1 ? (item.col / (sheet.cols - 1)) * 100 : 0;
+      const posY = sheet.rows > 1 ? (item.row / (sheet.rows - 1)) * 100 : 0;
+      return `background-image:url('${sheet.src}');background-size:${sheet.cols * 100}% ${sheet.rows * 100}%;background-position:${posX.toFixed(4)}% ${posY.toFixed(4)}%;`;
+    }
+
+    function getAvailableItems(): MiliItem[] {
+      return MILI_ITEMS.filter((item) => {
+        if (item.gender !== activeGender && item.gender !== 'both') return false;
+        if (activeMode === 'sets') return item.category === 'Sets';
+        return item.category !== 'Sets';
+      });
+    }
+
+    function renderGrid() {
+      const q = searchQuery.trim().toLowerCase();
+      const activeSlotDef = MILI_SLOTS.find((s) => s.id === activeSlotId);
+      const items = getAvailableItems().filter((item) => {
+        if (activeMode === 'oc' && activeSlotDef && !activeSlotDef.categories.includes(item.category)) {
+          return false;
+        }
+        if (q && !item.name.toLowerCase().includes(q) && !item.category.toLowerCase().includes(q)) {
+          return false;
+        }
+        return true;
+      });
+
+      countPillEl.textContent = `${items.length} items`;
+
+      if (items.length === 0) {
+        gridEl.innerHTML = `<div class="empty-state" style="grid-column:1 / -1;"><p style="margin:0;font-weight:700;color:#fff;">No assets found</p></div>`;
+        return;
+      }
+
+      gridEl.innerHTML = items
+        .map((item) => {
+          const isSelected =
+            activeMode === 'sets'
+              ? selectedSet?.id === item.id
+              : selectedByCategory.get(item.category)?.id === item.id;
+          return `
+            <button
+              type="button"
+              class="mili-card ${isSelected ? 'selected' : ''}"
+              data-item-id="${item.id}"
+              aria-label="${item.name}"
+              aria-pressed="${isSelected}"
+            >
+              <div class="mili-thumb-wrap">
+                <div class="mili-thumb-sprite" style="${spriteStyle(item)}"></div>
+              </div>
+              ${activeMode === 'oc' ? `<span class="mili-card-cat">${item.category}</span>` : ''}
+              <div class="mili-card-overlay">
+                <p class="mili-card-name">${item.name}</p>
+              </div>
+            </button>
+          `;
+        })
+        .join('');
+    }
+
+    function renderLeftPanel() {
+      if (activeMode === 'sets') {
+        slotsGrid.style.display = 'none';
+        setPreviewWrap.style.display = '';
+
+        if (!selectedSet) {
+          setPreviewCard.className = 'mili-slot-card empty mili-set-preview-card';
+          setPreviewCard.innerHTML = `
+            <div class="mili-slot-empty-body">
+              <span class="mili-slot-plus">+</span>
+              <span class="mili-slot-label">Full Set</span>
+              <span class="mili-slot-sub">Select a set on the right</span>
+            </div>
+          `;
+          downloadBtn.disabled = true;
+          downloadLabel.textContent = 'Download Set';
+        } else {
+          setPreviewCard.className = 'mili-slot-card filled mili-set-preview-card';
+          setPreviewCard.innerHTML = `
+            <div class="mili-thumb-wrap mili-slot-thumb">
+              <div class="mili-thumb-sprite" style="${spriteStyle(selectedSet)}"></div>
+            </div>
+            <button type="button" class="mili-slot-remove" id="mili-set-remove" title="Remove set" aria-label="Remove set">&times;</button>
+            <div class="mili-slot-footer">
+              <span class="mili-slot-tag">Full Set</span>
+              <span class="mili-slot-name">${selectedSet.name}</span>
+            </div>
+          `;
+          downloadBtn.disabled = false;
+          downloadLabel.textContent = 'Download Set';
+        }
+        return;
+      }
+
+      slotsGrid.style.display = '';
+      setPreviewWrap.style.display = 'none';
+
+      const allSelected = Array.from(selectedByCategory.values());
+
+      // Update the 8 body-part squares
+      slotsGrid.querySelectorAll<HTMLElement>('.mili-slot-card').forEach((card) => {
+        const slotId = card.dataset.slotId as MiliSlotId;
+        const slotDef = MILI_SLOTS.find((s) => s.id === slotId)!;
+        const slotItems = allSelected.filter((i) => slotDef.categories.includes(i.category));
+        const primary = slotItems[slotItems.length - 1];
+        const isActiveSlot = slotId === activeSlotId;
+
+        if (!primary) {
+          card.className = `mili-slot-card empty${isActiveSlot ? ' active' : ''}`;
+          card.innerHTML = `
+            <div class="mili-slot-empty-body">
+              <span class="mili-slot-plus">+</span>
+              <span class="mili-slot-label">${slotDef.label}</span>
+              <span class="mili-slot-sub">${slotDef.sublabel}</span>
+            </div>
+          `;
+        } else {
+          card.className = `mili-slot-card filled${isActiveSlot ? ' active' : ''}`;
+          card.innerHTML = `
+            <div class="mili-thumb-wrap mili-slot-thumb">
+              <div class="mili-thumb-sprite" style="${spriteStyle(primary)}"></div>
+            </div>
+            <button type="button" class="mili-slot-remove" data-remove-slot="${slotId}" title="Remove ${slotDef.label}" aria-label="Remove ${slotDef.label}">&times;</button>
+            ${slotItems.length > 1 ? `<span class="mili-slot-badge">${slotItems.length}</span>` : ''}
+            <div class="mili-slot-footer">
+              <span class="mili-slot-tag">${slotDef.label}</span>
+              <span class="mili-slot-name">${primary.name}</span>
+            </div>
+          `;
+        }
+      });
+
+      if (allSelected.length === 0) {
+        downloadBtn.disabled = true;
+        downloadLabel.textContent = 'Download Character';
+      } else {
+        downloadBtn.disabled = false;
+        downloadLabel.textContent = `Download Character (${allSelected.length})`;
+      }
+    }
+
+    // Mode tab switch (OC Character vs Sets)
+    modeTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const nextMode = tab.dataset.mode as BuilderMode;
+        if (nextMode === activeMode) return;
+        activeMode = nextMode;
+        modeTabs.forEach((t) => {
+          const isAct = t.dataset.mode === activeMode;
+          t.classList.toggle('active', isAct);
+          t.setAttribute('aria-selected', String(isAct));
+        });
+        searchInput.placeholder =
+          activeMode === 'sets' ? 'Search sets...' : 'Search parts, outfits, eyes, hair...';
+        renderLeftPanel();
+        renderGrid();
+      });
+    });
+
+    // Card click: toggle selection
+    gridEl.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.mili-card');
+      if (!btn) return;
+      const id = Number(btn.dataset.itemId);
+      const item = MILI_ITEMS.find((i) => i.id === id);
+      if (!item) return;
+
+      if (activeMode === 'sets') {
+        selectedSet = selectedSet?.id === item.id ? null : item;
+      } else {
+        const current = selectedByCategory.get(item.category);
+        if (current?.id === item.id) {
+          selectedByCategory.delete(item.category);
+        } else {
+          selectedByCategory.set(item.category, item);
+        }
+      }
+      renderLeftPanel();
+      renderGrid();
+    });
+
+    // Set preview remove button
+    setPreviewCard.addEventListener('click', (e) => {
+      const rmBtn = (e.target as HTMLElement).closest<HTMLButtonElement>('#mili-set-remove');
+      if (!rmBtn) return;
+      selectedSet = null;
+      renderLeftPanel();
+      renderGrid();
+    });
+
+    // Left slot click (select category on left, or remove if × clicked)
+    slotsGrid.addEventListener('click', (e) => {
+      const rmBtn = (e.target as HTMLElement).closest<HTMLButtonElement>('.mili-slot-remove');
+      if (rmBtn) {
+        const slotId = rmBtn.dataset.removeSlot as MiliSlotId;
+        const slotDef = MILI_SLOTS.find((s) => s.id === slotId);
+        for (const cat of Array.from(selectedByCategory.keys())) {
+          if (slotDef?.categories.includes(cat)) selectedByCategory.delete(cat);
+        }
+        renderLeftPanel();
+        renderGrid();
+        return;
+      }
+
+      const card = (e.target as HTMLElement).closest<HTMLElement>('.mili-slot-card');
+      if (card) {
+        activeSlotId = card.dataset.slotId as MiliSlotId;
+        renderLeftPanel();
+        renderGrid();
+      }
+    });
+
+    // Gender switch
+    genderBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const nextGender = btn.dataset.gender as MiliGender;
+        if (nextGender === activeGender) return;
+        activeGender = nextGender;
+        genderBtns.forEach((b) => {
+          const isAct = b.dataset.gender === activeGender;
+          b.classList.toggle('active', isAct);
+          b.setAttribute('aria-pressed', String(isAct));
+        });
+
+        // Remove any selected items exclusive to the other gender
+        for (const [cat, item] of selectedByCategory.entries()) {
+          if (item.gender !== 'both' && item.gender !== activeGender) {
+            selectedByCategory.delete(cat);
+          }
+        }
+        if (selectedSet && selectedSet.gender !== 'both' && selectedSet.gender !== activeGender) {
+          selectedSet = null;
+        }
+        renderLeftPanel();
+        renderGrid();
+      });
+    });
+
+    searchInput.addEventListener('input', () => {
+      searchQuery = searchInput.value;
+      renderGrid();
+    });
+
+    clearAllBtn.addEventListener('click', () => {
+      if (activeMode === 'sets') {
+        selectedSet = null;
+      } else {
+        selectedByCategory.clear();
+      }
+      renderLeftPanel();
+      renderGrid();
+    });
+
+    downloadBtn.addEventListener('click', () => {
+      const allSelected =
+        activeMode === 'sets'
+          ? selectedSet
+            ? [selectedSet]
+            : []
+          : Array.from(selectedByCategory.values());
+      if (allSelected.length === 0) return;
+
+      dlTitleEl.textContent = activeMode === 'sets' ? 'Download Set' : 'Download Character';
+
+      // Populate download modal with direct links
+      dlListEl.innerHTML = allSelected
+        .map((item) => {
+          const dlUrl = toDirectDriveDownload(item.url);
+          const isDone = downloadedIds.has(item.id);
+          return `
+            <div class="mili-dl-row ${isDone ? 'is-downloaded' : ''}" data-dl-row="${item.id}">
+              <div class="mili-dl-row-left">
+                <div class="mili-thumb-wrap mili-dl-mini">
+                  <div class="mili-thumb-sprite" style="${spriteStyle(item)}"></div>
+                </div>
+                <div>
+                  <div class="mili-dl-name">${item.name}</div>
+                  <div class="mili-dl-meta">${item.category} · ${item.file}</div>
+                </div>
+              </div>
+              <div class="mili-dl-actions">
+                <span class="mili-dl-check" title="Downloaded" aria-label="Downloaded">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </span>
+                <a href="${dlUrl}" target="_blank" rel="noopener" class="mili-dl-link" data-dl-id="${item.id}">Download</a>
+              </div>
+            </div>
+          `;
+        })
+        .join('');
+
+      if (!dlDialog.open) dlDialog.showModal();
+      currentModalItems = allSelected;
+      triggerDownloadAll(allSelected);
+    });
+
+    dlAllBtn.addEventListener('click', () => {
+      if (currentModalItems.length === 0) return;
+      triggerDownloadAll(currentModalItems);
+    });
+
+    dlListEl.addEventListener('click', (e) => {
+      const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.mili-dl-link');
+      if (!link) return;
+      const id = Number(link.dataset.dlId);
+      if (!Number.isNaN(id)) {
+        downloadedIds.add(id);
+        link.closest('.mili-dl-row')?.classList.add('is-downloaded');
+      }
+    });
+
+    dlCloseBtn.addEventListener('click', () => {
+      if (dlDialog.open) dlDialog.close();
+    });
+
+    renderLeftPanel();
+    renderGrid();
+  }
+</script>

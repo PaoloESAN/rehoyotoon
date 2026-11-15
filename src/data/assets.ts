@@ -3,7 +3,7 @@ import { HSR_CHARACTERS } from './hsrCharacters';
 import { ZZZ_CHARACTERS } from './zzzCharacters';
 import { DRIVE_ASSETS } from './driveAssets';
 
-export type GameId = 'gi' | 'hsr' | 'zzz' | 'hi3';
+export type GameId = 'gi' | 'hsr' | 'zzz' | 'hi3' | 'miliastra';
 
 export interface CategoryDef {
   id: string;
@@ -105,6 +105,15 @@ export const GAMES: GameDef[] = [
       { id: 'chibis', label: 'Chibis', searchPlaceholder: 'Search chibis' },
       { id: 'monsters', label: 'Monsters', searchPlaceholder: 'Search monsters' },
       { id: 'weapons', label: 'Weapons', searchPlaceholder: 'Search weapons' },
+    ],
+  },
+  {
+    id: 'miliastra',
+    shortName: 'MW',
+    name: 'MILIASTRA WONDERLAND',
+    accentColor: '#e5b84b',
+    categories: [
+      { id: 'customizer', label: 'Customizer', searchPlaceholder: 'Search outfits, eyes, hair...' },
     ],
   },
 ];

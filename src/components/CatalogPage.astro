@@ -6,6 +6,7 @@ import AssetGrid from './AssetGrid.astro';
 import DetailModal from './DetailModal.astro';
 import FileBrowserModal from './FileBrowserModal.astro';
 import CreditsModal from './CreditsModal.astro';
+import MiliastraBuilder from './MiliastraBuilder.astro';
 import { ASSETS, GAMES, type GameId } from '../data/assets';
 
 interface Props {
@@ -36,12 +37,20 @@ const pageTitle = isHome
   >
     <Sidebar activeGame={activeGame} activeCategory={activeCategory} />
     <main class="main-content">
-      <HeaderBar
-        activeGame={activeGame}
-        activeCategory={activeCategory}
-        totalCount={totalCount}
-      />
-      <AssetGrid activeGame={activeGame} activeCategory={activeCategory} />
+      {
+        activeGame === 'miliastra' ? (
+          <MiliastraBuilder />
+        ) : (
+          <>
+            <HeaderBar
+              activeGame={activeGame}
+              activeCategory={activeCategory}
+              totalCount={totalCount}
+            />
+            <AssetGrid activeGame={activeGame} activeCategory={activeCategory} />
+          </>
+        )
+      }
     </main>
   </div>
 
@@ -60,6 +69,7 @@ const pageTitle = isHome
   const initialGame = (appShell.dataset.game as GameId) || 'gi';
   const initialCategory = appShell.dataset.category || 'characters';
 
+  if (initialGame !== 'miliastra') {
   interface AppState {
     game: GameId;
     category: string;
@@ -748,4 +758,5 @@ const pageTitle = isHome
   }
 
   initFromUrl();
+  }
 </script>

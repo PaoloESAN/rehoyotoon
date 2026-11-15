@@ -1294,3 +1294,645 @@ dialog:is([open]):where(:not([data-closing]))::backdrop {
     padding: 18px 16px 28px;
   }
 }
+
+
+/* ==========================================================================
+   Miliastra Wonderland Character Builder
+   ========================================================================== */
+
+.mili-layout {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.mili-left-panel {
+  position: sticky;
+  top: 22px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mili-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mili-panel-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.mili-clear-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.16s ease, color 0.16s ease, background 0.16s ease;
+}
+
+.mili-clear-btn:hover {
+  border-color: rgba(229, 184, 75, 0.45);
+  color: var(--text-primary);
+  background: rgba(229, 184, 75, 0.08);
+}
+
+.mili-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.mili-slot-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #141224;
+  border: 1px solid var(--border-subtle);
+  min-height: 158px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.16s ease, transform 0.16s ease;
+}
+
+.mili-slot-card.empty {
+  border-style: dashed;
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.02);
+  align-items: center;
+  justify-content: center;
+}
+
+.mili-slot-card.filled {
+  border-color: rgba(229, 184, 75, 0.45);
+}
+
+.mili-slot-empty-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 10px;
+  gap: 4px;
+}
+
+.mili-slot-plus {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.mili-slot-label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mili-slot-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.25;
+}
+
+.mili-slot-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #141224;
+  overflow: hidden;
+}
+
+.mili-slot-badge {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  z-index: 2;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(14, 13, 24, 0.84);
+  border: 1px solid rgba(229, 184, 75, 0.45);
+  color: var(--gold-primary);
+  font-size: 10.5px;
+  font-weight: 700;
+}
+
+.mili-slot-remove {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 2;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(14, 13, 24, 0.85);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mili-slot-remove:hover {
+  background: #b91c1c;
+  border-color: #ef4444;
+}
+
+.mili-slot-footer {
+  padding: 7px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: rgba(14, 13, 24, 0.92);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.mili-slot-tag {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gold-primary);
+}
+
+.mili-slot-name {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mili-selected-summary {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 11px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mili-summary-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.mili-summary-count {
+  color: var(--gold-primary);
+}
+
+.mili-selected-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 132px;
+  overflow-y: auto;
+}
+
+.mili-empty-hint {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.mili-sel-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(229, 184, 75, 0.12);
+  border: 1px solid rgba(229, 184, 75, 0.35);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.mili-sel-chip-rm {
+  background: none;
+  border: none;
+  color: var(--gold-primary);
+  font-size: 13px;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.mili-download-btn {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #e5b84b, #c8962e);
+  color: #161321;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease;
+}
+
+.mili-download-btn:hover:not(:disabled) {
+  filter: brightness(1.07);
+  transform: translateY(-1px);
+}
+
+.mili-download-btn:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+.mili-right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.mili-toolbar {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mili-toolbar-top {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.mili-gender-switch {
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  gap: 4px;
+}
+
+.mili-gender-btn {
+  padding: 7px 14px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.mili-gender-btn small {
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.72;
+}
+
+.mili-gender-btn.active {
+  background: rgba(229, 184, 75, 0.18);
+  border-color: rgba(229, 184, 75, 0.5);
+  color: var(--gold-primary);
+}
+
+.mili-cat-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.mili-cat-pill {
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.mili-cat-pill:hover {
+  border-color: rgba(229, 184, 75, 0.4);
+  color: var(--text-primary);
+}
+
+.mili-cat-pill.active {
+  background: rgba(229, 184, 75, 0.18);
+  border-color: rgba(229, 184, 75, 0.55);
+  color: var(--gold-primary);
+}
+
+.mili-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+  gap: 12px;
+}
+
+.mili-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background: #141224;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.mili-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 184, 75, 0.5);
+}
+
+.mili-card.selected {
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 0 2px rgba(229, 184, 75, 0.32);
+}
+
+.mili-thumb-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  background: #141224;
+}
+
+.mili-thumb-sprite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 132%;
+  background-repeat: no-repeat;
+}
+
+.mili-card-cat {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  z-index: 2;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(14, 13, 24, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.mili-card-overlay {
+  padding: 8px 9px;
+  background: rgba(16, 15, 26, 0.94);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.mili-card-name {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mili-dl-dialog {
+  max-width: 640px;
+  width: min(92vw, 640px);
+}
+
+.mili-dl-body {
+  padding: 0 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mili-dl-note {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+
+.mili-dl-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 52vh;
+  overflow-y: auto;
+}
+
+.mili-dl-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+}
+
+.mili-dl-row-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.mili-dl-mini {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.mili-dl-name {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mili-dl-meta {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.mili-dl-link {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(229, 184, 75, 0.16);
+  border: 1px solid rgba(229, 184, 75, 0.45);
+  color: var(--gold-primary);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.mili-dl-link:hover {
+  background: rgba(229, 184, 75, 0.28);
+}
+
+@media (max-width: 980px) {
+  .mili-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .mili-left-panel {
+    position: static;
+  }
+}
+
+.mili-mode-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  padding: 4px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+}
+
+.mili-mode-tab {
+  padding: 8px 10px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.mili-mode-tab:hover {
+  color: var(--text-primary);
+}
+
+.mili-mode-tab.active {
+  background: rgba(229, 184, 75, 0.18);
+  border-color: rgba(229, 184, 75, 0.5);
+  color: var(--gold-primary);
+}
+
+.mili-set-preview-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.mili-set-preview-card {
+  min-height: 240px;
+}
+
+.mili-slot-card {
+  cursor: pointer;
+}
+
+.mili-slot-card.filled {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.mili-slot-card.active,
+.mili-slot-card.empty.active,
+.mili-slot-card.filled.active {
+  border: 2px solid #facc15;
+  box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.28), 0 0 16px rgba(250, 204, 21, 0.16);
+}
+
+.mili-slots-grid .mili-slot-card {
+  min-height: 124px;
+}
+
+.mili-slots-grid .mili-slot-empty-body {
+  padding: 10px 8px;
+}
+
+.mili-slots-grid .mili-slot-card {
+  min-height: 108px;
+}
+
+.mili-dl-dialog {
+  width: min(620px, calc(100vw - 32px));
+}
+
+.mili-dl-body {
+  padding: 0;
+}
+
+.mili-dl-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.mili-dl-check {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(34, 197, 94, 0.16);
+  border: 1px solid rgba(34, 197, 94, 0.55);
+  color: #4ade80;
+  align-items: center;
+  justify-content: center;
+}
+
+.mili-dl-row.is-downloaded {
+  border-color: rgba(34, 197, 94, 0.42);
+  background: rgba(34, 197, 94, 0.06);
+}
+
+.mili-dl-row.is-downloaded .mili-dl-check {
+  display: inline-flex;
+}
