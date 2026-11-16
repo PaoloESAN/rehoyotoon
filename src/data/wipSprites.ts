@@ -6860,191 +6860,9 @@ export const WIP_SPRITES: Record<number, SpriteCrop> = {
     "row": 0,
     "col": 6
   },
-  "30001347": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 0,
-    "col": 0
-  },
-  "30001348": {
-    "src": "/sheets/GenshinMonsters01.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 0
-  },
-  "30001349": {
-    "src": "/sheets/GenshinMonsters01.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 1,
-    "col": 7
-  },
-  "30001350": {
-    "src": "/sheets/GenshinMonsters01.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 4,
-    "col": 0
-  },
-  "30001351": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 1,
-    "col": 11
-  },
-  "30001352": {
-    "src": "/sheets/GenshinMonsters01.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 0,
-    "col": 4
-  },
-  "30001353": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 2,
-    "col": 15
-  },
-  "30001354": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 3,
-    "col": 10
-  },
-  "30001355": {
-    "src": "/sheets/GenshinMonsters04.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 2,
-    "col": 0
-  },
-  "30001356": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 1,
-    "col": 5
-  },
-  "30001357": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 4,
-    "col": 5
-  },
-  "30001358": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 4,
-    "col": 14
-  },
-  "30001359": {
-    "src": "/sheets/GenshinMonsters04.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 3,
-    "col": 14
-  },
-  "30001360": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 0
-  },
-  "30001361": {
-    "src": "/sheets/GenshinMonsters04.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 4,
-    "col": 12
-  },
-  "30001362": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 0,
-    "col": 8
-  },
-  "30001363": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 11
-  },
-  "30001364": {
-    "src": "/sheets/GenshinMonsters04.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 6,
-    "col": 2
-  },
-  "30001365": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 6,
-    "col": 7
-  },
-  "30001366": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 16
-  },
-  "30001367": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 4
-  },
-  "30001368": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 5,
-    "col": 0
-  },
-  "30001369": {
-    "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 5,
-    "col": 7
-  },
-  "30001370": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 7,
-    "col": 4
-  },
-  "30001371": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 0,
-    "col": 11
-  },
-  "30001372": {
-    "src": "/sheets/GenshinMonsters03.png",
-    "cols": 18,
-    "rows": 8,
-    "row": 1,
-    "col": 1
-  },
   "30001373": {
     "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
+    "cols": 19,
     "rows": 8,
     "row": 4,
     "col": 6
@@ -7100,17 +6918,17 @@ export const WIP_SPRITES: Record<number, SpriteCrop> = {
   },
   "30001385": {
     "src": "/sheets/GenshinMonsters02.png",
-    "cols": 18,
+    "cols": 19,
     "rows": 8,
     "row": 0,
-    "col": 12
+    "col": 13
   },
   "30001386": {
     "src": "/sheets/GenshinMonsters01.png",
-    "cols": 18,
+    "cols": 19,
     "rows": 8,
     "row": 0,
-    "col": 17
+    "col": 18
   },
   "30001387": {
     "src": "/sheets/GenshinMonsters03.png",
@@ -9785,5 +9603,3687 @@ export const WIP_SPRITES: Record<number, SpriteCrop> = {
     "rows": 6,
     "row": 1,
     "col": 4
+  },
+  "30001819": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 17
+  },
+  "30001820": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 9
+  },
+  "30001821": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 1
+  },
+  "30001822": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 18
+  },
+  "30001823": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 12
+  },
+  "30001824": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 0
+  },
+  "30001825": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 1
+  },
+  "30001826": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 16
+  },
+  "30001827": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 10
+  },
+  "30001828": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 16
+  },
+  "30001829": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 14
+  },
+  "30001830": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 17
+  },
+  "30001831": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 15
+  },
+  "30001832": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 18
+  },
+  "30001833": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 9
+  },
+  "30001834": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 8
+  },
+  "30001835": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 3
+  },
+  "30001836": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 4
+  },
+  "30001837": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 6
+  },
+  "30001838": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 6
+  },
+  "30001839": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 11
+  },
+  "30001840": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 16
+  },
+  "30001841": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 7
+  },
+  "30001842": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 13
+  },
+  "30001843": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 10
+  },
+  "30001844": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 17
+  },
+  "30001845": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 12
+  },
+  "30001846": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 0
+  },
+  "30001847": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 2
+  },
+  "30001848": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 18
+  },
+  "30001849": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 8
+  },
+  "30001850": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 14
+  },
+  "30001851": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 1
+  },
+  "30001852": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 7
+  },
+  "30001853": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 2
+  },
+  "30001854": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 15
+  },
+  "30001855": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 13
+  },
+  "30001856": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 2
+  },
+  "30001857": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 4
+  },
+  "30001858": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 5
+  },
+  "30001859": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 11
+  },
+  "30001860": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 4
+  },
+  "30001861": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 0
+  },
+  "30001862": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 5
+  },
+  "30001863": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 3
+  },
+  "30001864": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 13
+  },
+  "30001865": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 0
+  },
+  "30001866": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 18
+  },
+  "30001867": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 17
+  },
+  "30001868": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 8
+  },
+  "30001869": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 1
+  },
+  "30001870": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 2
+  },
+  "30001871": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 3
+  },
+  "30001872": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 3
+  },
+  "30001873": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 9
+  },
+  "30001874": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 4
+  },
+  "30001875": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 14
+  },
+  "30001876": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 5
+  },
+  "30001877": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 14
+  },
+  "30001878": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 18
+  },
+  "30001879": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 11
+  },
+  "30001880": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 16
+  },
+  "30001881": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 8
+  },
+  "30001882": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 0
+  },
+  "30001883": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 1
+  },
+  "30001884": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 14
+  },
+  "30001885": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 4
+  },
+  "30001886": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 10
+  },
+  "30001887": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 3
+  },
+  "30001888": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 15
+  },
+  "30001889": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 6
+  },
+  "30001890": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 13
+  },
+  "30001891": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 17
+  },
+  "30001892": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 16
+  },
+  "30001893": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 2
+  },
+  "30001894": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 6
+  },
+  "30001895": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 17
+  },
+  "30001896": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 10
+  },
+  "30001897": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 3
+  },
+  "30001898": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 12
+  },
+  "30001899": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 2
+  },
+  "30001900": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 12
+  },
+  "30001901": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 0
+  },
+  "30001902": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 5
+  },
+  "30001903": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 11
+  },
+  "30001904": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 7
+  },
+  "30001905": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 15
+  },
+  "30001906": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 15
+  },
+  "30001907": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 4
+  },
+  "30001908": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 13
+  },
+  "30001909": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 9
+  },
+  "30001910": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 7
+  },
+  "30001911": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 9
+  },
+  "30001912": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 8
+  },
+  "30001913": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 17
+  },
+  "30001914": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 16
+  },
+  "30001915": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 1
+  },
+  "30001916": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 18
+  },
+  "30001917": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 18
+  },
+  "30001918": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 14
+  },
+  "30001919": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 0
+  },
+  "30001920": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 6
+  },
+  "30001921": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 9
+  },
+  "30001922": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 3
+  },
+  "30001923": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 10
+  },
+  "30001924": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 1
+  },
+  "30001925": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 7
+  },
+  "30001926": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 13
+  },
+  "30001927": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 12
+  },
+  "30001928": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 5
+  },
+  "30001929": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 8
+  },
+  "30001930": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 4
+  },
+  "30001931": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 2
+  },
+  "30001932": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 14
+  },
+  "30001933": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 11
+  },
+  "30001934": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 10
+  },
+  "30001935": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 6
+  },
+  "30001936": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 9
+  },
+  "30001937": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 0
+  },
+  "30001938": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 12
+  },
+  "30001939": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 3
+  },
+  "30001940": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 0
+  },
+  "30001941": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 2
+  },
+  "30001942": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 17
+  },
+  "30001943": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 8
+  },
+  "30001944": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 5
+  },
+  "30001945": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 15
+  },
+  "30001946": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 17
+  },
+  "30001947": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 0
+  },
+  "30001948": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 11
+  },
+  "30001949": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 4
+  },
+  "30001950": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 6
+  },
+  "30001951": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 16
+  },
+  "30001952": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 12
+  },
+  "30001953": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 5
+  },
+  "30001954": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 18
+  },
+  "30001955": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 10
+  },
+  "30001956": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 13
+  },
+  "30001957": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 14
+  },
+  "30001958": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 16
+  },
+  "30001959": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 18
+  },
+  "30001960": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 8
+  },
+  "30001961": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 7
+  },
+  "30001962": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 14
+  },
+  "30001963": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 13
+  },
+  "30001964": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 7
+  },
+  "30001965": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 4
+  },
+  "30001966": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 16
+  },
+  "30001967": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 11
+  },
+  "30001968": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 4
+  },
+  "30001969": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 3
+  },
+  "30001970": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 15
+  },
+  "30001971": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 10
+  },
+  "30001972": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 15
+  },
+  "30001973": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 9
+  },
+  "30001974": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 15
+  },
+  "30001975": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 12
+  },
+  "30001976": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 8
+  },
+  "30001977": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 13
+  },
+  "30001978": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 6
+  },
+  "30001979": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 7
+  },
+  "30001980": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 1
+  },
+  "30001981": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 1
+  },
+  "30001982": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 17
+  },
+  "30001983": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 5
+  },
+  "30001984": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 16
+  },
+  "30001985": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 8
+  },
+  "30001986": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 4
+  },
+  "30001987": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 1
+  },
+  "30001988": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 15
+  },
+  "30001989": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 9
+  },
+  "30001990": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 12
+  },
+  "30001991": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 18
+  },
+  "30001992": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 1
+  },
+  "30001993": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 11
+  },
+  "30001994": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 10
+  },
+  "30001995": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 15
+  },
+  "30001996": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 3
+  },
+  "30001997": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 17
+  },
+  "30001998": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 14
+  },
+  "30001999": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 3
+  },
+  "30002000": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 7
+  },
+  "30002001": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 6
+  },
+  "30002002": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 6
+  },
+  "30002003": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 2
+  },
+  "30002004": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 18
+  },
+  "30002005": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 0
+  },
+  "30002006": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 7
+  },
+  "30002007": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 2
+  },
+  "30002008": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 16
+  },
+  "30002009": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 5
+  },
+  "30002010": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 4
+  },
+  "30002011": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 13
+  },
+  "30002012": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 8
+  },
+  "30002013": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 9
+  },
+  "30002014": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 5
+  },
+  "30002015": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 13
+  },
+  "30002016": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 10
+  },
+  "30002017": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 7
+  },
+  "30002018": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 4
+  },
+  "30002019": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 11
+  },
+  "30002020": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 7
+  },
+  "30002021": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 6
+  },
+  "30002022": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 1
+  },
+  "30002023": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 6
+  },
+  "30002024": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 3
+  },
+  "30002025": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 2
+  },
+  "30002026": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 12
+  },
+  "30002027": {
+    "src": "/sheets/GenshinMonsters01.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 0
+  },
+  "30002028": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 3
+  },
+  "30002029": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 8
+  },
+  "30002030": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 17
+  },
+  "30002031": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 18
+  },
+  "30002032": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 16
+  },
+  "30002033": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 1
+  },
+  "30002034": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 4
+  },
+  "30002035": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 0
+  },
+  "30002036": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 7
+  },
+  "30002037": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 5
+  },
+  "30002038": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 2
+  },
+  "30002039": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 6
+  },
+  "30002040": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 16
+  },
+  "30002041": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 15
+  },
+  "30002042": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 12
+  },
+  "30002043": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 13
+  },
+  "30002044": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 18
+  },
+  "30002045": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 17
+  },
+  "30002046": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 3
+  },
+  "30002047": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 14
+  },
+  "30002048": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 5
+  },
+  "30002049": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 7
+  },
+  "30002050": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 9
+  },
+  "30002051": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 13
+  },
+  "30002052": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 5
+  },
+  "30002053": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 0
+  },
+  "30002054": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 5
+  },
+  "30002055": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 9
+  },
+  "30002056": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 2
+  },
+  "30002057": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 12
+  },
+  "30002058": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 6
+  },
+  "30002059": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 10
+  },
+  "30002060": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 1
+  },
+  "30002061": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 4
+  },
+  "30002062": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 17
+  },
+  "30002063": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 8
+  },
+  "30002064": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 15
+  },
+  "30002065": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 6
+  },
+  "30002066": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 3
+  },
+  "30002067": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 16
+  },
+  "30002068": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 10
+  },
+  "30002069": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 18
+  },
+  "30002070": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 7
+  },
+  "30002071": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 11
+  },
+  "30002072": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 14
+  },
+  "30002073": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 4
+  },
+  "30002074": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 11
+  },
+  "30002075": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 8
+  },
+  "30002076": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 4
+  },
+  "30002077": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 7
+  },
+  "30002078": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 15
+  },
+  "30002079": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 16
+  },
+  "30002080": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 17
+  },
+  "30002081": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 15
+  },
+  "30002082": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 6
+  },
+  "30002083": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 2
+  },
+  "30002084": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 13
+  },
+  "30002085": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 14
+  },
+  "30002086": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 11
+  },
+  "30002087": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 12
+  },
+  "30002088": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 7
+  },
+  "30002089": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 12
+  },
+  "30002090": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 5
+  },
+  "30002091": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 10
+  },
+  "30002092": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 13
+  },
+  "30002093": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 11
+  },
+  "30002094": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 6
+  },
+  "30002095": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 9
+  },
+  "30002096": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 9
+  },
+  "30002097": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 1
+  },
+  "30002098": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 8
+  },
+  "30002099": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 14
+  },
+  "30002100": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 5
+  },
+  "30002101": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 10
+  },
+  "30002102": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 0
+  },
+  "30002103": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 8
+  },
+  "30002104": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 3
+  },
+  "30002105": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 4
+  },
+  "30002106": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 18
+  },
+  "30002107": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 8
+  },
+  "30002108": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 7
+  },
+  "30002109": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 10
+  },
+  "30002110": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 6
+  },
+  "30002111": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 11
+  },
+  "30002112": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 9
+  },
+  "30002113": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 2
+  },
+  "30002114": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 7
+  },
+  "30002115": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 14
+  },
+  "30002116": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 4
+  },
+  "30002117": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 13
+  },
+  "30002118": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 16
+  },
+  "30002119": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 15
+  },
+  "30002120": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 18
+  },
+  "30002121": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 1
+  },
+  "30002122": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 6
+  },
+  "30002123": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 8
+  },
+  "30002124": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 17
+  },
+  "30002125": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 12
+  },
+  "30002126": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 5
+  },
+  "30002127": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 3
+  },
+  "30002128": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 0
+  },
+  "30002129": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 6
+  },
+  "30002130": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 14
+  },
+  "30002131": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 9
+  },
+  "30002132": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 0
+  },
+  "30002133": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 12
+  },
+  "30002134": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 5
+  },
+  "30002135": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 17
+  },
+  "30002136": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 16
+  },
+  "30002137": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 11
+  },
+  "30002138": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 7
+  },
+  "30002139": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 13
+  },
+  "30002140": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 8
+  },
+  "30002141": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 18
+  },
+  "30002142": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 3
+  },
+  "30002143": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 1
+  },
+  "30002144": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 2
+  },
+  "30002145": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 15
+  },
+  "30002146": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 16
+  },
+  "30002147": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 0
+  },
+  "30002148": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 1
+  },
+  "30002149": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 10
+  },
+  "30002150": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 4
+  },
+  "30002151": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 2
+  },
+  "30002152": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 18
+  },
+  "30002153": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 17
+  },
+  "30002154": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 1
+  },
+  "30002155": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 10
+  },
+  "30002156": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 9
+  },
+  "30002157": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 12
+  },
+  "30002158": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 17
+  },
+  "30002159": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 18
+  },
+  "30002160": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 18
+  },
+  "30002161": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 1
+  },
+  "30002162": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 16
+  },
+  "30002163": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 2
+  },
+  "30002164": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 17
+  },
+  "30002165": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 14
+  },
+  "30002166": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 10
+  },
+  "30002167": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 6
+  },
+  "30002168": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 3
+  },
+  "30002169": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 8
+  },
+  "30002170": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 11
+  },
+  "30002171": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 16
+  },
+  "30002172": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 11
+  },
+  "30002173": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 0
+  },
+  "30002174": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 7
+  },
+  "30002175": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 12
+  },
+  "30002176": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 15
+  },
+  "30002177": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 9
+  },
+  "30002178": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 4
+  },
+  "30002179": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 2
+  },
+  "30002180": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 14
+  },
+  "30002181": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 13
+  },
+  "30002182": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 15
+  },
+  "30002183": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 5
+  },
+  "30002184": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 3
+  },
+  "30002185": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 13
+  },
+  "30002186": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 0
+  },
+  "30002187": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 5
+  },
+  "30002188": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 3
+  },
+  "30002189": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 7
+  },
+  "30002190": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 4
+  },
+  "30002191": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 15
+  },
+  "30002192": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 18
+  },
+  "30002193": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 14
+  },
+  "30002194": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 12
+  },
+  "30002195": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 6
+  },
+  "30002196": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 10
+  },
+  "30002197": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 8
+  },
+  "30002198": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 0
+  },
+  "30002199": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 9
+  },
+  "30002200": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 17
+  },
+  "30002201": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 16
+  },
+  "30002202": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 13
+  },
+  "30002203": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 11
+  },
+  "30002204": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 10
+  },
+  "30002205": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 8
+  },
+  "30002206": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 9
+  },
+  "30002207": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 15
+  },
+  "30002208": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 16
+  },
+  "30002209": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 12
+  },
+  "30002210": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 13
+  },
+  "30002211": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 14
+  },
+  "30002212": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 11
+  },
+  "30002213": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 1
+  },
+  "30002214": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 5
+  },
+  "30002215": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 4
+  },
+  "30002216": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 6
+  },
+  "30002217": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 7
+  },
+  "30002218": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 10
+  },
+  "30002219": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 5
+  },
+  "30002220": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 12
+  },
+  "30002221": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 1
+  },
+  "30002222": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 17
+  },
+  "30002223": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 13
+  },
+  "30002224": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 8
+  },
+  "30002225": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 3
+  },
+  "30002226": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 17
+  },
+  "30002227": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 0
+  },
+  "30002228": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 14
+  },
+  "30002229": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 10
+  },
+  "30002230": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 8
+  },
+  "30002231": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 6
+  },
+  "30002232": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 15
+  },
+  "30002233": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 2
+  },
+  "30002234": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 13
+  },
+  "30002235": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 3
+  },
+  "30002236": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 4
+  },
+  "30002237": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 12
+  },
+  "30002238": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 9
+  },
+  "30002239": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 7
+  },
+  "30002240": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 16
+  },
+  "30002241": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 15
+  },
+  "30002242": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 1
+  },
+  "30002243": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 9
+  },
+  "30002244": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 11
+  },
+  "30002245": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 2
+  },
+  "30002246": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 0
+  },
+  "30002247": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 4
+  },
+  "30002248": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 18
+  },
+  "30002249": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 5
+  },
+  "30002250": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 14
+  },
+  "30002251": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 2
+  },
+  "30002252": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 3
+  },
+  "30002253": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 18
+  },
+  "30002254": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 16
+  },
+  "30002255": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 5
+  },
+  "30002256": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 0
+  },
+  "30002257": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 2
+  },
+  "30002258": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 7
+  },
+  "30002259": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 4
+  },
+  "30002260": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 18
+  },
+  "30002261": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 11
+  },
+  "30002262": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 13
+  },
+  "30002263": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 8
+  },
+  "30002264": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 14
+  },
+  "30002265": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 12
+  },
+  "30002266": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 10
+  },
+  "30002267": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 15
+  },
+  "30002268": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 1
+  },
+  "30002269": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 9
+  },
+  "30002270": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 5
+  },
+  "30002271": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 16
+  },
+  "30002272": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 3
+  },
+  "30002273": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 17
+  },
+  "30002274": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 4
+  },
+  "30002275": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 6
+  },
+  "30002276": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 11
+  },
+  "30002277": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 4
+  },
+  "30002278": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 2
+  },
+  "30002279": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 0
+  },
+  "30002280": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 8
+  },
+  "30002281": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 6
+  },
+  "30002282": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 9
+  },
+  "30002283": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 18
+  },
+  "30002284": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 17
+  },
+  "30002285": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 5
+  },
+  "30002286": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 7
+  },
+  "30002287": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 3
+  },
+  "30002288": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 7
+  },
+  "30002289": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 7,
+    "col": 10
+  },
+  "30002290": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 1
+  },
+  "30002291": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 6
+  },
+  "30002292": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 2
+  },
+  "30002293": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 3
+  },
+  "30002294": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 0
+  },
+  "30002295": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 17
+  },
+  "30002296": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 16
+  },
+  "30002297": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 18
+  },
+  "30002298": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 6
+  },
+  "30002299": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 5
+  },
+  "30002300": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 1
+  },
+  "30002301": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 4
+  },
+  "30002302": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 2
+  },
+  "30002303": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 3
+  },
+  "30002304": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 11
+  },
+  "30002305": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 8
+  },
+  "30002306": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 18
+  },
+  "30002307": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 13
+  },
+  "30002308": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 17
+  },
+  "30002309": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 14
+  },
+  "30002310": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 1
+  },
+  "30002311": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 9
+  },
+  "30002312": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 7
+  },
+  "30002313": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 10
+  },
+  "30002314": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 15
+  },
+  "30002315": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 6,
+    "col": 0
+  },
+  "30002316": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 16
+  },
+  "30002317": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 5,
+    "col": 12
+  },
+  "30002318": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 12
+  },
+  "30002319": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 9
+  },
+  "30002320": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 9
+  },
+  "30002321": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 10
+  },
+  "30002322": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 13
+  },
+  "30002323": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 14
+  },
+  "30002324": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 11
+  },
+  "30002325": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 5
+  },
+  "30002326": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 13
+  },
+  "30002327": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 3,
+    "col": 10
+  },
+  "30002328": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 15
+  },
+  "30002329": {
+    "src": "/sheets/GenshinMonsters04.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 2,
+    "col": 15
+  },
+  "30002330": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 11
+  },
+  "30002331": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 14
+  },
+  "30002332": {
+    "src": "/sheets/GenshinMonsters02.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 4,
+    "col": 12
+  },
+  "30002333": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 13
+  },
+  "30002334": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 14
+  },
+  "30002335": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 15
+  },
+  "30002336": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 11
+  },
+  "30002337": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 12
+  },
+  "30002338": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 16
+  },
+  "30002339": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 2
+  },
+  "30002340": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 1
+  },
+  "30002341": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 17
+  },
+  "30002342": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 0
+  },
+  "30002343": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 0,
+    "col": 18
+  },
+  "30002344": {
+    "src": "/sheets/GenshinMonsters03.png",
+    "cols": 19,
+    "rows": 8,
+    "row": 1,
+    "col": 3
   }
 };

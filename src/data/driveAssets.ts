@@ -9327,188 +9327,6 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1qeqZCmE_VghKKvt8Vaf8_-zE5NlZHd_m&export=download&confirm=t"
   },
   {
-    "id": 30001347,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Animals_Beasts",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MzM6og4rcdFLlV6C3P9MLw-usW6WdbeW&export=download&confirm=t"
-  },
-  {
-    "id": 30001348,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Animals_Birds",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HUV4jcnOsonz0u2y-TVbDlue0btIGS22&export=download&confirm=t"
-  },
-  {
-    "id": 30001349,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Animals_Bug",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=18p_yjw_K-KWlRiAR0khGSo8dTBqRTy69&export=download&confirm=t"
-  },
-  {
-    "id": 30001350,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Animals_Fish",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QybheBLdbBlp5wRSgh6kVhva6n4LOcQu&export=download&confirm=t"
-  },
-  {
-    "id": 30001351,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Animals_Pets",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lsl4Q_mVtw6UWlekkgnQWmeIPehxbGQC&export=download&confirm=t"
-  },
-  {
-    "id": 30001352,
-    "game": "gi",
-    "category": "monsters",
-    "name": "BossesWeekly",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mH2O7DwDYlYMRwemiF7riPigDOSCjaNO&export=download&confirm=t"
-  },
-  {
-    "id": 30001353,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_Eremites",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Z629opKvPWzqBIo7GoL2zaqqimrLv42A&export=download&confirm=t"
-  },
-  {
-    "id": 30001354,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_Fae",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pskaQZ5MjJdn6N4gT5s3VOkickT4n0bJ&export=download&confirm=t"
-  },
-  {
-    "id": 30001355,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_Fatui",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=15BwsuMJ7klTe_DF8iBd1abwnEycBhs8E&export=download&confirm=t"
-  },
-  {
-    "id": 30001356,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_NatlanWarriors",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GPkU9FJxxhHyMAIS5TRoVO-XUGSpR1P3&export=download&confirm=t"
-  },
-  {
-    "id": 30001357,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_Nobushi",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=10vu3xgGCZfRr58WnbDAkt-4TQTGr7SSW&export=download&confirm=t"
-  },
-  {
-    "id": 30001358,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Enemies_TreasureHoarders",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YfQmfndEqAH8414lEaYFFXGc7VaW5D1G&export=download&confirm=t"
-  },
-  {
-    "id": 30001359,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Abyss",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1A1soC0r5YZhI_opOeXvDFehly0tQiKsC&export=download&confirm=t"
-  },
-  {
-    "id": 30001360,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Automatons",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Kx8oXJOU0A1tD9H6gET1U6SdZ7znyQq_&export=download&confirm=t"
-  },
-  {
-    "id": 30001361,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Churls",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=10niycywmHLdr-yMxEhSjGvfPSlKqhFkl&export=download&confirm=t"
-  },
-  {
-    "id": 30001362,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Cicins",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=16jN1CWNttVtl0VomZ5ZQMRQdcI71m5H2&export=download&confirm=t"
-  },
-  {
-    "id": 30001363,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_ConsecratedBeasts",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YaEzbfvSLmlkB7ciDIwNL37lMPIqlxq4&export=download&confirm=t"
-  },
-  {
-    "id": 30001364,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Elementals",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OXTtjsCswbXZOB7w5i15JiXs8iUEalVh&export=download&confirm=t"
-  },
-  {
-    "id": 30001365,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Fontaine",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OP4DzruRaz82UkQNS53aonn1yO6GhLHX&export=download&confirm=t"
-  },
-  {
-    "id": 30001366,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Fungus",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IzujnGEg91fYpXDMOujxZwxXTSfQhTHl&export=download&confirm=t"
-  },
-  {
-    "id": 30001367,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Liyue",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YVKHGPccLUXpjFepThqxDYqtd0xmOgrk&export=download&confirm=t"
-  },
-  {
-    "id": 30001368,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Natlan",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OvGspJ0wYCaYNZ3I-JEc2c9ZK3KvVn-y&export=download&confirm=t"
-  },
-  {
-    "id": 30001369,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Saurians",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1b3qbrZq6yeEHjGa7CzCeBXJCWrclbN03&export=download&confirm=t"
-  },
-  {
-    "id": 30001370,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Snezhnaya",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GKXJ0kuV0uZ3tYUq6s-yQMu-GD8u-rYy&export=download&confirm=t"
-  },
-  {
-    "id": 30001371,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Vishaps",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YrWWEmp2MuScU5y0U2az5SVkFams0iDf&export=download&confirm=t"
-  },
-  {
-    "id": 30001372,
-    "game": "gi",
-    "category": "monsters",
-    "name": "Monsters_Whopperflowers",
-    "downloadUrl": "https://drive.usercontent.google.com/download?id=1o6-ZH1GMSS6UBoeNKOk-u7OdcUjP7C-x&export=download&confirm=t"
-  },
-  {
     "id": 30001373,
     "game": "gi",
     "category": "monsters",
@@ -12601,5 +12419,3687 @@ export const DRIVE_ASSETS: DriveAssetSeed[] = [
     "category": "weapons",
     "name": "Serpent Devourer Sublimation",
     "downloadUrl": "https://drive.usercontent.google.com/download?id=1DkEbGhAaP5ZLui102jyI3mZ-Gm9KrSm3&export=download&confirm=t"
+  },
+  {
+    "id": 30001819,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flying Serpent",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10HdiRlCkVfzV4-Z2d6Lxz4d--nKefemv&export=download&confirm=t"
+  },
+  {
+    "id": 30001820,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frog",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10K9I_4KChJ-ZG35-Z9ybFdDHAVxoDUWs&export=download&confirm=t"
+  },
+  {
+    "id": 30001821,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Scorpion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11iTNqpOAYi7XCUYqMYokk9IPFu7Wr5ag&export=download&confirm=t"
+  },
+  {
+    "id": 30001822,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pale Furred Wolf",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=137IlBdDyBx4jVWAuZA4m7Ehd2Vkfu_vz&export=download&confirm=t"
+  },
+  {
+    "id": 30001823,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Marrow Lizard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13_At5PnBYvUHH8pxcW6-1J7lOtJaPaND&export=download&confirm=t"
+  },
+  {
+    "id": 30001824,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blunthorn Rhino",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15QSrIrPZ76uREUA6jmGDSQMNJmWsfks-&export=download&confirm=t"
+  },
+  {
+    "id": 30001825,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cacaua Goat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16I5LgWlRNSAiAzvuHuTCFWxfPVuqxlDQ&export=download&confirm=t"
+  },
+  {
+    "id": 30001826,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Chic Badger",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=17QbZqNcFuOMlV-DuH8aD-d593IOLJKPt&export=download&confirm=t"
+  },
+  {
+    "id": 30001827,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shroomboar2",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18OsMg3Euw8k4e5O7fERVDMEZhF-Z43-Q&export=download&confirm=t"
+  },
+  {
+    "id": 30001828,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Desert Fox",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18nWV-3U70x3bq7lhd5bIPe6j-JwzT9sT&export=download&confirm=t"
+  },
+  {
+    "id": 30001829,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Loach",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19HjWmMaWVh10KWvYIhvzOjOFCvApIgBo&export=download&confirm=t"
+  },
+  {
+    "id": 30001830,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crimson Fox",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19MODmgz2N2kGEbgZipKA_6cLdQbd_H05&export=download&confirm=t"
+  },
+  {
+    "id": 30001831,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sunset Loach",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CE_Tck2vi8GIfytZkpjC8nFvyrG5gBt8&export=download&confirm=t"
+  },
+  {
+    "id": 30001832,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shaggy Sumpter Beast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EqyARaZ1jbdUUdYVN3bpbfsGSFnNvsws&export=download&confirm=t"
+  },
+  {
+    "id": 30001833,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Long Necked Rhino",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EzNl_47jfCZbic9I98od3o9scbAxmC4b&export=download&confirm=t"
+  },
+  {
+    "id": 30001834,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fluff Fleece Goat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FMVnJw820Oldt1B4Y76gEEkkT0dfanpa&export=download&confirm=t"
+  },
+  {
+    "id": 30001835,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Brown Deer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FxpsH2iawnUD10ZrcSI7w-OkGfX2XZ82&export=download&confirm=t"
+  },
+  {
+    "id": 30001836,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Spinocrocodile",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GC_WfPq4ocxym-bHGKq6-hdtLoDbP3Wo&export=download&confirm=t"
+  },
+  {
+    "id": 30001837,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forest Tree Frog",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GzMRaFg3IH4qLzF9jD0p89LD7YLBCdTh&export=download&confirm=t"
+  },
+  {
+    "id": 30001838,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Chestnut Goat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IFXY1B-lUVdfVOb3uFQm0n4cXHpcqJ7t&export=download&confirm=t"
+  },
+  {
+    "id": 30001839,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Great Snowboar King",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Igo7HsM01BqYMYr5Jcf-xB3QpBOdwham&export=download&confirm=t"
+  },
+  {
+    "id": 30001840,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Green Horned Lizard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KRMqzf4x7NwjM4GWcQnma6xkv1SC7CuM&export=download&confirm=t"
+  },
+  {
+    "id": 30001841,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dusky Goat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KlkuaVlOe0kaVB-J5PD7WlOhh055nf99&export=download&confirm=t"
+  },
+  {
+    "id": 30001842,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Camelhorn Deer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1O-j1g-VA0ixvF_otrXB4VM6xx1uZOvNw&export=download&confirm=t"
+  },
+  {
+    "id": 30001843,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thornback Gecko",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Q4qUujeqiVNvW1GYG9p6P8skCjR5yG9J&export=download&confirm=t"
+  },
+  {
+    "id": 30001844,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Leisurely Otter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RyuUUv6nr7qyPRyKAD5SOVAdGyn--8Vu&export=download&confirm=t"
+  },
+  {
+    "id": 30001845,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Snowboar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Usy9miyedZphrbSgbOO1fq9uy48SKfNf&export=download&confirm=t"
+  },
+  {
+    "id": 30001846,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rock Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VShqBL7FZtjYmP2tx8cymFwzOojQJhue&export=download&confirm=t"
+  },
+  {
+    "id": 30001847,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Quicksand Eel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WE1nInw28GKAsSw_z0Utxg_WVHK-0TOH&export=download&confirm=t"
+  },
+  {
+    "id": 30001848,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Snow Fox",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Wen3CQnwEcG8_wNFGWgUcSESQzYV8seV&export=download&confirm=t"
+  },
+  {
+    "id": 30001849,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ancient Red Mane Boar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XA6_ywIPPcP7l9Qs-w6acBsnaYm3hb-Z&export=download&confirm=t"
+  },
+  {
+    "id": 30001850,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rimehorn Deer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Yw0M5BFBK1PSik7eVvhl2vp2-_IIRP1c&export=download&confirm=t"
+  },
+  {
+    "id": 30001851,
+    "game": "gi",
+    "category": "monsters",
+    "name": "General Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZK81OHVduwe6vr6SGWW_v1ipZmmmGY3p&export=download&confirm=t"
+  },
+  {
+    "id": 30001852,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blue Frog",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1a6RHwwq8ILlzQ-gh5V8KnHb9ZtRK0to2&export=download&confirm=t"
+  },
+  {
+    "id": 30001853,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ocean Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1aUmJHjWy9X4vVw7C54eZtCnZvREJ_UmR&export=download&confirm=t"
+  },
+  {
+    "id": 30001854,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Squirrel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1b78KU3L3YCjMbI9cyTXPkBS8BRjfYywc&export=download&confirm=t"
+  },
+  {
+    "id": 30001855,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sunny Loach",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cyKd8JaioMbI5JvfnB_aWmFByP2U9omf&export=download&confirm=t"
+  },
+  {
+    "id": 30001856,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Red Vulture",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1duLxk6fdTa0G0SGPGrhttbVwUQAT4l2x&export=download&confirm=t"
+  },
+  {
+    "id": 30001857,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Deep Sea Unagi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dvjCiTQg729KawTQZTsFH8w70LcMBAxX&export=download&confirm=t"
+  },
+  {
+    "id": 30001858,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Adorned Unagi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eCLFdNGrBihjq6ggpEAdUSs6oFJQCcYc&export=download&confirm=t"
+  },
+  {
+    "id": 30001859,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Red Tailed Lizard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h1xO8yr41n4YnO_h4ZWua8slliLgQWU2&export=download&confirm=t"
+  },
+  {
+    "id": 30001860,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Alpaca",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h2BapJKynVJsCP500U1x0WRClbnwI-7P&export=download&confirm=t"
+  },
+  {
+    "id": 30001861,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Desert Sumpter Beast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hi183nFvxKIO_6I2219fkCBp_Bk35NqN&export=download&confirm=t"
+  },
+  {
+    "id": 30001862,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Capybara",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i5cWxwMM6yKl8zMsvMryt-f4dRUzmpHU&export=download&confirm=t"
+  },
+  {
+    "id": 30001863,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sun Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jpgvb2fA3zs-zKpJVSlNIGZlJ9RBSClw&export=download&confirm=t"
+  },
+  {
+    "id": 30001864,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forest Piglet",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kP2ZIvfj4liWqua8SkqPLS-ki_IVPX9b&export=download&confirm=t"
+  },
+  {
+    "id": 30001865,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pale Red Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kZ8IffLqrXeWE_u60YVNf0yErc8wwxEe&export=download&confirm=t"
+  },
+  {
+    "id": 30001866,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blue Horned Lizard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pCq90T1Sc06fQYc80Ax_GTnLxorbaq_d&export=download&confirm=t"
+  },
+  {
+    "id": 30001867,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Red Horned Lizard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1r70RNXjnItLWUPtIzyOeUV4MWS7cjgzh&export=download&confirm=t"
+  },
+  {
+    "id": 30001868,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Mud Frog",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sK6U71_G1M2TZt77JXxOtyz_YUZ4vgRS&export=download&confirm=t"
+  },
+  {
+    "id": 30001869,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Atapetra Conch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sbunoLxoyXwY3wjmSf3V_92vixuvdlR-&export=download&confirm=t"
+  },
+  {
+    "id": 30001870,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flying Squirrel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1t-UsaB3scO8YFA6nuX1zAPmulypZj9pS&export=download&confirm=t"
+  },
+  {
+    "id": 30001871,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Red Finned Unagi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tZiC1lEhuCuMFbcrXafQ-GFpbY-ULMF3&export=download&confirm=t"
+  },
+  {
+    "id": 30001872,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rishboland Tiger",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vsNBI4kL9IU0WPz5WImH3XX8k_UYgYMy&export=download&confirm=t"
+  },
+  {
+    "id": 30001873,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shroomboar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vyeG_Vi2gaiKemzrV5yuxyN9S2hzH4yw&export=download&confirm=t"
+  },
+  {
+    "id": 30001874,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xjq0br_Qv2RaNbDj_4zCoJUKkYi6GO7Y&export=download&confirm=t"
+  },
+  {
+    "id": 30001875,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forest Boar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zvYD_o6esVS5awvzMP7k6JFIHYzlTUJ4&export=download&confirm=t"
+  },
+  {
+    "id": 30001876,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black King Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10BuAqNfVDnHsZYNamSR-zO4CoPI9_CjO&export=download&confirm=t"
+  },
+  {
+    "id": 30001877,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Velvetfall Duck",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11i27UQUE45IFneWaIqYDvrvK_JY1pjhU&export=download&confirm=t"
+  },
+  {
+    "id": 30001878,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Emerald Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12DW0lpZJEeVsnBIsrQIumpeoNxcHXcdL&export=download&confirm=t"
+  },
+  {
+    "id": 30001879,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lapis Glede",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14Qa5P1FFCAQUFdBDOX25ECPLcxjVLNwA&export=download&confirm=t"
+  },
+  {
+    "id": 30001880,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Scarletbeak Duck",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16Bux2Te107IHOG5_HqSej0wr6atWOO_c&export=download&confirm=t"
+  },
+  {
+    "id": 30001881,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Brightcrown Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16kYyzU232YNWCY7eZa7G1meHJ8hT3sEh&export=download&confirm=t"
+  },
+  {
+    "id": 30001882,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Snow Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=17AzcWvcl--o9mTQ3vnZcPr7JFeGDmdnp&export=download&confirm=t"
+  },
+  {
+    "id": 30001883,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18KKEx7xdKOwqwV70npbek5dBHLjGPo7A&export=download&confirm=t"
+  },
+  {
+    "id": 30001884,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cinderneck Stork",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AgXXfbmF_rA76RuPrP3qqT0GuPxjw4I7&export=download&confirm=t"
+  },
+  {
+    "id": 30001885,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Viridian Fantail Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BQDoSy4P3VMRpJqEpcYYtr5Kf0Pv7A1T&export=download&confirm=t"
+  },
+  {
+    "id": 30001886,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Silkwhite Falcon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C7HyVitgsbegTCHEvZpwdm44hPFv9qWZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001887,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dusk Bird",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1E4Rfq-6G1EBLCzqbdlqVsQbSxKQ8K3F1&export=download&confirm=t"
+  },
+  {
+    "id": 30001888,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Puffin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GzTsa8s_PzJt1wW-2lUE1FbfYVS3rOYR&export=download&confirm=t"
+  },
+  {
+    "id": 30001889,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Burgundy Umbrellafinch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IIaWK4gyH9MMkxOaau2mZmB-cH57tbaN&export=download&confirm=t"
+  },
+  {
+    "id": 30001890,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ancient Firewalker Spoonbill",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JwnujGTYnZmY1cID5UFYVGUbCQYLa-7s&export=download&confirm=t"
+  },
+  {
+    "id": 30001891,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ancient Scarlet Plume Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KJVCqao0sNuruy7npBQ-7vHoOL0igqDU&export=download&confirm=t"
+  },
+  {
+    "id": 30001892,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dualblaze Longplume Ibis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Kj_DAkotG8rLRSIYnIRTG8eRkDBjxe5b&export=download&confirm=t"
+  },
+  {
+    "id": 30001893,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bluecrown Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Lwir6nRofDHARSIqwnKyMbC3gvA6oGfS&export=download&confirm=t"
+  },
+  {
+    "id": 30001894,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crimsonflank Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Me7WNJq2hH-sCYECQ-GfGilHocqrwoml&export=download&confirm=t"
+  },
+  {
+    "id": 30001895,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Azure Crane",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MzmRiwyGMDnMXs-ItGoqAs-we3D8ZvFY&export=download&confirm=t"
+  },
+  {
+    "id": 30001896,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Redbill Pelican",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Nx_JHcZQmsCBArKLWSMjNKeHV6NDbsLA&export=download&confirm=t"
+  },
+  {
+    "id": 30001897,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Redcrown Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OK5ih5l_bnG4eb4mV8NLS6Ur_4hvfPHI&export=download&confirm=t"
+  },
+  {
+    "id": 30001898,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Umbertail Falcon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Pdln4ZCk3OXMP06wYZqek4kNEiFea-LH&export=download&confirm=t"
+  },
+  {
+    "id": 30001899,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crimson Finch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TPnjuGJC5wMzgVBq9-LOxHFdfJd8Xj52&export=download&confirm=t"
+  },
+  {
+    "id": 30001900,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Snow Winged Goose",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UXUuZkscvEqRCUpjirhsG55MUhSBMsxy&export=download&confirm=t"
+  },
+  {
+    "id": 30001901,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thick Feathered Ruffed Pheasant",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VEDqSQxg3zY_O8SBkUaU_khaUi0xt5It&export=download&confirm=t"
+  },
+  {
+    "id": 30001902,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Magenta Fantail Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VnT3XxLn_lSW_1Iwm7RyDwMpqBEjGmT0&export=download&confirm=t"
+  },
+  {
+    "id": 30001903,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Darkwing Goose",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WHwVqrRqXUHo0Dt4MRhq2OLFkrFMHwX3&export=download&confirm=t"
+  },
+  {
+    "id": 30001904,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Slate Umbrellafinch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WTi4hf8pyhBrKpPJGhV2qU_MqOeEeeDH&export=download&confirm=t"
+  },
+  {
+    "id": 30001905,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Emerald Duck",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XYUJGnSese3SWhn-oSTro-Sz01eiKIDs&export=download&confirm=t"
+  },
+  {
+    "id": 30001906,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sacred Ibis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ejDxCRjpzlJL5UWoAvqmEkVLthOvIX15&export=download&confirm=t"
+  },
+  {
+    "id": 30001907,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1j5nxYmeQ_LUsibSVLsDpp8vCihfcHpSU&export=download&confirm=t"
+  },
+  {
+    "id": 30001908,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Brownwing Falcon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jfR80qvW_NcglS2uyRMauhwRvCiWZroB&export=download&confirm=t"
+  },
+  {
+    "id": 30001909,
+    "game": "gi",
+    "category": "monsters",
+    "name": "White Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lWb20NQczZmdMxODdGiI00NH0qthwBTY&export=download&confirm=t"
+  },
+  {
+    "id": 30001910,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Graywing Pigeon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1nCwQT9R3QNMhl9QEJ4-8WeQ5za1G22eT&export=download&confirm=t"
+  },
+  {
+    "id": 30001911,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flatcrest Fulmar",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pjTPWmNoJKVWeBx31ZGhfo3dAKGt8F4R&export=download&confirm=t"
+  },
+  {
+    "id": 30001912,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Violetgold Angler Gull",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1q_Bc07w_i_nUSmhLb0iuoD6yx-POVNVD&export=download&confirm=t"
+  },
+  {
+    "id": 30001913,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flowfire Bird",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1s43Xu_1BMZFOcksVpX17aD12a1R1Wvcr&export=download&confirm=t"
+  },
+  {
+    "id": 30001914,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Violet Ibis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uaOrQweQzYRHgQtXTBHLlE9gzlaMfgcS&export=download&confirm=t"
+  },
+  {
+    "id": 30001915,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Windvigil Angler Gull",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1v_4dJLaN_q1lmRHsDPoUAFzZWsvgB_h1&export=download&confirm=t"
+  },
+  {
+    "id": 30001916,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flowcurrent Bird",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zZXHreKTgU8O-QQ0WDddMJEejOt_aCVs&export=download&confirm=t"
+  },
+  {
+    "id": 30001917,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12eOAS78PiZcnL4xLNAUFznZs6jHfNcky&export=download&confirm=t"
+  },
+  {
+    "id": 30001918,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lucklight Fly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13lZPvK235M77nw1Bf8HzGKXUktL81Mdo&export=download&confirm=t"
+  },
+  {
+    "id": 30001919,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16SHiJljQtXOd3mtZWM9EjBiT69lOfO5M&export=download&confirm=t"
+  },
+  {
+    "id": 30001920,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=17laKwwj6juquHfu1zAH7q9ARR4pWPqfb&export=download&confirm=t"
+  },
+  {
+    "id": 30001921,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crystal Beetle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18Rkg3DWOan8NhF8L1XeH8_lpPrLEU-7R&export=download&confirm=t"
+  },
+  {
+    "id": 30001922,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19w2Ow-7MQn26DSl_k3CwRT2XsgMO9Mo8&export=download&confirm=t"
+  },
+  {
+    "id": 30001923,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Phlogiston Aphid",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CGb5CAWz1SUXZj7RJrxPoCe2X5LhYIKy&export=download&confirm=t"
+  },
+  {
+    "id": 30001924,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dendro Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GHyxPphylca-lmhEj8svA0nFH9oa0jdm&export=download&confirm=t"
+  },
+  {
+    "id": 30001925,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Etherwing Moth",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IwJw8aX1KGD3xxMxFjJ30qzZmjpNnlj0&export=download&confirm=t"
+  },
+  {
+    "id": 30001926,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Malachitin Lumibug",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JSlXsKgjMdgCsCSfNul556tDxDy7vhwD&export=download&confirm=t"
+  },
+  {
+    "id": 30001927,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Scarab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1K7esKBrPE-NfgG2eBLwqVs9PUD9NaL4F&export=download&confirm=t"
+  },
+  {
+    "id": 30001928,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geo Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SDdiYpGeaApl8FZV0Ir3xpaql92V9sb4&export=download&confirm=t"
+  },
+  {
+    "id": 30001929,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Moonglow Firefly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Vfdt2WmOAF18B4mXL3zX5fE-pfcT5J0y&export=download&confirm=t"
+  },
+  {
+    "id": 30001930,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Crystalfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dRv7ioxWVkG0hpFQBwcNDxLwwcfR3QRR&export=download&confirm=t"
+  },
+  {
+    "id": 30001931,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Coral Butterfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uTl-wxRSK8W1AUZ_XR9HCSwrItGK1vMD&export=download&confirm=t"
+  },
+  {
+    "id": 30001932,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Nightgaze Crystal Eye",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1wXArRiAr1TigNge63HT0FR0igyVuIVtX&export=download&confirm=t"
+  },
+  {
+    "id": 30001933,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maintenance Mek Platinum Collection",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=119sHV_RiTkViLFwRgy5bbdNT407iIpxx&export=download&confirm=t"
+  },
+  {
+    "id": 30001934,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Glaze Medaka",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11sWrDfaVv7fInBkg8ADaPpwySuSgFgHN&export=download&confirm=t"
+  },
+  {
+    "id": 30001935,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Crystalfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=132FjpELJ5Pmvt7p8QStWpG5hgureNbLI&export=download&confirm=t"
+  },
+  {
+    "id": 30001936,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bitter Pufferfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13bNrpEgGFfgfnrnM3ng7xvoSkxlTYPve&export=download&confirm=t"
+  },
+  {
+    "id": 30001937,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Koi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14FzOrGsI9fI19SdzQ6kwUOIw9jJexFoI&export=download&confirm=t"
+  },
+  {
+    "id": 30001938,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15Pyb9_mJEVwXnk5YH9SOwa1N-yz7gRmv&export=download&confirm=t"
+  },
+  {
+    "id": 30001939,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sandstorm Angler",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15l0iYpthDj4pIId7Y-fgF97mXmICx2no&export=download&confirm=t"
+  },
+  {
+    "id": 30001940,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Halcyon Jade Axe Marlin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16J4gLGldVhTpmyn2GEOPKm-mdvmYzgfT&export=download&confirm=t"
+  },
+  {
+    "id": 30001941,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Akai Maou",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16gyx6VMMTL1KIR_6c40wk5PcMNZ32LcF&export=download&confirm=t"
+  },
+  {
+    "id": 30001942,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cerulean Doppeldrake",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=17qyhoACiGhZv03IYt-WAT75h658uKnZ4&export=download&confirm=t"
+  },
+  {
+    "id": 30001943,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Diving Rapidfighting Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18xeg1tsieSEQt7JFcbK4xbP5Z-MAWcKv&export=download&confirm=t"
+  },
+  {
+    "id": 30001944,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dusk Sunfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AOKCSmyqnwQU9GuJ0Rm7LrA57Q1ldcSH&export=download&confirm=t"
+  },
+  {
+    "id": 30001945,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Jade Heartfeather Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Aq3rpWK6T1Bk_LRCr2OhTcy8pRFs3xDG&export=download&confirm=t"
+  },
+  {
+    "id": 30001946,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rippling Heartfeather Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BJJg7xF0Z-kpvz6b5e05-QyelsY4-oJO&export=download&confirm=t"
+  },
+  {
+    "id": 30001947,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frosted Axehead Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Beheq6jR6ff_pS6knO74mq9oFmcJ0YNR&export=download&confirm=t"
+  },
+  {
+    "id": 30001948,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Moonfin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C0AUaUdQRAaAikKOESgSIw8kGiVyHgKZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001949,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Phony Phlogiston Unihornfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ClA4wd7A-1363SmHpmf6-Nnq6agsTWq1&export=download&confirm=t"
+  },
+  {
+    "id": 30001950,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Floating Ray",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CtCTvzid8Ut01Ai_hP-CvOOhQ-Rt7EkH&export=download&confirm=t"
+  },
+  {
+    "id": 30001951,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blazing Heartfeather Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EZ4TnD8yU6Tcn-iIDMqiuuvzqhvXah2i&export=download&confirm=t"
+  },
+  {
+    "id": 30001952,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maintenance Mek Situation Controller",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HS5GrLl2UZJVahTtlMzmfroSuYw5vWcg&export=download&confirm=t"
+  },
+  {
+    "id": 30001953,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lunged Stickleback",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LtoPup-aqd2BGZ_TD6c4Pm6SmTYHVG54&export=download&confirm=t"
+  },
+  {
+    "id": 30001954,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rusty Koi",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NF9jFPCDAMi2Wr46ttnSS7aNVvTj-LyO&export=download&confirm=t"
+  },
+  {
+    "id": 30001955,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maintenance Mek Gold Leader",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NNFBDvCT6yuvrWGjfnph4aaKya3FJyVB&export=download&confirm=t"
+  },
+  {
+    "id": 30001956,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Abiding Angelfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NgeEOyEfQGsCC-jC-t5TvvJCeVKDwIu7&export=download&confirm=t"
+  },
+  {
+    "id": 30001957,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black Back Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PyL3iGU1h8rf_mLksqHsLi9Xvt45WsJk&export=download&confirm=t"
+  },
+  {
+    "id": 30001958,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Brown Shirakodai",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QFnDQoS86AwE_ePHJYEJR3MyBYBxbhPP&export=download&confirm=t"
+  },
+  {
+    "id": 30001959,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blazing Axehead Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1R72vcOCAtGNSBX8--grMBjScDF38AHet&export=download&confirm=t"
+  },
+  {
+    "id": 30001960,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Divda Ray",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RzYJRkUQeFdW4aDwrojBXS3WSSSBaJk4&export=download&confirm=t"
+  },
+  {
+    "id": 30001961,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Formalo Ray",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Tj1S2WeMs5ElNyZ1mfnj5j4yLVKjUlZX&export=download&confirm=t"
+  },
+  {
+    "id": 30001962,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maintenance Mek Initial Configuration",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Ts4Uh9AnpR59seXoNUpv_bV-Mpkq_vBR&export=download&confirm=t"
+  },
+  {
+    "id": 30001963,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blue Fin Bass",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WPup5O_fZo8tJGJJsFG9yIaOBQI79GiJ&export=download&confirm=t"
+  },
+  {
+    "id": 30001964,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Magma Rapidfighting Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZUtqy_dWTrIaar9tkF1Frc98Tn8bWvMi&export=download&confirm=t"
+  },
+  {
+    "id": 30001965,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Peach of the Deep Waves",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZtWGflkB_O3-Pe-yx6hKTvwrUqbHG-Uv&export=download&confirm=t"
+  },
+  {
+    "id": 30001966,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Neon Mauler Shark",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_2bFABC47t7uV_WCucZS3BeekZjo1o4e&export=download&confirm=t"
+  },
+  {
+    "id": 30001967,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Medaka",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bZ13F3Bwp51LLA5DoEi2jwUp6Ozluc0j&export=download&confirm=t"
+  },
+  {
+    "id": 30001968,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Betta",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1beLo5vkIJkR5Tw5XPrgXfRc1-mBcD_ws&export=download&confirm=t"
+  },
+  {
+    "id": 30001969,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pseudoshark Unihornfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1d1oFkbNWGQgd4yl5Wxr-XZvLGhNT_6Ge&export=download&confirm=t"
+  },
+  {
+    "id": 30001970,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Azuregaze Crystal Eye",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dTDdm4CQHKZCWlpbGkvau8sj9T3Pd4hF&export=download&confirm=t"
+  },
+  {
+    "id": 30001971,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pufferfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dhLKpSXa_0kIWWBuOewXk3eOXtYjnS9K&export=download&confirm=t"
+  },
+  {
+    "id": 30001972,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frostfin Whale",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dycRpqphcX7n5YDPdCGFUw7GgzC-XWUj&export=download&confirm=t"
+  },
+  {
+    "id": 30001973,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Floral Rapidfighting Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eNa_MVcouXvR7MV--IRW_yEKEfk1L9Sl&export=download&confirm=t"
+  },
+  {
+    "id": 30001974,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Purple Shirakodai",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hSvi22K7Vx9G4NSIAnG9YiJpd_KwcXTT&export=download&confirm=t"
+  },
+  {
+    "id": 30001975,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Raimei Angelfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i6kKmRs5FyCsAVqy_-UBLwnCKO_KhEco&export=download&confirm=t"
+  },
+  {
+    "id": 30001976,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Aizen Medaka",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i8BQ0HyXkujHC-rMCXFenwEzK8P-LOkN&export=download&confirm=t"
+  },
+  {
+    "id": 30001977,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maintenance Mek Water Body Cleaner",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ioRan3AuUF0yW5lYyQObqb54qSHSckNk&export=download&confirm=t"
+  },
+  {
+    "id": 30001978,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Greenwave Sunfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kQ1Wm_TvJg-0vSLpORzWdTepYipGS5Q-&export=download&confirm=t"
+  },
+  {
+    "id": 30001979,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dawncatcher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kqGtnJtdxYVmylj6Cn6OvBcwd7m0-19H&export=download&confirm=t"
+  },
+  {
+    "id": 30001980,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Common Axehead Fish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1nMWGy7-7RL7_OIRLpFp0K_PEGQCtuFzP&export=download&confirm=t"
+  },
+  {
+    "id": 30001981,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lazurite Axe Marlin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zyuQfF6fwK1xBdveohAtdW_nQXsOttQ6&export=download&confirm=t"
+  },
+  {
+    "id": 30001982,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Jade Eyed Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13RHL_WDTijVEdb5wYTn6JQdgfVYULWlq&export=download&confirm=t"
+  },
+  {
+    "id": 30001983,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shiba",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15WtZnTAinRt0lImw98ro6KUTXz7BZYzp&export=download&confirm=t"
+  },
+  {
+    "id": 30001984,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hoarder Weasel Thief",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BdDANGlDCBzdG0MVkAJ6JcPBihaA7Zf9&export=download&confirm=t"
+  },
+  {
+    "id": 30001985,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Masked Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ETtr6HaDMoe-8aXatuMH6U_v0y8jEsx_&export=download&confirm=t"
+  },
+  {
+    "id": 30001986,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black Back Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FrR0303K-T6zYC21djeWggyAhG4hQaQZ&export=download&confirm=t"
+  },
+  {
+    "id": 30001987,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lady Poodle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GCT2skY_MPxmiVJP9r02oej69d_5zi7J&export=download&confirm=t"
+  },
+  {
+    "id": 30001988,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Northland Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1H98Cbw6mboHZg8kRiYDXWTNZ_2975_J7&export=download&confirm=t"
+  },
+  {
+    "id": 30001989,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Boot Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MMq_9JS-QH-pYhC0heqOAGNlLlVpw3O8&export=download&confirm=t"
+  },
+  {
+    "id": 30001990,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NQMToYydupTQVRPZ_lyo3z2sfuQ884VG&export=download&confirm=t"
+  },
+  {
+    "id": 30001991,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Gentleman Poodle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1NjIQwBP6zgZ1R6hiLiUaKTaF1x3UBZsN&export=download&confirm=t"
+  },
+  {
+    "id": 30001992,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Amber Hunting Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OSjYmcTsfTZfKDy9gy3zgUwjvQ2cKJT6&export=download&confirm=t"
+  },
+  {
+    "id": 30001993,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Snow Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1OhqRcSIl7yqt5bCDzCPPmhmg3WJc4RhH&export=download&confirm=t"
+  },
+  {
+    "id": 30001994,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Red Tailed Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1P32c88ep0nfwN_HjLPrpX5W-J4cAh0yK&export=download&confirm=t"
+  },
+  {
+    "id": 30001995,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Weasel Thief",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PFog0QMsFBAMC5k3xPKFAOhMpN9xGqyQ&export=download&confirm=t"
+  },
+  {
+    "id": 30001996,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Jadestone Turtle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QQCsl64YeDSFxpWpfhlFeXzG0HwnnmMW&export=download&confirm=t"
+  },
+  {
+    "id": 30001997,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Amateur Weasel Thief",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RiL5VDePK50xHddsOOcauulx2tfq0uTE&export=download&confirm=t"
+  },
+  {
+    "id": 30001998,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tiger Striped Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SrQctgwD3Cb2XGQen5apIl4knSm3oma4&export=download&confirm=t"
+  },
+  {
+    "id": 30001999,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Chestnut Hunting Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WAKvFjbLjoEdc9cr3bGIoonfFhJO1qdz&export=download&confirm=t"
+  },
+  {
+    "id": 30002000,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bluethunder Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Y8lUIBtWJWwl27wDNjAfqGql85citWdw&export=download&confirm=t"
+  },
+  {
+    "id": 30002001,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Kitsune",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YgTLTa21uJXqVOOo56NYevjt2can4fiy&export=download&confirm=t"
+  },
+  {
+    "id": 30002002,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forest Patrol Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1e9PtB-TbRRCKYLLjXHwapAWHYfsw_8KI&export=download&confirm=t"
+  },
+  {
+    "id": 30002003,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ancient Glazeback Turtle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1f57sOYz7Fre-g3OxDardq3eoTXzLMLrY&export=download&confirm=t"
+  },
+  {
+    "id": 30002004,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sapphire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1f9Xg8QTp7-BgBEpAekPwAL-mhy5AHVG5&export=download&confirm=t"
+  },
+  {
+    "id": 30002005,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Guard Poodle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iq25461CUDvYA0BAb4jfGBsbc5fj-UYe&export=download&confirm=t"
+  },
+  {
+    "id": 30002006,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Northland Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lrgiASRQP__-9oYMP1kvcTQbCrFtKWcV&export=download&confirm=t"
+  },
+  {
+    "id": 30002007,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Glittergray Hunting Hound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1p2K3czK2dfsLmu4C8wy0Hj_DkivGdqS5&export=download&confirm=t"
+  },
+  {
+    "id": 30002008,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Gray Snow Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sgQHkgV2OgRhE-dh-IHsIv4XOSvEIyii&export=download&confirm=t"
+  },
+  {
+    "id": 30002009,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bake Danuki",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vaaDgoQnlTMJSlZbxLSDntx11K7hsLlY&export=download&confirm=t"
+  },
+  {
+    "id": 30002010,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tent Tortoise",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1x4rgpCsFJUBYtKQ8CLkJzZ6fmrlgBbc2&export=download&confirm=t"
+  },
+  {
+    "id": 30002011,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sheriff Cat",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yqQFl_9FZwj2hn6o15_nYpsBVBk3xO4z&export=download&confirm=t"
+  },
+  {
+    "id": 30002012,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Magatsu Mitake Narukami no Mikoto",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11RVzwQZgXdRvfromqTuZB4PK_rN1M4hm&export=download&confirm=t"
+  },
+  {
+    "id": 30002013,
+    "game": "gi",
+    "category": "monsters",
+    "name": "La Signora",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12gElTX6bWwxYg6uC7k2-yBbXXfSm3q91&export=download&confirm=t"
+  },
+  {
+    "id": 30002014,
+    "game": "gi",
+    "category": "monsters",
+    "name": "All Devouring Narwhal",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13oLkSpcPlfvsZ1-xQK29Npded62xOdCd&export=download&confirm=t"
+  },
+  {
+    "id": 30002015,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stormterror",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BUokVBDTMaRErZ_YZDIQsnRDo2WMzkBd&export=download&confirm=t"
+  },
+  {
+    "id": 30002016,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Azhdaha",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CuDL6fcLUXcDTCav_4eT0doHEWRdu_-k&export=download&confirm=t"
+  },
+  {
+    "id": 30002017,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shouki no Kami the Prodigal",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JF-oaDchu34CiVl32QgrITRJE52E7dPE&export=download&confirm=t"
+  },
+  {
+    "id": 30002018,
+    "game": "gi",
+    "category": "monsters",
+    "name": "The Knave",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PIE3N1a60Bc_QHuBdRL15w-DQlA_mR_M&export=download&confirm=t"
+  },
+  {
+    "id": 30002019,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Childe",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SD7-vtuFo0m5QLEG57GOgv-VcairS3D1&export=download&confirm=t"
+  },
+  {
+    "id": 30002020,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bakunawa",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UnNALqHqaPYZ46ApU0GOsFv7g4FsiwR-&export=download&confirm=t"
+  },
+  {
+    "id": 30002021,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Primordial Human",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1asG3vjuLxvGWB5CZPLuA25iZjTFTPquA&export=download&confirm=t"
+  },
+  {
+    "id": 30002022,
+    "game": "gi",
+    "category": "monsters",
+    "name": "The Doctor",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1bEEkGidUWNwaBsqhEVdmjsZXVew3wYHN&export=download&confirm=t"
+  },
+  {
+    "id": 30002023,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Guardian of Apep's Oasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gBguGsWzHaXwLMwkCKA3hC455-oDyfAe&export=download&confirm=t"
+  },
+  {
+    "id": 30002024,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lord of Eroded Primal Fire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lRdDCknx2JB7em8gpTxuvFrA5hrzDIzt&export=download&confirm=t"
+  },
+  {
+    "id": 30002025,
+    "game": "gi",
+    "category": "monsters",
+    "name": "The Game Before the Gate",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lsTEMmd-iQyHQYcI2b1d8BZDgSuWfZkJ&export=download&confirm=t"
+  },
+  {
+    "id": 30002026,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lupus Boreas Dominator of Wolves",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1oyRHvKYzGaLuOcAIeTAgsCd6OGsOshpF&export=download&confirm=t"
+  },
+  {
+    "id": 30002027,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Il Dottore",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zwlsNjenNLn6QdXwRdsYeeQK5-0xePsc&export=download&confirm=t"
+  },
+  {
+    "id": 30002028,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Desert Clearwater",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14PiY01WnkA5KSIXhSCjK1OrvftASxNmY&export=download&confirm=t"
+  },
+  {
+    "id": 30002029,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Axe Vanguard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14xYA0LAByaejvejcNvehWu6LPZ1wcb2y&export=download&confirm=t"
+  },
+  {
+    "id": 30002030,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Scorching Loremaster",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15s3R5WcNLk7cXuBWkET_62gqVMKqrNCt&export=download&confirm=t"
+  },
+  {
+    "id": 30002031,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Galehunter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AVFUEgObn6SyEMeAEDnXVh3yaJwjQrSk&export=download&confirm=t"
+  },
+  {
+    "id": 30002032,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Floral Ring Dancer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PWn20BbypmfMGpEzZ5ijeZ1l3F4UB53N&export=download&confirm=t"
+  },
+  {
+    "id": 30002033,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Daythunder",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fD1Cz58Nu7sIuqm3Gc5iv7LQv7cyUORG&export=download&confirm=t"
+  },
+  {
+    "id": 30002034,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Sword Dancer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hU16D4MfcZxIJsmqbz708AX8viXuXV3A&export=download&confirm=t"
+  },
+  {
+    "id": 30002035,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Stone Enchanter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1huFn9by2tfmnPX_0BIsx60MACph66mYI&export=download&confirm=t"
+  },
+  {
+    "id": 30002036,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Crossbow",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mGAQE7u-h73x2RVaT2STNm8vsrKcNd3m&export=download&confirm=t"
+  },
+  {
+    "id": 30002037,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Linebreaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1rjG3ESpEvBJ_i-DT50ZqfQ5H24OO01pK&export=download&confirm=t"
+  },
+  {
+    "id": 30002038,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Sunfrost",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sMLB717o4W_EBKWbVFbNJRG058WaooJX&export=download&confirm=t"
+  },
+  {
+    "id": 30002039,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eremite Ravenbeak Halberdier",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1svPZf8_SxLogZBF8lGjq5VWm0cdn6J3o&export=download&confirm=t"
+  },
+  {
+    "id": 30002040,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Channel Contact",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IAw-ECuwmeUzI-vo4YtzbiXfXSFtR_b3&export=download&confirm=t"
+  },
+  {
+    "id": 30002041,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fanged Zealot",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pbrmRo1d4GyXlTR8_Z7B1lzP9zFuadXx&export=download&confirm=t"
+  },
+  {
+    "id": 30002042,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Glacial Warden",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PAGwVN-dH7Yzg9lZrQfiPNE9vfJ9W0vm&export=download&confirm=t"
+  },
+  {
+    "id": 30002043,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Glaciomancer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1D_Txk1xQtQt73Lb5VsZXg9gDG8va2Yfx&export=download&confirm=t"
+  },
+  {
+    "id": 30002044,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Leomastiff Guard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1k8THKVFBgpLbGqtkXmWRtLNQqN1a8QQ5&export=download&confirm=t"
+  },
+  {
+    "id": 30002045,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Long Eared Striker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LeN-Z_4oAzCSxTkAaPgoz0W00pGCWvf1&export=download&confirm=t"
+  },
+  {
+    "id": 30002046,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Volkodlak Lobber",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=141H5DWt8UcO8JKEYorNBHwm5ZZcS493g&export=download&confirm=t"
+  },
+  {
+    "id": 30002047,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Voywolf Hunter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tUrY0FmqDIsSxqCunhOAVq0PngWVyvbF&export=download&confirm=t"
+  },
+  {
+    "id": 30002048,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Halberd Knight",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_bviEfwy8S8NDtll5S7xboOgbf0N7qlB&export=download&confirm=t"
+  },
+  {
+    "id": 30002049,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Anemoboxer Vanguard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10jnetkj4HQOtVQ9uriOMAFSdC3eQoxz_&export=download&confirm=t"
+  },
+  {
+    "id": 30002050,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Electrohammer Vanguard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=13ONO0GrpBoZ86N3_9XMugXPMJJeBwv4q&export=download&confirm=t"
+  },
+  {
+    "id": 30002051,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Thunderblitz Gvardiya",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14RuH1epchQ2K8EjWwOXJ-PKIAgw9lE45&export=download&confirm=t"
+  },
+  {
+    "id": 30002052,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15OnK6MdwizD0DNXV1flNgPL-BpJ4Uw6z&export=download&confirm=t"
+  },
+  {
+    "id": 30002053,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Wind Operative",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15W_UrH6ipfaZFQSeCMgcnQBzSvr1V2RL&export=download&confirm=t"
+  },
+  {
+    "id": 30002054,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Pyro Agent",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18RI-ODvSpVmLfyhHcZMHPCmX4tWi-lvP&export=download&confirm=t"
+  },
+  {
+    "id": 30002055,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Force Recon Scout Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18yZZ-ig1nyX0QEeC91D5JioDGw1ZBXov&export=download&confirm=t"
+  },
+  {
+    "id": 30002056,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Mirror Maiden",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19gQf_nL5522cCnROIDdDqKapw5nyPB0r&export=download&confirm=t"
+  },
+  {
+    "id": 30002057,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Close Combat Storm Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GWHEeEpx28Otn3P5A1mgc-zkpiunOpea&export=download&confirm=t"
+  },
+  {
+    "id": 30002058,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Pyroslinger Bracer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HC3G1diYOk_2rRIAcKBj0U8ek-CnqgpL&export=download&confirm=t"
+  },
+  {
+    "id": 30002059,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Force Recon Storm Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Nt_61xMbsdiU3RO7USNhCYTMBGPTv66m&export=download&confirm=t"
+  },
+  {
+    "id": 30002060,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frost Operative",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PTUPGlEFIekJz6f4IJuJtMAtATjnHnB9&export=download&confirm=t"
+  },
+  {
+    "id": 30002061,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Electro Cicin Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Q1QQ1qCVoTl4rMFNgMnLfiQ5JSKZckEq&export=download&confirm=t"
+  },
+  {
+    "id": 30002062,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Support Trooper",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QoMR0Npm_I0i8SSBY3bVRrz9lYn2oQce&export=download&confirm=t"
+  },
+  {
+    "id": 30002063,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Geochanter Bracer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SWOnj4YBniIyk5zo03Y7M3pj9d6T0KXC&export=download&confirm=t"
+  },
+  {
+    "id": 30002064,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Fireblade Shock Trooper",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TxI2i2roDilO_x6zECqHr12TXddfCG5v&export=download&confirm=t"
+  },
+  {
+    "id": 30002065,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cutting Edge All Purpose Scout Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UI7UmpA0YyNxcJXMLKNGJ6cpxvS-ueG0&export=download&confirm=t"
+  },
+  {
+    "id": 30002066,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Cryo Cicin Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UioH3mExMNJNhU0Ac-fmJIrRK0g4yRhY&export=download&confirm=t"
+  },
+  {
+    "id": 30002067,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Grenadier",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Ydq2PWXXtGpVif6X1-Ag9u5cghSJeGx1&export=download&confirm=t"
+  },
+  {
+    "id": 30002068,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Hydrogunner Legionnaire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cKIeV8ZY-V5Mg0IG0N8Xos6_-pgNHJDp&export=download&confirm=t"
+  },
+  {
+    "id": 30002069,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Line Trooper",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gBIpsnLhQasd4q6ns08UsaXvdWWhN4A4&export=download&confirm=t"
+  },
+  {
+    "id": 30002070,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cutting Edge All Purpose Storm Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iRlAogZvrZ1wgF93FC-w4LpT4SkMtEuE&export=download&confirm=t"
+  },
+  {
+    "id": 30002071,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Close Combat Scout Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lA7qnuqriNA1IKWWiRpNk6v7ElvEmOte&export=download&confirm=t"
+  },
+  {
+    "id": 30002072,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oprichniki Hailstorm Cannoneer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lZCDAWOt3NkJp6M4OLzQkMAif25jLzg2&export=download&confirm=t"
+  },
+  {
+    "id": 30002073,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Super Heavy Landrover Mechanized Fortress",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mDpZF3Vhe3f0yhDKSHt3pSfQVn69RAg1&export=download&confirm=t"
+  },
+  {
+    "id": 30002074,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fatui Skirmisher Cryogunner Legionnaire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1sU3sug-8wlo8h792VHAnOKavmDhb0dkj&export=download&confirm=t"
+  },
+  {
+    "id": 30002075,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Force Recon Ground Effect Landcruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vkhHoXJmqEmDKVxEIDb6TeRuSunDbFi1&export=download&confirm=t"
+  },
+  {
+    "id": 30002076,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Wayward Hermetic Spiritspeaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12G8OQB-MjAVp4wshsz2ZSw0wn-J-xZqt&export=download&confirm=t"
+  },
+  {
+    "id": 30002077,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Spiritspeaker Warrior Contemplator",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=139ETGOY-R76L5K_AsxA9kBqpsk_6v8c5&export=download&confirm=t"
+  },
+  {
+    "id": 30002078,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tepetlisaurus Warrior Rockbreaker Blade",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14mZ9PwbkfhWFtOIIlEZGbfLmxIIVZ0oI&export=download&confirm=t"
+  },
+  {
+    "id": 30002079,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tepetlisaurus Warrior Shard Striker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18kuUcRC6w5_lj8VG59HVm0dGJOb9i-rD&export=download&confirm=t"
+  },
+  {
+    "id": 30002080,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ferocious Warrior Grappler",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=193zuL6ohFRTAu7WSY9idNqW7U4M4bT6u&export=download&confirm=t"
+  },
+  {
+    "id": 30002081,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flowing Blade Skirmisher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BMZ1sTt4XTxCzVLc4zHwK1w7Vw1DxKll&export=download&confirm=t"
+  },
+  {
+    "id": 30002082,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ferocious Warrior Human Ram",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1BaLTU6INvbpvDZxWaeEKQGFkAFLI4A5x&export=download&confirm=t"
+  },
+  {
+    "id": 30002083,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Warrior Skymaster",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C0upVCAqdEsBY6cTHWuroDs-RvBhTZ66&export=download&confirm=t"
+  },
+  {
+    "id": 30002084,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Yumkasaurus Warrior Flowing Skyfire",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DtXgHPLDzO2YCaDUNZz8MwBbLRGFJaCh&export=download&confirm=t"
+  },
+  {
+    "id": 30002085,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Yumkasaurus Warrior Whirling Leaves",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EZLdVklkGDcxtW35_Cnpc1QJCFOyh2ZL&export=download&confirm=t"
+  },
+  {
+    "id": 30002086,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Warrior Feathershedder",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ILrVitD1VFlTC79WRf6PQ7pvWvHrZ-c-&export=download&confirm=t"
+  },
+  {
+    "id": 30002087,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Koholasaurus Warrior Waveshuttler",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JWxTwL49RcIyYmY5D6lZRkxwaU1zNZdo&export=download&confirm=t"
+  },
+  {
+    "id": 30002088,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Iktomisaurus Warrior Cryocrystal Cannon",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1K0uF0XPc139fU9Onr1XyddWU0j2NrKWD&export=download&confirm=t"
+  },
+  {
+    "id": 30002089,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Swiftstep Seeker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ScomxXc0slCGCLaqoGaNGYCp7Z4QkEVM&export=download&confirm=t"
+  },
+  {
+    "id": 30002090,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Swiftstep Armed Courier",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TB71rZReIRLWMD_iVXtT2hqj-cYfT84N&export=download&confirm=t"
+  },
+  {
+    "id": 30002091,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Qucusaurus Warrior Heartstar Hammer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TO46npD7hz4AwjQ2C4tbJ3cZb8rdMU9P&export=download&confirm=t"
+  },
+  {
+    "id": 30002092,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forged Sand Interrogator",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UfNNWm5SLuizEyQI7Hkzcrxf_rdtsWQ0&export=download&confirm=t"
+  },
+  {
+    "id": 30002093,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Koholasaurus Warrior Reefsplitter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YaXUnToeNAg8aUBPZ2PKlGmMowqnwqPZ&export=download&confirm=t"
+  },
+  {
+    "id": 30002094,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tatankasaurus Warrior Skybreaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_xu9M2cb6fAG7PF1Vw_-1HUZMIA2dvSa&export=download&confirm=t"
+  },
+  {
+    "id": 30002095,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Swiftstep Storm Scout",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1aBJzKyo5cYmQVUaLVG0nRdQ-p7NPDi9h&export=download&confirm=t"
+  },
+  {
+    "id": 30002096,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Qucusaurus Warrior Blazing Sky",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1aX3u9bSefC1Vz0IRH21cHkITC9iiIWbX&export=download&confirm=t"
+  },
+  {
+    "id": 30002097,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ferocious Warrior Wrestler",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1c8ljmtkGL0ZArWnGWZ6swVChNyrsLQia&export=download&confirm=t"
+  },
+  {
+    "id": 30002098,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Iktomisaurus Warrior Icy Tidebearer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fq_t_Y-8Xp406loL5Xlo2cUytyugSMOG&export=download&confirm=t"
+  },
+  {
+    "id": 30002099,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Warrior Skysoarer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hldDjtzR31ueApRhovVMs8Mtpa9GmGfv&export=download&confirm=t"
+  },
+  {
+    "id": 30002100,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tatankasaurus Warrior Spiritlight Chaser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jCr_fXmfdKxMsUHRDppcRJmYqGEhjwtk&export=download&confirm=t"
+  },
+  {
+    "id": 30002101,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Spiritspeaker Warrior Psychokinetic",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jF3fWvUmldheLg3VVAuCw2asR0UW92QW&export=download&confirm=t"
+  },
+  {
+    "id": 30002102,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forged Sand Javelineer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kX-LBv4Y5HrAGk96oLIJMGjZA2N7-gxN&export=download&confirm=t"
+  },
+  {
+    "id": 30002103,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flowing Blade Grease Saw",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1l9KMt762cWRXFwPOJIVNpkCzoEMS8IRf&export=download&confirm=t"
+  },
+  {
+    "id": 30002104,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Forged Sand Shieldbreaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1y4A5aENnJQAS2a-MvoX__u6I5pzRpfnF&export=download&confirm=t"
+  },
+  {
+    "id": 30002105,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Spiritspeaker Warrior Determinator",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yQFxdPq-hGhMzvEZRhIo8UQ0o0uHaO-C&export=download&confirm=t"
+  },
+  {
+    "id": 30002106,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flowing Blade Harpoon Thrower",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ygyesaqWYSSbmgu1OjAJlTm7bzmUoMPR&export=download&confirm=t"
+  },
+  {
+    "id": 30002107,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Maguu Kenki",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-PDvT9dSkjxBvcgtgD260OEP0gFOAxI4&export=download&confirm=t"
+  },
+  {
+    "id": 30002108,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Kairagi Dancing Thunder",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CxYLiK0O6UM0CMBSPPxdRvLOAbHmuWgO&export=download&confirm=t"
+  },
+  {
+    "id": 30002109,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Nobushi Hitsukeban",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GaFgtSfKAucAf22bFEINuqEG0aq1bqw3&export=download&confirm=t"
+  },
+  {
+    "id": 30002110,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Kairagi Fiery Might",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TB9AvRifBpubFFL-iKdmV7kEbMZhrwX5&export=download&confirm=t"
+  },
+  {
+    "id": 30002111,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Nobushi Jintouban",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ahwbZp-hLdTDi55mg0kFudjxehw5HEVa&export=download&confirm=t"
+  },
+  {
+    "id": 30002112,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Nobushi Kikouban",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uCO6Hwlw9VZZDHinJdZeuhEs64v-Usg1&export=download&confirm=t"
+  },
+  {
+    "id": 30002113,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Crusher",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=173gb_LB-zU53xtHJ3O_CoRYTOCYeQ9w6&export=download&confirm=t"
+  },
+  {
+    "id": 30002114,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Scout",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AIs6h01EQvYeStw9A-gCWbv-M1YReK4E&export=download&confirm=t"
+  },
+  {
+    "id": 30002115,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Millelith Sergeant",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KJfaEAlWKKxdaW2TEQJaQrgK4IJ9nyRN&export=download&confirm=t"
+  },
+  {
+    "id": 30002116,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Electro Potioneer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1M2IoDb5-e1qAWFfYzTVEjmCKtCZFNxrn&export=download&confirm=t"
+  },
+  {
+    "id": 30002117,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Handyman",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Tfl2lZpNRMn7JLIOcHCpzNXUAIBsIXb0&export=download&confirm=t"
+  },
+  {
+    "id": 30002118,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Boss",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Vk1CW6gjPVcYFJQiDjsbn67-BlK3fCBq&export=download&confirm=t"
+  },
+  {
+    "id": 30002119,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Millelith Soldier",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZLmcV-dn4dGIQXPA9lYUFd9LGcrhFrbh&export=download&confirm=t"
+  },
+  {
+    "id": 30002120,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Seaman",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1blX0GEyn93hA2C76IHDidprpEkBcfFhM&export=download&confirm=t"
+  },
+  {
+    "id": 30002121,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Raptor",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dVR2c5dABQM4FQPOh7FFnNKkYPzb5wCi&export=download&confirm=t"
+  },
+  {
+    "id": 30002122,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Pyro Potioneer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1e_mFbz16wkP0VKZepdbJQCoo_3nGqdnm&export=download&confirm=t"
+  },
+  {
+    "id": 30002123,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Liuliu",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hG-pf_osrfgcwzHh8PIDRaJkqR9RpTHg&export=download&confirm=t"
+  },
+  {
+    "id": 30002124,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Gravedigger",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hb3BZwCHErVZPaFdH1WoQm05BvCdqXL9&export=download&confirm=t"
+  },
+  {
+    "id": 30002125,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Marksman",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kAD5orvZHtCwhy3l1RbtnSNulMJ0Khrr&export=download&confirm=t"
+  },
+  {
+    "id": 30002126,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Hydro Potioneer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mJXOD62dyJ0j1k-IXfCE795xdvJEf_jE&export=download&confirm=t"
+  },
+  {
+    "id": 30002127,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Cryo Potioneer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1r1_DOVzMAFwpScT3cFIY0NVmodR3llh8&export=download&confirm=t"
+  },
+  {
+    "id": 30002128,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Treasure Hoarders Pugilist",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1uZBKFdRPtarzB9c3RGqSIZbdvBrbYJZd&export=download&confirm=t"
+  },
+  {
+    "id": 30002129,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shadowy Husk Defender",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10z6dZ4wJJy4GYACD3gqgUQ9B8hMTTZtj&export=download&confirm=t"
+  },
+  {
+    "id": 30002130,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Abyss Lector Fathomless Flames",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19AlCUBObM2753MbXsyTEkLohHAO96lRl&export=download&confirm=t"
+  },
+  {
+    "id": 30002131,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Golden Wolflord",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1F79jmAxanWUZtCcBY42p-VKGJ2ZJ9d2m&export=download&confirm=t"
+  },
+  {
+    "id": 30002132,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Abyss Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FVvrOyNC4pGsIhm-MubfVNv6aSB9lsN_&export=download&confirm=t"
+  },
+  {
+    "id": 30002133,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thundercraven Rifthound Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JfX3FZDHgb8bXR7xOds3BZaB6INOBVOQ&export=download&confirm=t"
+  },
+  {
+    "id": 30002134,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black Serpent Knight Windcutter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LSKZ8GBGL2Pdhw6L3sokOTFCcbAyvgxw&export=download&confirm=t"
+  },
+  {
+    "id": 30002135,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tenebrous Papilla Type I",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1MvqTIkjJs5VSUammJLvEn6s7x-YqRbHp&export=download&confirm=t"
+  },
+  {
+    "id": 30002136,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tenebrous Mimiflora",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PGO22AIkr4-NI1uZSbpOlVQEIxU8PVCz&export=download&confirm=t"
+  },
+  {
+    "id": 30002137,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rockfond Rifthound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1P_08vRxoXbXb1d45lOzWT7bKB8OdF5Dk&export=download&confirm=t"
+  },
+  {
+    "id": 30002138,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shadowy Husk Line Breaker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Run3foG7WcKp4UWp0VIBcCbUMsrNCPom&export=download&confirm=t"
+  },
+  {
+    "id": 30002139,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rockfond Rifthound Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SEQtSPz_LPU8PeMllFTviz3A9InVYhIM&export=download&confirm=t"
+  },
+  {
+    "id": 30002140,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shadowy Husk Standard Bearer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UlIrcHPLS4KTWEiLkA-qopu0E7qf5YYz&export=download&confirm=t"
+  },
+  {
+    "id": 30002141,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Overgrown Breacher Primus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VKeeej31mJd1R9C3br78-ix4L-z3TyZ6&export=download&confirm=t"
+  },
+  {
+    "id": 30002142,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Iniquitous Baptist",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Wckcl9RGZo7tVbyBqPliXiWTSTqo7qv0&export=download&confirm=t"
+  },
+  {
+    "id": 30002143,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Shatterstone Breacher Primus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cW27K3pGWLaj1TK-eh8t_6OB6_-Tad9Q&export=download&confirm=t"
+  },
+  {
+    "id": 30002144,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Shatterstone Breacher Primus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eMydicMYRZCuqlfHf66oKNwn7gBfNHeT&export=download&confirm=t"
+  },
+  {
+    "id": 30002145,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Abyss Lector Violet Lightning",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eQ6nl5977tKosSClmHXGlqQjXbNFjUfG&export=download&confirm=t"
+  },
+  {
+    "id": 30002146,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Abyss Herald Frost Fall",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hF2ge2w3Y9qoY5vluJN0JH8hmTAllofe&export=download&confirm=t"
+  },
+  {
+    "id": 30002147,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Overgrown Breacher Primus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i-pmcKgNYBsl8Wt8xNFmRQH7v92teRHM&export=download&confirm=t"
+  },
+  {
+    "id": 30002148,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Abyss Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i0d-uuKqoq9apI8FWAd4NVyKjv66P2vi&export=download&confirm=t"
+  },
+  {
+    "id": 30002149,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thundercraven Rifthound",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pCu6R6vbAE12VIb3o7d0hwzzoTF-CRXK&export=download&confirm=t"
+  },
+  {
+    "id": 30002150,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Black Serpent Knight Rockbreaker Ax",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1qgz6vVhLi2xc3osquRooxzJ20fl_8aYc&export=download&confirm=t"
+  },
+  {
+    "id": 30002151,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Abyss Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vFBgy8LMgj9f26_kJJUthzLri5SZIruz&export=download&confirm=t"
+  },
+  {
+    "id": 30002152,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Abyss Mage",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1x36jr51W4NMhO-ddRpd6xC803CoWo2r0&export=download&confirm=t"
+  },
+  {
+    "id": 30002153,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Abyss Herald Wicked Torrents",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xGXW8wRvtjxjzjX56fXeeIEuwoZUIFK0&export=download&confirm=t"
+  },
+  {
+    "id": 30002154,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Grader",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1294oTIvv4Q5HtyOX8KrSuQRSS2lA17uG&export=download&confirm=t"
+  },
+  {
+    "id": 30002155,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Algorithm of Semi Intransient Matrix of Overseer Network",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14I37LW78wneJtOcMI5SJFQYTe_NJWnCT&export=download&confirm=t"
+  },
+  {
+    "id": 30002156,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geological Survey Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14_VDj7qy6UI8nt1vKCuGgbwcBDj5hLfX&export=download&confirm=t"
+  },
+  {
+    "id": 30002157,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Aeonblight Drake",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14_ik4c7HECqZIlGzZRYP5JXf7jo3-4IX&export=download&confirm=t"
+  },
+  {
+    "id": 30002158,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Icewind Suite",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15M0vV34YJoXo-m6va0kotOMg-6Oepb1h&export=download&confirm=t"
+  },
+  {
+    "id": 30002159,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Cruiser",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DPX8ehuywH0x2ktHLmBpeCxzDMGd0YVJ&export=download&confirm=t"
+  },
+  {
+    "id": 30002160,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Construction Specialist Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1F2KtXyomu6_e7CyB3Q2nzFqD4-Z9xydn&export=download&confirm=t"
+  },
+  {
+    "id": 30002161,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Annihilation Specialist Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GbsSn5NIuj4L4zqfp4JR7IEmBE43vQFo&export=download&confirm=t"
+  },
+  {
+    "id": 30002162,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Experimental Field Generator",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1I-8N3PbyAH2oPdiQGT_JqobB2TvWbflU&export=download&confirm=t"
+  },
+  {
+    "id": 30002163,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Hunter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KIE__vmyd826Nb_qFQhbq-x6V9OucQ41&export=download&confirm=t"
+  },
+  {
+    "id": 30002164,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Destroyer",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LsSOLfGttBVBK-bZldwGRI5B6LxwaAEn&export=download&confirm=t"
+  },
+  {
+    "id": 30002165,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Perpetual Mechanical Array",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1VoD-yXpt9v69z4icn56vnacnecnDytfK&export=download&confirm=t"
+  },
+  {
+    "id": 30002166,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Domain Keeper",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1W3swB5sFO0r8KzU167o-2GyafF_PrFPp&export=download&confirm=t"
+  },
+  {
+    "id": 30002167,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Underwater Survey Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WHb-kaDCeYdwmVz0SBpNjyJrtkw_Qr8q&export=download&confirm=t"
+  },
+  {
+    "id": 30002168,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Guard",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WW4fWy2qajwLLOKPktOhV9x_LpqImWci&export=download&confirm=t"
+  },
+  {
+    "id": 30002169,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Recon Log Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YeSH5LrZBcrdbInqk0KWk6J6b83goBeH&export=download&confirm=t"
+  },
+  {
+    "id": 30002170,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Knuckle Duckle",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Z563Ze_V3QCE1HEdeTKrbBvqdR_WeWss&export=download&confirm=t"
+  },
+  {
+    "id": 30002171,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Defender",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZUf69cEmJbqt6VoJkA-LNU_HEA_O3Im3&export=download&confirm=t"
+  },
+  {
+    "id": 30002172,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Primal Construct Repulsor",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1a6E49DthNMsvvjvRiQGyEt3LIJWVa2IZ&export=download&confirm=t"
+  },
+  {
+    "id": 30002173,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Area Alert Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1c5fl4NmvF-lMuHVCyMIGbZ1-sYL8n0zS&export=download&confirm=t"
+  },
+  {
+    "id": 30002174,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Arithmetic Enhancer Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cT_4I1b051xTfZp-if0jHmk2oWha8X4h&export=download&confirm=t"
+  },
+  {
+    "id": 30002175,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Precursor's Secret Source Matrix of Overseer Network",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dqB7UaXIbve8sBc-zq11W6aIEWbeZik1&export=download&confirm=t"
+  },
+  {
+    "id": 30002176,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Secret Source Automaton Hunter Seeker",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eXNAjsti2yShnISph2K8GXf1RPQm-1Fe&export=download&confirm=t"
+  },
+  {
+    "id": 30002177,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Watcher Fallen Vigil",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hraF4t25x8Y-mGRJtMVgyYADV1N9t7hK&export=download&confirm=t"
+  },
+  {
+    "id": 30002178,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Deepwater Assault Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kdEavmQnARQvFZNhkqbHcegiLnKZFWap&export=download&confirm=t"
+  },
+  {
+    "id": 30002179,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Assault Specialist Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lUGun4gkIQThN3DdYliWWmLnCv7osAp3&export=download&confirm=t"
+  },
+  {
+    "id": 30002180,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Secret Source Automaton Overseer Device",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mVEIsbzv5CGvod-FUd__YhKb1AaKeiN3&export=download&confirm=t"
+  },
+  {
+    "id": 30002181,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Drake Skywatch",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mW-jbzCBu9pXPRw9i-dg8XrZgY4MrshW&export=download&confirm=t"
+  },
+  {
+    "id": 30002182,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Scout",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mc6Tv46cptqehwzBTs0MqRtFhJZ2gBXd&export=download&confirm=t"
+  },
+  {
+    "id": 30002183,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Underwater Patrol Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1nVaeBNaLxf3IcaMjlXO1YGIMi2yAlzNd&export=download&confirm=t"
+  },
+  {
+    "id": 30002184,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Nimble Harvester Mek",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1pcs0FVelW-Cw6GASSd7gp_-zeR5glUke&export=download&confirm=t"
+  },
+  {
+    "id": 30002185,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Secret Source Automaton Configuration Device",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vW3eTHk2PSR_4ctUfHQCprs4eUoXAg5f&export=download&confirm=t"
+  },
+  {
+    "id": 30002186,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ruin Serpent",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1wzBqwDjoiTekwaAM7Lt0fUwQSOe91ma9&export=download&confirm=t"
+  },
+  {
+    "id": 30002187,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11iDhYiiOkAAWMspkEd8fwbMF0ngKnd1-&export=download&confirm=t"
+  },
+  {
+    "id": 30002188,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Hilichurl Rogue",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12W_7rfY8KilIF0I-iwxRN0cr8XR-TsOI&export=download&confirm=t"
+  },
+  {
+    "id": 30002189,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geo Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=14h_PPpQyl5JhIB9O0QRK3QGQrhcEeo3T&export=download&confirm=t"
+  },
+  {
+    "id": 30002190,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Hilichurl Rogue",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15CXbHEjkJG-3nLhS3wLATb63XRTJI5W8&export=download&confirm=t"
+  },
+  {
+    "id": 30002191,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Unusual Hilichurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CnPwx_T7n58nexEdwixk-fAJNhFAMH0T&export=download&confirm=t"
+  },
+  {
+    "id": 30002192,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Hilichurl Shooter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1F9evwG2KExNML92GaQa2b3crWJsPoEeN&export=download&confirm=t"
+  },
+  {
+    "id": 30002193,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Wooden Shieldwall Mitachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Hd2YDvzfCvZhY9Rtewa7J_sRJnIlmc53&export=download&confirm=t"
+  },
+  {
+    "id": 30002194,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stonehide Lawachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QzDUrmDNe_RvPG2Jwjm4Zx7m0UpWM2z-&export=download&confirm=t"
+  },
+  {
+    "id": 30002195,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Y3Fb-JxWaJIbfbgiu57wOs0PfITMPq4S&export=download&confirm=t"
+  },
+  {
+    "id": 30002196,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cI8YeZHpCai-3vJfBaJBZ2Z2uXZjf7Ku&export=download&confirm=t"
+  },
+  {
+    "id": 30002197,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dRJxPRsu1C1iNhkdN1a1JpOJw4RZD5Wo&export=download&confirm=t"
+  },
+  {
+    "id": 30002198,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hilichurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1e_fcJidWxK0hPhthHiX87CS0v9OpePhE&export=download&confirm=t"
+  },
+  {
+    "id": 30002199,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dendro Samachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1g98q0EzP0Tk9EYhm7y5xjK4GuNP-Sjgv&export=download&confirm=t"
+  },
+  {
+    "id": 30002200,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Hilichurl Shooter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1nz4TlAEmcKhTuUnevgWE9EAd9ryhfFJx&export=download&confirm=t"
+  },
+  {
+    "id": 30002201,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Hilichurl Shooter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1p6LCHAKFSYyeLkN6c-7FTowsBNEuP7q6&export=download&confirm=t"
+  },
+  {
+    "id": 30002202,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frostarm Lawachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tOgnTzyDEqBxOFhWZiH9J3GQA1oerKix&export=download&confirm=t"
+  },
+  {
+    "id": 30002203,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thunderhelm Lawachurl",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vahq3kIshN2yh5L0fZ5TXilH0myGJj2k&export=download&confirm=t"
+  },
+  {
+    "id": 30002204,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Cicin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1REdBjjEy0doVNQNYTge9kky8d_qc_h1O&export=download&confirm=t"
+  },
+  {
+    "id": 30002205,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Cicin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hrzUq7kAoW0wYRxNJZJiXUvNouohZzsX&export=download&confirm=t"
+  },
+  {
+    "id": 30002206,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Cicin",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1j2t3UdgG1EJd90WFjseWiXKDWkkCx_eK&export=download&confirm=t"
+  },
+  {
+    "id": 30002207,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Consecrated Fanged Beast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16rOU814ZXJTzKGSVcNcTktFzVENE9Ynx&export=download&confirm=t"
+  },
+  {
+    "id": 30002208,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Consecrated Horned Crocodile",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1INON45yRYK4tLDCqaUDbrClsdn5QvSY0&export=download&confirm=t"
+  },
+  {
+    "id": 30002209,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Consecrated Flying Serpent",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Me-Sb62Rt5PiTEOp5kqj6rVun_nwsKfh&export=download&confirm=t"
+  },
+  {
+    "id": 30002210,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Consecrated Scorpion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Qkw__7DfDwpcMRZHJOXRMMihYSUkWyuD&export=download&confirm=t"
+  },
+  {
+    "id": 30002211,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Consecrated Red Vulture",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kRsKYalq2rdfgyWsIhH-THk49cdiHtZa&export=download&confirm=t"
+  },
+  {
+    "id": 30002212,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-J07FGXHfE9J12rVbCM4zCRXR8ICF2vY&export=download&confirm=t"
+  },
+  {
+    "id": 30002213,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Frostnight Herra",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11fIw28KosK5G8KP6bgC-ReHt8xQXaKUW&export=download&confirm=t"
+  },
+  {
+    "id": 30002214,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dendro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1AE6UW4n3eyB40hCp4ht-1LWkfbRJlaih&export=download&confirm=t"
+  },
+  {
+    "id": 30002215,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Surging Currents Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C00cYjg0oR0DzCc1UDyI9agpSyBkWBCo&export=download&confirm=t"
+  },
+  {
+    "id": 30002216,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blazing Brilliance Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1C6GjgbHC2RpSy_BNpj7RmkgJv1VsKVCA&export=download&confirm=t"
+  },
+  {
+    "id": 30002217,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DRoNBs-ss6paNH2zvsMVEDbRpTjKOks6&export=download&confirm=t"
+  },
+  {
+    "id": 30002218,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dendro Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1EwBtEgNt00CLF1muSrJ8SK5Y76AnHPWz&export=download&confirm=t"
+  },
+  {
+    "id": 30002219,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Icy Crystal Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1FmCNiXP_6orOk6TYiqSCsGB_4Q0IjSiN&export=download&confirm=t"
+  },
+  {
+    "id": 30002220,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Pyro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HM4mulPC9wgAXF9KeRHPshdQ7wjMSOZA&export=download&confirm=t"
+  },
+  {
+    "id": 30002221,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Oceanid",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1HhAE7TCuItnO6Lga2OfQIXgzMOzoByE0&export=download&confirm=t"
+  },
+  {
+    "id": 30002222,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ItPeUG3OYGqt_Z1-2V2QywqVnS86VwZr&export=download&confirm=t"
+  },
+  {
+    "id": 30002223,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1JC7U7fJOl0GDTBoh5QyO2b3clUsIzJAV&export=download&confirm=t"
+  },
+  {
+    "id": 30002224,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Gleaming Charge Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1LuSx-gAexiDWlTBXlGLc-BTMrV4D-4qn&export=download&confirm=t"
+  },
+  {
+    "id": 30002225,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Veiled Cloudchaser Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Onb9xOBX1dX8GswfLXZEePuXqh_Zazx4&export=download&confirm=t"
+  },
+  {
+    "id": 30002226,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Tulpa",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1RV0leur2zF6u59OVE-zPUPz9zrbQK1vm&export=download&confirm=t"
+  },
+  {
+    "id": 30002227,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tainted Water Splitting Phantasm",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1SNzA3mts8fv0NNzDdkTVjR8bKcd66J3Y&export=download&confirm=t"
+  },
+  {
+    "id": 30002228,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Hydro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WAhwJS5-LnQJOcmG58PVTe5qQgIt9thY&export=download&confirm=t"
+  },
+  {
+    "id": 30002229,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Geo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WdvP69o1gwb0kn7SuHlCd2RnIXuvruwa&export=download&confirm=t"
+  },
+  {
+    "id": 30002230,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XqOnA7hlEVpVNUyArzTHFs_E2whrg7S7&export=download&confirm=t"
+  },
+  {
+    "id": 30002231,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geo Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZDH28ay5cuGt1qAjdJr_UlIvhblQDzne&export=download&confirm=t"
+  },
+  {
+    "id": 30002232,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geo Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZFKCqPE1H3_nX3nP5K6cZi8wtM13NgOC&export=download&confirm=t"
+  },
+  {
+    "id": 30002233,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Anemo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1akMXt593e2laAGU4BODQ7i4voUjTGq5G&export=download&confirm=t"
+  },
+  {
+    "id": 30002234,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1caki1OehvlzRItIJoCjZ6n3l54zxMz7o&export=download&confirm=t"
+  },
+  {
+    "id": 30002235,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1fFyVsJlEGCpYZE4C8YnNHy7-19HTcLHv&export=download&confirm=t"
+  },
+  {
+    "id": 30002236,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1g29SGbmaBpv_JJmfZI0MBvklPGV1QflW&export=download&confirm=t"
+  },
+  {
+    "id": 30002237,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gFfpD-z1MbWSa8ZunRwSVCvs3x4ztlXx&export=download&confirm=t"
+  },
+  {
+    "id": 30002238,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thunder Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ghy6bIWIXNAUG2JF2OBFkReTOdDuY9GV&export=download&confirm=t"
+  },
+  {
+    "id": 30002239,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tangled Vines Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gspnq4uHpTjLMWb6qqWGZ8-lxqdogl8I&export=download&confirm=t"
+  },
+  {
+    "id": 30002240,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Cryo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hdCDDOFMUdQUw0eTpwq4bHpweZ876AnJ&export=download&confirm=t"
+  },
+  {
+    "id": 30002241,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1iVdwWtA2dFu0hChmByaML1tC83O2CiVe&export=download&confirm=t"
+  },
+  {
+    "id": 30002242,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jP8nnOiA-asDQE8wQZk7gYmnkCac5C2x&export=download&confirm=t"
+  },
+  {
+    "id": 30002243,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eye of the Storm",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jcteOzpWtHhijpGNWGO3E4ooHX5eyL9b&export=download&confirm=t"
+  },
+  {
+    "id": 30002244,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kEUJnFnO2UIPy9kafsnJEA0XFwlSd1-T&export=download&confirm=t"
+  },
+  {
+    "id": 30002245,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Gilded Sunshard Frostnight Scion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lyrHaQRO2UM9dajQtTEAKSMpx38a1Pry&export=download&confirm=t"
+  },
+  {
+    "id": 30002246,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Electro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mI4kZI0y6OCHZorgztMBFlq3ecGtqa0P&export=download&confirm=t"
+  },
+  {
+    "id": 30002247,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Large Dendro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ms1e_QLufvSI81f1MUEFBxtuuIxyC8-3&export=download&confirm=t"
+  },
+  {
+    "id": 30002248,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tainted Water Spouting Phantasm",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1qIczh1nZguHx3GhNN2g1GFprk8M0ohFv&export=download&confirm=t"
+  },
+  {
+    "id": 30002249,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1t_QWmFAg4A1eGxrm4ROxoLvJOk1aNodf&export=download&confirm=t"
+  },
+  {
+    "id": 30002250,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tj3WekxNiz1HbHhCu-CPz7Eled0AI4od&export=download&confirm=t"
+  },
+  {
+    "id": 30002251,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Dendro Hypostasis",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1u1g-5ekffCruYmnR-N5jxmmXQjNL3vF6&export=download&confirm=t"
+  },
+  {
+    "id": 30002252,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Anemo Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vWdALrorGfHpQMz65qUlAh57r3jZQl7C&export=download&confirm=t"
+  },
+  {
+    "id": 30002253,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Mutant Electro Slime",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zikgehSGxjH_MzAvnJx1UuDe5MtEiu18&export=download&confirm=t"
+  },
+  {
+    "id": 30002254,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hydro Specter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1zkrrl4XMw39JZvM9EsvLws_JtaVEk639&export=download&confirm=t"
+  },
+  {
+    "id": 30002255,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Legatus Golem",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=10LAREH92-23BS6qwhcYhg65lj83bDtif&export=download&confirm=t"
+  },
+  {
+    "id": 30002256,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Armored Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1A6CqN1ygWOZ0hlENn_TqLTAHDHu6fhUE&export=download&confirm=t"
+  },
+  {
+    "id": 30002257,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hunter's Ray",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1DK-o40dOEkAX2cEbUrTGUIMhgKBLEbgK&export=download&confirm=t"
+  },
+  {
+    "id": 30002258,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cherubic Sea Hare",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1H2veP7hp6dIiOT7VN2hnZEKAKhG44o4_&export=download&confirm=t"
+  },
+  {
+    "id": 30002259,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Praetorian Golem",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1I2lYefMWVIeQ0wQt53HuOxpimwJhoRqC&export=download&confirm=t"
+  },
+  {
+    "id": 30002260,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Blubberbeast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IQnIfDEXAtzvS8etOH-dZ6R7JAVy2g-L&export=download&confirm=t"
+  },
+  {
+    "id": 30002261,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ball Octopus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1KWqwVs4qnmNE2dTYT9DpUOYDRFQrU7Oo&export=download&confirm=t"
+  },
+  {
+    "id": 30002262,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bubbly Seahorse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Mggx5qHzkiDhxONOquAsBlSxldS4Kogc&export=download&confirm=t"
+  },
+  {
+    "id": 30002263,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Sternshield Crab",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1N5e--SqmQ4vM9au9Xob0Ok3BwLQs3wT7&export=download&confirm=t"
+  },
+  {
+    "id": 30002264,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bubbly Seahorse (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PE5KfNV39t_gKAUnWVDlgV-i-9e1Lvtq&export=download&confirm=t"
+  },
+  {
+    "id": 30002265,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Ball Octopus (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XgMr3wRadxPgqG6gnJbrHxVkBBttyqUQ&export=download&confirm=t"
+  },
+  {
+    "id": 30002266,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Angelic Sea Hare (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YBHNfKH9n_nvv_K16BZzCUMxutbvk4we&export=download&confirm=t"
+  },
+  {
+    "id": 30002267,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bubbly Seahorse (3)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZwFFcCdG_g9s_wTC6vRs02XN1x7YenSv&export=download&confirm=t"
+  },
+  {
+    "id": 30002268,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Armored Crab (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_x0ns6dLuSz9D96KVmTrU9n4cd3w6Ury&export=download&confirm=t"
+  },
+  {
+    "id": 30002269,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Angelic Sea Hare",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1a5RGbj1aD68Vyr71Gk7AYXB5sg0y98jK&export=download&confirm=t"
+  },
+  {
+    "id": 30002270,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Emperor of Fire and Iron",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jSAgRVmgjwwUQavWOPL4XMk_IAIaVLl-&export=download&confirm=t"
+  },
+  {
+    "id": 30002271,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hat Jellyfish",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mLZR29rp-WMlSsd132JmO-UJFV9h-2Ml&export=download&confirm=t"
+  },
+  {
+    "id": 30002272,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hunter's Ray (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1nIJ8XVYtBMNk-yg2LGZdAj0FjLmYg4Kd&export=download&confirm=t"
+  },
+  {
+    "id": 30002273,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Hat Jellyfish (2)",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1of3FeWsNeeV5A7SxvhwLeWXF3ic_R-c4&export=download&confirm=t"
+  },
+  {
+    "id": 30002274,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Millennial Pearl Seahorse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1s7X_WOIEspvza_xPV6ZDV37VBV1e05FS&export=download&confirm=t"
+  },
+  {
+    "id": 30002275,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bubbler Seahorse",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1z0uwVtUauKNJWTWd4RUKpOPcxvH97ofA&export=download&confirm=t"
+  },
+  {
+    "id": 30002276,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Jadeplume Terrorshroom",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=16YmHlF9VNY_e3-RKDWQ44xe2dMpvAPKa&export=download&confirm=t"
+  },
+  {
+    "id": 30002277,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Whirling Electro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=19BWm846Ht-6kFXNj1VmZ7BYZtideOv6b&export=download&confirm=t"
+  },
+  {
+    "id": 30002278,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Whirling Pyro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1I-IcFmm2YBz5HsHamCwXIl3Y6EMDL11R&export=download&confirm=t"
+  },
+  {
+    "id": 30002279,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stretchy Anemo Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1IK-MTc7od0uQOtWDlgOFERcl1RjTJ7Lx&export=download&confirm=t"
+  },
+  {
+    "id": 30002280,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Grounded Hydroshroom",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Rvb6TOrTUH1KVsmtp4APGh2i1jwNbD1A&export=download&confirm=t"
+  },
+  {
+    "id": 30002281,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Setekh Wenut",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TafE0HLw8JEutmQsMEJiaeuXt4DICV01&export=download&confirm=t"
+  },
+  {
+    "id": 30002282,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Cryoshroom",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Xus9ovYsBV4iv3EJJ3yrLoWQUVSdbSX5&export=download&confirm=t"
+  },
+  {
+    "id": 30002283,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stretchy Geo Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1dJoeD-zhfGxjziJ-G6QE7zmxfkpjD8Cn&export=download&confirm=t"
+  },
+  {
+    "id": 30002284,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stretchy Electro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1eJ5frBTRFzrcH4UOefIAYoZ51qNxlWlg&export=download&confirm=t"
+  },
+  {
+    "id": 30002285,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Floating Anemo Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1gwvru68dwvKq4dWIzIF87V9jlLr0vbZM&export=download&confirm=t"
+  },
+  {
+    "id": 30002286,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Grounded Geoshroom",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1k4_p7tICH50Mfv1Wt64DeLeIr_5HXtaU&export=download&confirm=t"
+  },
+  {
+    "id": 30002287,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Whirling Cryo Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1luQZEmXoYwKCjTXGhFA2XZtrk_eE0PRa&export=download&confirm=t"
+  },
+  {
+    "id": 30002288,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Floating Hydro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1qu2_SHr7UAuFiwsldh_odCyksEKS8P1p&export=download&confirm=t"
+  },
+  {
+    "id": 30002289,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Winged Dendroshroom",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1s-JVX7ck49K-ObG4byA0GPItAU95ymTD&export=download&confirm=t"
+  },
+  {
+    "id": 30002290,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Stretchy Pyro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1s5C8xTjaxV1qCdw2oLoWa31sSUTV3rsQ&export=download&confirm=t"
+  },
+  {
+    "id": 30002291,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Floating Dendro Fungus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xODsMYu-PBgmc1V2lwSi5yEAIGFk2P0U&export=download&confirm=t"
+  },
+  {
+    "id": 30002292,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Xuanwen Beast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-LqjqYU-_1jJcnnV-jrTQNmQ6ykWWkG_&export=download&confirm=t"
+  },
+  {
+    "id": 30002293,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Solitary Suanni",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1kmRnockThn72ri8hJF27sPuTXh140379&export=download&confirm=t"
+  },
+  {
+    "id": 30002294,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fluid Avatar of Lava",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=15zpCqxKAIAqC6yA5ZQAg7tewnln5ACh1&export=download&confirm=t"
+  },
+  {
+    "id": 30002295,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lava Dragon Statue",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1TKmGLGx8R6VzOGV427TYMSS1QqED5tBn&export=download&confirm=t"
+  },
+  {
+    "id": 30002296,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Furnace Shell Mountain Weasel",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h2S0mmyFlvdrXNSd2A4Qn6oprsFeW48T&export=download&confirm=t"
+  },
+  {
+    "id": 30002297,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Eroding Avatar of Lava",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yjYbG0yQYoAo3rknFf10dQTNEz9931aT&export=download&confirm=t"
+  },
+  {
+    "id": 30002298,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rock Cavernous Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1CsAfqImg2lWcJ_A4u1XkBDHThyEoaFVK&export=download&confirm=t"
+  },
+  {
+    "id": 30002299,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Flow Inverted Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1GZ0FSiBvxaTh4VTtQ1-XUgSWC-NKCZ0o&export=download&confirm=t"
+  },
+  {
+    "id": 30002300,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Thundering Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1S_bvhtX0wpDsGACYvuB3uMUc9jFYsFMD&export=download&confirm=t"
+  },
+  {
+    "id": 30002301,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Foliar Swift Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XP2oCHA9AniA2APCOHlnbuvPtvsTlJtz&export=download&confirm=t"
+  },
+  {
+    "id": 30002302,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Burning Aflame Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1cQ6Wk7Gz5Rn70vOwWvXHMtkxDfuWEtkD&export=download&confirm=t"
+  },
+  {
+    "id": 30002303,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Biting Cold Wayob Manifestation",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1xH4kZ9DIGbMU6f0-IVdQHcwpMAZzyKxi&export=download&confirm=t"
+  },
+  {
+    "id": 30002304,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Goldflame Qucusaur Tyrant",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12JmYWyenFIvRC4zY6JEZHIuAxzXONL5b&export=download&confirm=t"
+  },
+  {
+    "id": 30002305,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tatankasaur Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1B_IlqCKZCGuUCvH1a-85zgJBK-tgqyL7&export=download&confirm=t"
+  },
+  {
+    "id": 30002306,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Koholasaur Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1WqYyHnJ5fAXDoRoij58hLhpKH-MOvcb1&export=download&confirm=t"
+  },
+  {
+    "id": 30002307,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Qucusaurus Chick",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YeAJAXGq-wgtIHlWQkUpJpKzaJKQaV0l&export=download&confirm=t"
+  },
+  {
+    "id": 30002308,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Koholasaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ZqmaF1uvOfJqUo3CkJ4rLwYl0ojZ7rju&export=download&confirm=t"
+  },
+  {
+    "id": 30002309,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Gluttonous Yumkasaur Mountain King",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1c5FB2ppejlRzxGg2Ym1yUzz5VmOCJwOB&export=download&confirm=t"
+  },
+  {
+    "id": 30002310,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tepetlisaur Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hHB13G0WLi6ulkbUN_27YwaE523MhSJW&export=download&confirm=t"
+  },
+  {
+    "id": 30002311,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Iktomisaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1h_7_X7XcUPs5tEOlRLBPCKXqM4K3ai0O&export=download&confirm=t"
+  },
+  {
+    "id": 30002312,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tatankasaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ha8IiA_KbSfE2D4Q2aDsPxu5sgH3F-th&export=download&confirm=t"
+  },
+  {
+    "id": 30002313,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Iktomisaurus Chick",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1n5kq9-pwBX_1v_TuosDob2WyPCbveJXl&export=download&confirm=t"
+  },
+  {
+    "id": 30002314,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Yumkasaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1njDf5AIoFcsBmFinA8sPwzDfU3jrt9Pw&export=download&confirm=t"
+  },
+  {
+    "id": 30002315,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Tepetlisaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ucVEBptAe8CXVbpCUmd43I-jB8sqta3N&export=download&confirm=t"
+  },
+  {
+    "id": 30002316,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Yumkasaur Whelp",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1vSjwPvHPlxDvBn2zLY5G6IINoHKNTijd&export=download&confirm=t"
+  },
+  {
+    "id": 30002317,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Qucusaurus",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1wpZDMmlp2t94jqptiPaVsqbHoStWWjlF&export=download&confirm=t"
+  },
+  {
+    "id": 30002318,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Lord of the Hidden Depths Whisperer of Nightmares",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1-d-33eVz5by2NAMlGL9MlsuAOj6bYLPm&export=download&confirm=t"
+  },
+  {
+    "id": 30002319,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Chimeric Armored Beast",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=11vHOV6IoohUCjVrDhLudXVqiU3Chp9Fx&export=download&confirm=t"
+  },
+  {
+    "id": 30002320,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Immortal Construct",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=18Ng7yEq0GOQmKAmjeEtTh1ZnwWv485jk&export=download&confirm=t"
+  },
+  {
+    "id": 30002321,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Moongecko",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Cl3Bxij7nd9njQ-zmf4wqI2xtoW1cQ5U&export=download&confirm=t"
+  },
+  {
+    "id": 30002322,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Lunapod",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Cvokh7TYIrRCgtJi0Vqc7Smdj06x6BwM&export=download&confirm=t"
+  },
+  {
+    "id": 30002323,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Wilderness Hunter",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1E4cwm_4evG_1SwMhgpZZljbgeL9iHlCx&export=download&confirm=t"
+  },
+  {
+    "id": 30002324,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rugged Elder Leshy",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1L2BrvDVl_nJa6-qC_SqREQ7Zte0ssWvT&export=download&confirm=t"
+  },
+  {
+    "id": 30002325,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Chimeric Winged Lion",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1QUPIYnfZgg_mA_w9xXyGX6hpcPgXH2x5&export=download&confirm=t"
+  },
+  {
+    "id": 30002326,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Fisher of Hidden Depths",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1V2LR8l61xWNawJBwir54xUq77dqcCaQK&export=download&confirm=t"
+  },
+  {
+    "id": 30002327,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Juvenile Tree Segment",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1XGeVuQoHsldb4TJnftxkNbEGOH-HSfHc&export=download&confirm=t"
+  },
+  {
+    "id": 30002328,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Antelope",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1hXb5YQEq0Ngxa9S9IR_VZj9Tk79RD3w4&export=download&confirm=t"
+  },
+  {
+    "id": 30002329,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Wilderness Exile",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1i1XwbXfDRdDnJQzFwOcrVYnHxFvNEXqj&export=download&confirm=t"
+  },
+  {
+    "id": 30002330,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Moonfly",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1lHD9U1L6_SzjvNKQTpvWL_XrP2xuFSSz&export=download&confirm=t"
+  },
+  {
+    "id": 30002331,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Bladehorn",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1t-8uCnzOC3Z7DaPbUtQAKkrjrJDfD47a&export=download&confirm=t"
+  },
+  {
+    "id": 30002332,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Radiant Glacial Wolf",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1tgUzb2AaQGodfQc0Q9U82myZPtxmTae_&export=download&confirm=t"
+  },
+  {
+    "id": 30002333,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Primordial Bathysmal Vishap",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1P-MblRXZuUELtuAqJaxhOSS45wgAOHhu&export=download&confirm=t"
+  },
+  {
+    "id": 30002334,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Primo Geovishap",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1R056IyJcU-rhG1NDVgqSXXWd-QRXfpS5&export=download&confirm=t"
+  },
+  {
+    "id": 30002335,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geovishap",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1UuBTAPKh2wZIeH43gpWBhbd2HU4rtWr1&export=download&confirm=t"
+  },
+  {
+    "id": 30002336,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Bolteater Bathysmal Vishap",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1YLXKfTTvWiKvvC7UDy5fS5h20i7Rl03x&export=download&confirm=t"
+  },
+  {
+    "id": 30002337,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Rimebiter Bathysmal Vishap",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1mYoaF2DY3vXr-aaGqDTEo9PX2D3crU2g&export=download&confirm=t"
+  },
+  {
+    "id": 30002338,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Geovishap Hatchling",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1yI6clPbvcNIy_7P9Gg6OeVnDvP5cy6_w&export=download&confirm=t"
+  },
+  {
+    "id": 30002339,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Whopperflower",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=12ehQlhvteHQ18CLwWpsL8oYZmhklnPL_&export=download&confirm=t"
+  },
+  {
+    "id": 30002340,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Whopperflower",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1Fjrg2QYF1Bbk05eJp1HVzTDfTPHg49zz&export=download&confirm=t"
+  },
+  {
+    "id": 30002341,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Electro Regisvine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1PI4997xbnnIULN6wQoWLIJk0UOfRUbOT&export=download&confirm=t"
+  },
+  {
+    "id": 30002342,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Regisvine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1ST9LHs3_VD8SKehHnxXkmdVCEUvcQQ-o&export=download&confirm=t"
+  },
+  {
+    "id": 30002343,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Pyro Regisvine",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1_JZbJ0u7krj694f-rG7XfD0cEivNJefd&export=download&confirm=t"
+  },
+  {
+    "id": 30002344,
+    "game": "gi",
+    "category": "monsters",
+    "name": "Cryo Whopperflower",
+    "downloadUrl": "https://drive.usercontent.google.com/download?id=1jOsHdfCP6wtc-uBQ3xAFRKcQGi2cbNHg&export=download&confirm=t"
   }
 ];
