@@ -39,13 +39,14 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
     </div>
 
     <div class="mili-set-preview-wrap" id="mili-set-preview-wrap" style="display:none;">
-      <div class="mili-slot-card empty mili-set-preview-card" id="mili-set-preview-card">
+      <div class="mili-slot-card empty mili-set-preview-card" id="mili-set-preview-card" data-set-slot="set">
         <div class="mili-slot-empty-body">
           <span class="mili-slot-plus">+</span>
           <span class="mili-slot-label">Full Set</span>
           <span class="mili-slot-sub">Select a set on the right</span>
         </div>
       </div>
+      <div class="mili-set-extras-grid" id="mili-set-extras-grid"></div>
     </div>
 
     <button type="button" class="mili-download-btn" id="mili-download-btn" disabled>
@@ -148,12 +149,31 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
   const builderEl = document.getElementById('mili-builder');
   if (builderEl) {
     type BuilderMode = 'oc' | 'sets';
+    type SetSlotId = 'set' | 'iris' | 'makeup' | 'brows';
+    const SET_EXTRA_SLOTS: {
+      id: 'iris' | 'makeup' | 'brows';
+      label: string;
+      sublabel: string;
+      categories: string[];
+    }[] = [
+      { id: 'iris', label: 'Iris', sublabel: 'Required', categories: ['Iris'] },
+      {
+        id: 'makeup',
+        label: 'Makeup',
+        sublabel: 'Required',
+        categories: ['Facial Makeup', 'Eye Makeup', 'Lipstick'],
+      },
+      { id: 'brows', label: 'Eyebrows', sublabel: 'Required', categories: ['EyeBrows'] },
+    ];
+
     let activeMode: BuilderMode = 'oc';
     let activeGender: MiliGender = 'manekin';
     let activeSlotId: MiliSlotId = 'skin';
+    let activeSetSlotId: SetSlotId = 'set';
     let searchQuery = '';
     // Map category -> selected MiliItem (one per category in OC mode)
     const selectedByCategory = new Map<string, MiliItem>();
+    const selectedSetExtras = new Map<string, MiliItem>();
     const downloadedIds = new Set<number>();
     let selectedSet: MiliItem | null = null;
 
@@ -161,6 +181,7 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
     const slotsGrid = document.getElementById('mili-slots-grid')!;
     const setPreviewWrap = document.getElementById('mili-set-preview-wrap')!;
     const setPreviewCard = document.getElementById('mili-set-preview-card')!;
+    const setExtrasGrid = document.getElementById('mili-set-extras-grid')!;
     const downloadBtn = document.getElementById('mili-download-btn') as HTMLButtonElement;
     const downloadLabel = document.getElementById('mili-download-label')!;
     const clearAllBtn = document.getElementById('mili-clear-all-btn')!;
@@ -205,10 +226,27 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
       return `background-image:url('${sheet.src}');background-size:${sheet.cols * 100}% ${sheet.rows * 100}%;background-position:${posX.toFixed(4)}% ${posY.toFixed(4)}%;`;
     }
 
+    function getSelectedSetItems(): MiliItem[] {
+      const extras = Array.from(selectedSetExtras.values());
+      return selectedSet ? [selectedSet, ...extras] : extras;
+    }
+
+    function isSetComplete(): boolean {
+      if (!selectedSet) return false;
+      const extras = Array.from(selectedSetExtras.values());
+      return SET_EXTRA_SLOTS.every((slot) =>
+        extras.some((item) => slot.categories.includes(item.category))
+      );
+    }
+
     function getAvailableItems(): MiliItem[] {
       return MILI_ITEMS.filter((item) => {
         if (item.gender !== activeGender && item.gender !== 'both') return false;
-        if (activeMode === 'sets') return item.category === 'Sets';
+        if (activeMode === 'sets') {
+          if (activeSetSlotId === 'set') return item.category === 'Sets';
+          const extraDef = SET_EXTRA_SLOTS.find((s) => s.id === activeSetSlotId);
+          return extraDef ? extraDef.categories.includes(item.category) : false;
+        }
         return item.category !== 'Sets';
       });
     }
@@ -237,7 +275,9 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
         .map((item) => {
           const isSelected =
             activeMode === 'sets'
-              ? selectedSet?.id === item.id
+              ? activeSetSlotId === 'set'
+                ? selectedSet?.id === item.id
+                : selectedSetExtras.get(item.category)?.id === item.id
               : selectedByCategory.get(item.category)?.id === item.id;
           return `
             <button
@@ -250,7 +290,7 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
               <div class="mili-thumb-wrap">
                 <div class="mili-thumb-sprite" style="${spriteStyle(item)}"></div>
               </div>
-              ${activeMode === 'oc' ? `<span class="mili-card-cat">${item.category}</span>` : ''}
+              ${activeMode === 'oc' || activeSetSlotId !== 'set' ? `<span class="mili-card-cat">${item.category}</span>` : ''}
               <div class="mili-card-overlay">
                 <p class="mili-card-name">${item.name}</p>
               </div>
@@ -265,8 +305,9 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
         slotsGrid.style.display = 'none';
         setPreviewWrap.style.display = '';
 
+        const isSetActive = activeSetSlotId === 'set';
         if (!selectedSet) {
-          setPreviewCard.className = 'mili-slot-card empty mili-set-preview-card';
+          setPreviewCard.className = `mili-slot-card empty mili-set-preview-card${isSetActive ? ' active' : ''}`;
           setPreviewCard.innerHTML = `
             <div class="mili-slot-empty-body">
               <span class="mili-slot-plus">+</span>
@@ -274,10 +315,8 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
               <span class="mili-slot-sub">Select a set on the right</span>
             </div>
           `;
-          downloadBtn.disabled = true;
-          downloadLabel.textContent = 'Download Set';
         } else {
-          setPreviewCard.className = 'mili-slot-card filled mili-set-preview-card';
+          setPreviewCard.className = `mili-slot-card filled mili-set-preview-card${isSetActive ? ' active' : ''}`;
           setPreviewCard.innerHTML = `
             <div class="mili-thumb-wrap mili-slot-thumb">
               <div class="mili-thumb-sprite" style="${spriteStyle(selectedSet)}"></div>
@@ -288,9 +327,49 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
               <span class="mili-slot-name">${selectedSet.name}</span>
             </div>
           `;
-          downloadBtn.disabled = false;
-          downloadLabel.textContent = 'Download Set';
         }
+
+        const extraValues = Array.from(selectedSetExtras.values());
+        setExtrasGrid.innerHTML = SET_EXTRA_SLOTS.map((slot) => {
+          const slotItems = extraValues.filter((i) => slot.categories.includes(i.category));
+          const primary = slotItems[slotItems.length - 1];
+          const isActive = activeSetSlotId === slot.id;
+          if (!primary) {
+            return `
+              <div class="mili-slot-card empty${isActive ? ' active' : ''}" data-set-slot="${slot.id}">
+                <div class="mili-slot-empty-body">
+                  <span class="mili-slot-plus">+</span>
+                  <span class="mili-slot-label">${slot.label}</span>
+                  <span class="mili-slot-sub">${slot.sublabel}</span>
+                </div>
+              </div>
+            `;
+          }
+          return `
+            <div class="mili-slot-card filled${isActive ? ' active' : ''}" data-set-slot="${slot.id}">
+              <div class="mili-thumb-wrap mili-slot-thumb">
+                <div class="mili-thumb-sprite" style="${spriteStyle(primary)}"></div>
+              </div>
+              <button type="button" class="mili-slot-remove" data-remove-set-slot="${slot.id}" title="Remove ${slot.label}" aria-label="Remove ${slot.label}">&times;</button>
+              ${slotItems.length > 1 ? `<span class="mili-slot-badge">${slotItems.length}</span>` : ''}
+              <div class="mili-slot-footer">
+                <span class="mili-slot-tag">${slot.label}</span>
+                <span class="mili-slot-name">${primary.name}</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        const completedCount =
+          (selectedSet ? 1 : 0) +
+          SET_EXTRA_SLOTS.filter((slot) =>
+            extraValues.some((i) => slot.categories.includes(i.category))
+          ).length;
+        const complete = completedCount === 4;
+        downloadBtn.disabled = !complete;
+        downloadLabel.textContent = complete
+          ? `Download Set (${getSelectedSetItems().length})`
+          : `Download Set (${completedCount}/4)`;
         return;
       }
 
@@ -368,7 +447,16 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
       if (!item) return;
 
       if (activeMode === 'sets') {
-        selectedSet = selectedSet?.id === item.id ? null : item;
+        if (activeSetSlotId === 'set') {
+          selectedSet = selectedSet?.id === item.id ? null : item;
+        } else {
+          const current = selectedSetExtras.get(item.category);
+          if (current?.id === item.id) {
+            selectedSetExtras.delete(item.category);
+          } else {
+            selectedSetExtras.set(item.category, item);
+          }
+        }
       } else {
         const current = selectedByCategory.get(item.category);
         if (current?.id === item.id) {
@@ -381,13 +469,40 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
       renderGrid();
     });
 
-    // Set preview remove button
+    // Set preview click (select Full Set slot or remove if × clicked)
     setPreviewCard.addEventListener('click', (e) => {
       const rmBtn = (e.target as HTMLElement).closest<HTMLButtonElement>('#mili-set-remove');
-      if (!rmBtn) return;
-      selectedSet = null;
+      if (rmBtn) {
+        selectedSet = null;
+        renderLeftPanel();
+        renderGrid();
+        return;
+      }
+      activeSetSlotId = 'set';
       renderLeftPanel();
       renderGrid();
+    });
+
+    // Set extra required slots click (Iris, Makeup, Eyebrows)
+    setExtrasGrid.addEventListener('click', (e) => {
+      const rmBtn = (e.target as HTMLElement).closest<HTMLButtonElement>('.mili-slot-remove');
+      if (rmBtn) {
+        const slotId = rmBtn.dataset.removeSetSlot as 'iris' | 'makeup' | 'brows';
+        const slotDef = SET_EXTRA_SLOTS.find((s) => s.id === slotId);
+        for (const cat of Array.from(selectedSetExtras.keys())) {
+          if (slotDef?.categories.includes(cat)) selectedSetExtras.delete(cat);
+        }
+        renderLeftPanel();
+        renderGrid();
+        return;
+      }
+
+      const card = (e.target as HTMLElement).closest<HTMLElement>('.mili-slot-card');
+      if (card) {
+        activeSetSlotId = card.dataset.setSlot as SetSlotId;
+        renderLeftPanel();
+        renderGrid();
+      }
     });
 
     // Left slot click (select category on left, or remove if × clicked)
@@ -430,6 +545,11 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
             selectedByCategory.delete(cat);
           }
         }
+        for (const [cat, item] of selectedSetExtras.entries()) {
+          if (item.gender !== 'both' && item.gender !== activeGender) {
+            selectedSetExtras.delete(cat);
+          }
+        }
         if (selectedSet && selectedSet.gender !== 'both' && selectedSet.gender !== activeGender) {
           selectedSet = null;
         }
@@ -446,6 +566,7 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
     clearAllBtn.addEventListener('click', () => {
       if (activeMode === 'sets') {
         selectedSet = null;
+        selectedSetExtras.clear();
       } else {
         selectedByCategory.clear();
       }
@@ -456,8 +577,8 @@ import { MILI_SLOTS } from '../data/miliastraAssets';
     downloadBtn.addEventListener('click', () => {
       const allSelected =
         activeMode === 'sets'
-          ? selectedSet
-            ? [selectedSet]
+          ? isSetComplete()
+            ? getSelectedSetItems()
             : []
           : Array.from(selectedByCategory.values());
       if (allSelected.length === 0) return;

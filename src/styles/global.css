@@ -1868,10 +1868,25 @@ dialog:is([open]):where(:not([data-closing]))::backdrop {
 .mili-set-preview-wrap {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .mili-set-preview-card {
-  min-height: 240px;
+  min-height: 180px;
+}
+
+.mili-set-extras-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.mili-set-extras-grid .mili-slot-card {
+  min-height: 108px;
+}
+
+.mili-set-extras-grid .mili-slot-empty-body {
+  padding: 10px 6px;
 }
 
 .mili-slot-card {
