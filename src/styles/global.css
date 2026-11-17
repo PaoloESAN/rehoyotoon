@@ -62,16 +62,42 @@ select {
 }
 
 /* App Shell */
+.disclaimer-ribbon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  width: 100%;
+  height: 32px;
+  padding: 0 16px;
+  background: linear-gradient(90deg, rgba(250, 204, 21, 0.14), rgba(19, 20, 27, 0.96) 25%, rgba(19, 20, 27, 0.96) 75%, rgba(250, 204, 21, 0.14));
+  border-bottom: 1px solid rgba(250, 204, 21, 0.28);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #fde68a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .app-shell {
   display: flex;
   min-height: 100vh;
+  padding-top: 32px;
   width: 100%;
 }
 
 /* Sidebar */
 .sidebar-rail {
   position: fixed;
-  top: 0;
+  top: 32px;
   left: 0;
   bottom: 0;
   width: 82px;

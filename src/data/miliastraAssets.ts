@@ -36,7 +36,7 @@ export const MILI_SHEETS: Record<number, { src: string; cols: number; rows: numb
 export const MILI_SLOTS: MiliSlotDef[] = [
   { id: 'skin', label: 'Skintones', sublabel: 'Skin Tones', categories: ['Skintones'] },
   { id: 'makeup', label: 'Makeup', sublabel: 'Facial · Eye · Lipstick', categories: ['Facial Makeup', 'Eye Makeup', 'Lipstick'] },
-  // { id: 'eyes', label: 'Eyes', sublabel: 'Eye Shape', categories: ['Eye Shape'] },
+  { id: 'eyes', label: 'Eyes', sublabel: 'Eye Shape', categories: ['Eye Shape'] },
   { id: 'brows', label: 'Eyebrows', sublabel: 'Eyebrow Styles', categories: ['EyeBrows'] },
   { id: 'iris', label: 'Iris', sublabel: 'Eye Colors & Iris', categories: ['Iris'] },
   { id: 'hair', label: 'Hair', sublabel: 'Hairstyles', categories: ['Hair'] },
